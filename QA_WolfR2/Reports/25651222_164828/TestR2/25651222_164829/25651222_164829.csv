@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestR2,Chrome 108.0.0.0,,,2565-12-22 16:49:10,2565-12-22 16:49:23,12.804s,FAILED
+,,,,,,,
+Test Cases/LoginFailed_username,Chrome 108.0.0.0,,,2565-12-22 16:49:12,2565-12-22 16:49:12,0.104s,FAILED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""aaaaaa@qar2.com"")",Chrome 108.0.0.0,,,2565-12-22 16:49:12,2565-12-22 16:49:12,0.092s,FAILED
+,,,,,,,
+Test Cases/LoginFailed,Chrome 108.0.0.0,check required field,,2565-12-22 16:49:12,2565-12-22 16:49:18,6.001s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-22 16:49:12,2565-12-22 16:49:15,2.584s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 108.0.0.0,,,2565-12-22 16:49:15,2565-12-22 16:49:16,1.398s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Sign In""))",Chrome 108.0.0.0,,,2565-12-22 16:49:16,2565-12-22 16:49:17,0.827s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/p__1""), ""กรุณากรอกชื่อบัญชี"")",Chrome 108.0.0.0,,,2565-12-22 16:49:17,2565-12-22 16:49:18,0.484s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/p_""), ""กรุณากรอกรหัสผ่าน"")",Chrome 108.0.0.0,,,2565-12-22 16:49:18,2565-12-22 16:49:18,0.365s,PASSED
+,,,,,,,
+Test Cases/LoginFailed_password,Chrome 108.0.0.0,,,2565-12-22 16:49:18,2565-12-22 16:49:21,2.895s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 108.0.0.0,,,2565-12-22 16:49:18,2565-12-22 16:49:19,0.861s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""iGDxf8hSRT4="")",Chrome 108.0.0.0,,,2565-12-22 16:49:19,2565-12-22 16:49:20,0.594s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Sign In""))",Chrome 108.0.0.0,,,2565-12-22 16:49:20,2565-12-22 16:49:20,0.493s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd""), ""Access denied. You do not have permission to perform access this resource. Please add your employee profile."")",Chrome 108.0.0.0,,,2565-12-22 16:49:20,2565-12-22 16:49:21,0.567s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 108.0.0.0,,,2565-12-22 16:49:21,2565-12-22 16:49:23,2.120s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 108.0.0.0,,,2565-12-22 16:49:21,2565-12-22 16:49:22,0.819s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 108.0.0.0,,,2565-12-22 16:49:22,2565-12-22 16:49:23,0.539s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 108.0.0.0,,,2565-12-22 16:49:23,2565-12-22 16:49:23,0.378s,PASSED

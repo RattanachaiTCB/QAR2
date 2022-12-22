@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestR2" time="13.74" tests="4" failures="0" errors="0">
+   <testsuite name="TestR2" tests="4" failures="0" errors="0" time="13.74" skipped="0" timestamp="2565-12-22 17:16:31" hostname="Rattanachai - DESKTOP-7B35NR0.techcons.biz" id="Test Suites/TestR2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rattanachai\\Katalon Studio\\QAR2\\QA_WolfR2\\Reports\\25651222_171547\\TestR2\\25651222_171548"/>
+         <property name="logFiles" value="C:\\Users\\rattanachai\\Katalon Studio\\QAR2\\QA_WolfR2\\Reports\\25651222_171547\\TestR2\\25651222_171548\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rattanachai - DESKTOP-7B35NR0.techcons.biz"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.16.174.99"/>
+         <property name="sessionId" value="3a96f18f09bce2bc83caceb83fb15d0a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginFailed" time="6.196" classname="Test Cases/LoginFailed" status="PASSED">
+         <system-out><![CDATA[2565-12-22 17:16:31 - [TEST_CASE][PASSED] - Test Cases/LoginFailed: Test Cases/LoginFailed
+
+2565-12-22 17:16:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2565-12-22 17:16:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2565-12-22 17:16:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2565-12-22 17:16:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2565-12-22 17:16:34 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2565-12-22 17:16:35 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2565-12-22 17:16:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Sign In")): Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 17:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 17:16:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p__1"), "กรุณากรอกชื่อบัญชี"): Actual text and expected text of test object 'Object Repository/Page_WOLF/p__1' are matched.
+
+2565-12-22 17:16:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p__1' are matched.
+
+2565-12-22 17:16:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p_"), "กรุณากรอกรหัสผ่าน"): Actual text and expected text of test object 'Object Repository/Page_WOLF/p_' are matched.
+
+2565-12-22 17:16:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p_' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginFailed_username" time="2.695" classname="Test Cases/LoginFailed_username" status="PASSED">
+         <system-out><![CDATA[2565-12-22 17:16:37 - [TEST_CASE][PASSED] - Test Cases/LoginFailed_username: Test Cases/LoginFailed_username
+
+2565-12-22 17:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "aaaaaa@qar2.com"): Text 'aaaaaa@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 17:16:38 - [MESSAGE][PASSED] - Text 'aaaaaa@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 17:16:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Sign In")): Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 17:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 17:16:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd"), "Access denied. You do not have permission to perform access this resource. Please add your employee profile."): Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.
+
+2565-12-22 17:16:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginFailed_password" time="2.711" classname="Test Cases/LoginFailed_password" status="PASSED">
+         <system-out><![CDATA[2565-12-22 17:16:40 - [TEST_CASE][PASSED] - Test Cases/LoginFailed_password: Test Cases/LoginFailed_password
+
+2565-12-22 17:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "wolf01@qar2.com"): Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 17:16:41 - [MESSAGE][PASSED] - Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 17:16:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Sign In")): Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 17:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 17:16:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd"), "Access denied. You do not have permission to perform access this resource. Please add your employee profile."): Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.
+
+2565-12-22 17:16:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="1.874" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2565-12-22 17:16:43 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2565-12-22 17:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "wolf01@qar2.com"): Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 17:16:44 - [MESSAGE][PASSED] - Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 17:16:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 17:16:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2565-12-22 17:16:31 - [TEST_SUITE][PASSED] - TestR2: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

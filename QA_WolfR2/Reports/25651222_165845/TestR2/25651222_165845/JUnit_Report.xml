@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestR2" time="17.313" tests="4" failures="0" errors="0">
+   <testsuite name="TestR2" tests="4" failures="0" errors="0" time="17.313" skipped="0" timestamp="2565-12-22 16:59:34" hostname="Rattanachai - DESKTOP-7B35NR0.techcons.biz" id="Test Suites/TestR2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rattanachai\\Katalon Studio\\QAR2\\QA_WolfR2\\Reports\\25651222_165845\\TestR2\\25651222_165845"/>
+         <property name="logFiles" value="C:\\Users\\rattanachai\\Katalon Studio\\QAR2\\QA_WolfR2\\Reports\\25651222_165845\\TestR2\\25651222_165845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rattanachai - DESKTOP-7B35NR0.techcons.biz"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.16.174.99"/>
+         <property name="sessionId" value="b92cdccfce31ec91a57d5e2d0a2823f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginFailed" time="5.87" classname="Test Cases/LoginFailed" status="PASSED">
+         <system-out><![CDATA[2565-12-22 16:59:35 - [TEST_CASE][PASSED] - Test Cases/LoginFailed: Test Cases/LoginFailed
+
+2565-12-22 16:59:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2565-12-22 16:59:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2565-12-22 16:59:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2565-12-22 16:59:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2565-12-22 16:59:37 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2565-12-22 16:59:39 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2565-12-22 16:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Sign In")): Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 16:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 16:59:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p__1"), "กรุณากรอกชื่อบัญชี"): Actual text and expected text of test object 'Object Repository/Page_WOLF/p__1' are matched.
+
+2565-12-22 16:59:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p__1' are matched.
+
+2565-12-22 16:59:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p_"), "กรุณากรอกรหัสผ่าน"): Actual text and expected text of test object 'Object Repository/Page_WOLF/p_' are matched.
+
+2565-12-22 16:59:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p_' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginFailed_username" time="6.448" classname="Test Cases/LoginFailed_username" status="PASSED">
+         <system-out><![CDATA[2565-12-22 16:59:41 - [TEST_CASE][PASSED] - Test Cases/LoginFailed_username: Test Cases/LoginFailed_username
+
+2565-12-22 16:59:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2565-12-22 16:59:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2565-12-22 16:59:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2565-12-22 16:59:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2565-12-22 16:59:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2565-12-22 16:59:43 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2565-12-22 16:59:44 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2565-12-22 16:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "aaaaaa@qar2.com"): Text 'aaaaaa@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 16:59:45 - [MESSAGE][PASSED] - Text 'aaaaaa@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 16:59:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Sign In")): Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 16:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 16:59:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd"), "Access denied. You do not have permission to perform access this resource. Please add your employee profile."): Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.
+
+2565-12-22 16:59:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginFailed_password" time="2.707" classname="Test Cases/LoginFailed_password" status="PASSED">
+         <system-out><![CDATA[2565-12-22 16:59:47 - [TEST_CASE][PASSED] - Test Cases/LoginFailed_password: Test Cases/LoginFailed_password
+
+2565-12-22 16:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "wolf01@qar2.com"): Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 16:59:48 - [MESSAGE][PASSED] - Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 16:59:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Sign In")): Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 16:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Sign In' is clicked on
+
+2565-12-22 16:59:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd"), "Access denied. You do not have permission to perform access this resource. Please add your employee profile."): Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.
+
+2565-12-22 16:59:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="2.038" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2565-12-22 16:59:50 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2565-12-22 16:59:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "wolf01@qar2.com"): Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 16:59:51 - [MESSAGE][PASSED] - Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2565-12-22 16:59:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2565-12-22 16:59:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2565-12-22 16:59:34 - [TEST_SUITE][PASSED] - TestR2: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
