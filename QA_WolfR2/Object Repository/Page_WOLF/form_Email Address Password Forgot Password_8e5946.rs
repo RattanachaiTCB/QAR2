@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Email Address Password Forgot Password_8e5946</name>
+   <tag></tag>
+   <elementGuidId>00f21a0e-d807-45dc-b9b4-45e844472a6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>79f9ac07-1a41-45d2-885e-23f920e3d00b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email Address :กรุณากรอกชื่อบัญชีPassword :Forgot Password? | RegisterSign In</value>
+      <webElementGuid>a0b83a98-a545-454a-b653-6af948239387</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]</value>
+      <webElementGuid>9475ffc5-fc29-45f0-8904-02aa8c095af4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/form</value>
+      <webElementGuid>a5364c8f-e73d-4b1f-994f-adf2fb6d9ac7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>52b7b1d2-9e82-49d9-9f8c-52b0e27f37ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Email Address :กรุณากรอกชื่อบัญชีPassword :Forgot Password? | RegisterSign In' or . = 'Email Address :กรุณากรอกชื่อบัญชีPassword :Forgot Password? | RegisterSign In')]</value>
+      <webElementGuid>0589d9bf-b6dd-4c59-a0f5-645a57ee13c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
