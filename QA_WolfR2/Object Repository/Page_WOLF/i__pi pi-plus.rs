@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__pi pi-plus</name>
+   <tag></tag>
+   <elementGuidId>bd951259-b79e-490d-b669-d2f9a4901f00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.pi.pi-plus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table-control']/div/div/table/thead/tr/th[7]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>875df07c-b394-4efa-bd07-200c724dc148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-plus</value>
+      <webElementGuid>ff59b9dc-4d8a-48dc-85b8-1edd3e154dc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-control&quot;)/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-header&quot;]/table[1]/thead[@class=&quot;ant-table-thead&quot;]/tr[1]/th[@class=&quot;ant-table-cell action-column ant-table-cell-fix-right ant-table-cell-fix-right-first&quot;]/i[@class=&quot;pi pi-plus&quot;]</value>
+      <webElementGuid>1e4c3e33-484e-4a23-9803-1b9ca3cf1765</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table-control']/div/div/table/thead/tr/th[7]/i</value>
+      <webElementGuid>6f05cc31-664e-4a05-990a-c320307583cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>7d5527e0-54ef-48e8-9e1a-24a0abd052a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

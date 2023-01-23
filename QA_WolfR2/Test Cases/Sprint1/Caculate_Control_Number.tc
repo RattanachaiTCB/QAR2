@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ทดสอบการคำนวณของ Control Number</description>
+   <name>Caculate_Control_Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c0ec413-feb7-442a-b839-eddb1ce6f509</testCaseGuid>
+</TestCaseEntity>

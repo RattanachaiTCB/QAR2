@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SuccessYou can verify the request to us_646a6f</name>
+   <tag></tag>
+   <elementGuidId>81eb60c2-bf34-47ef-b7af-6a8afa3ccda4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-notification-notice-with-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::div[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6dea424a-344b-4d53-9263-8d7c97af3560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-notification-notice-with-icon</value>
+      <webElementGuid>c092f874-77be-4db7-865b-e3062a74277f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SuccessYou can verify the request to use WOLF Approve via the email ([-EMAIL-]) that you have entered.&lt;br/>ท่านสามารถยืนยันการขอใช้งานระบบผ่าน email ([-EMAIL-]) ที่ท่านได้กรอกมา...</value>
+      <webElementGuid>3fd95ea0-a772-4cc8-8e1f-557529811dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-notification ant-notification-topRight&quot;]/div[1]/div[@class=&quot;ant-notification-hook-holder&quot;]/div[@class=&quot;ant-notification-notice alert-custom ant-notification-notice-success ant-notification-notice-closable&quot;]/div[@class=&quot;ant-notification-notice-content&quot;]/div[@class=&quot;ant-notification-notice-with-icon&quot;]</value>
+      <webElementGuid>948e27e5-2964-43f3-bfe1-eedef4e752e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>918b2105-b1d6-4732-98ab-d4a108903e68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::div[9]</value>
+      <webElementGuid>7a0b8b88-474b-4411-8d43-9d7d0a5fb87a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div</value>
+      <webElementGuid>88aba9dc-e890-4ed0-ae65-0c41313b4239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SuccessYou can verify the request to use WOLF Approve via the email ([-EMAIL-]) that you have entered.&lt;br/>ท่านสามารถยืนยันการขอใช้งานระบบผ่าน email ([-EMAIL-]) ที่ท่านได้กรอกมา...' or . = 'SuccessYou can verify the request to use WOLF Approve via the email ([-EMAIL-]) that you have entered.&lt;br/>ท่านสามารถยืนยันการขอใช้งานระบบผ่าน email ([-EMAIL-]) ที่ท่านได้กรอกมา...')]</value>
+      <webElementGuid>46f7c14b-da9d-4697-b32d-d72a872ae31e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::div[7]</value>
+      <webElementGuid>2940e621-9381-418c-ade1-a99b62bfbe64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div</value>
+      <webElementGuid>6b811d7a-9729-4b5c-a7c3-ed4dd4799db9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

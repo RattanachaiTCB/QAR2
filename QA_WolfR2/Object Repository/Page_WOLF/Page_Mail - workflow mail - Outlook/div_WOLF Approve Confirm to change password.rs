@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WOLF Approve Confirm to change password</name>
+   <tag></tag>
+   <elementGuidId>6c9f9869-ed87-4199-8e39-3530a9097245</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.vI1oH.___Zc.allowTextSelection</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ReadingPaneContainerId']/div/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ba46c708-92ba-49f0-bf76-1cbda6379733</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vI1oH ___Zc allowTextSelection</value>
+      <webElementGuid>f5319a9c-15fa-4476-ba0f-afc96f3da8e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>[WOLF Approve] Confirm to change password</value>
+      <webElementGuid>52b7eab0-241a-437e-af28-7ef40057db4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>8e13adbb-f44c-411e-8dd2-d18f04ffee34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>9eb63814-6cff-450a-bf34-b93ed0bc9653</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>[WOLF Approve] Confirm to change password</value>
+      <webElementGuid>a5dc8509-c5e8-495b-97d4-9336610d2377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ReadingPaneContainerId&quot;)/div[1]/div[@class=&quot;g_zET&quot;]/div[@class=&quot;MtujV&quot;]/div[@class=&quot;NTPm6 nQeuj&quot;]/div[@class=&quot;Qggm6 jmmB7 nQeuj eDaMZ&quot;]/div[@class=&quot;YQVOm&quot;]/div[@class=&quot;jK64t vI1oH&quot;]/div[@class=&quot;vI1oH ___Zc allowTextSelection&quot;]</value>
+      <webElementGuid>2242015d-a1c4-4c1d-86bc-2c9723fbd603</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ReadingPaneContainerId']/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>ea50c5ac-8d45-4a1a-9405-1fed55a46678</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yesterday'])[1]/following::div[62]</value>
+      <webElementGuid>511807d8-789c-41ea-8c93-5b0fd2419dfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='workflow mail'])[9]/following::div[77]</value>
+      <webElementGuid>861ba1ae-4359-4906-ad62-63bd2ced57b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This mail appears in Focused based on how you interact with the sender.'])[1]/preceding::div[3]</value>
+      <webElementGuid>ef2f0992-ab4e-4fe6-8f34-3f48414127e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>df00c5c1-9901-4680-ba94-5386d6875237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = '[WOLF Approve] Confirm to change password' and (text() = '[WOLF Approve] Confirm to change password' or . = '[WOLF Approve] Confirm to change password')]</value>
+      <webElementGuid>c4d5b000-0b49-478e-ba2b-603d63cc5c10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

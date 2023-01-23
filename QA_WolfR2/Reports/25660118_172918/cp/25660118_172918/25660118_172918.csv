@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+cp,Chrome 109.0.0.0,,,2566-01-18 17:29:28,2566-01-18 17:37:20,7m - 52.382s,FAILED
+,,,,,,,
+Test Cases/Change Password,Chrome 109.0.0.0,,,2566-01-18 17:29:28,2566-01-18 17:30:41,1m - 13.162s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-18 17:29:29,2566-01-18 17:29:31,2.733s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-18 17:29:31,2566-01-18 17:29:33,1.480s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 109.0.0.0,,,2566-01-18 17:29:33,2566-01-18 17:29:34,1.136s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-18 17:29:34,2566-01-18 17:29:35,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/button_Sign In""))",Chrome 109.0.0.0,,,2566-01-18 17:29:35,2566-01-18 17:29:35,0.600s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/div_WA""))",Chrome 109.0.0.0,,,2566-01-18 17:29:35,2566-01-18 17:29:37,2.108s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/div_Edit Profile""))",Chrome 109.0.0.0,,,2566-01-18 17:29:37,2566-01-18 17:29:38,0.519s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/input__current_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-18 17:29:38,2566-01-18 17:29:39,0.579s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/input__new_password""), ""aeHFOx8jV/A="")",Chrome 109.0.0.0,,,2566-01-18 17:29:39,2566-01-18 17:29:39,0.424s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/input__comfirm_password""), ""aeHFOx8jV/A="")",Chrome 109.0.0.0,,,2566-01-18 17:29:39,2566-01-18 17:29:39,0.445s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/button_Save""))",Chrome 109.0.0.0,,,2566-01-18 17:29:39,2566-01-18 17:29:40,0.487s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/div_SuccessYou can verify the request to us_646a6f""))",Chrome 109.0.0.0,,,2566-01-18 17:29:40,2566-01-18 17:29:41,1.514s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/div_You can verify the request to use WOLF _1e150d""), ""You can verify the request to use WOLF Approve via the email ([-EMAIL-]) that you have entered.<br/>ท่านสามารถยืนยันการขอใช้งานระบบผ่าน email ([-EMAIL-]) ที่ท่านได้กรอกมา..."")",Chrome 109.0.0.0,,,2566-01-18 17:29:41,2566-01-18 17:29:42,0.398s,PASSED
+"navigateToUrl(""https://outlook.office.com/mail/"")",Chrome 109.0.0.0,,,2566-01-18 17:29:42,2566-01-18 17:29:43,1.492s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/Page_Sign in to your account/input_Sign in_loginfmt""), ""Wolf01@wolfapprove.com"")",Chrome 109.0.0.0,,,2566-01-18 17:29:43,2566-01-18 17:29:45,1.609s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_Sign in to your account/input_Create one_idSIButton9""))",Chrome 109.0.0.0,,,2566-01-18 17:29:45,2566-01-18 17:29:45,0.529s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/Page_Sign in to your account/input_Enter password_passwd""), ""/dj/KL/yjU4kaJoI+CamKA=="")",Chrome 109.0.0.0,,,2566-01-18 17:29:45,2566-01-18 17:29:47,1.306s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_Sign in to your account/input_Create one_idSIButton9""))",Chrome 109.0.0.0,,,2566-01-18 17:29:47,2566-01-18 17:29:48,1.084s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_Sign in to your account/input_concat(Don, , t show this again)_idBtn_Back""))",Chrome 109.0.0.0,,,2566-01-18 17:29:48,2566-01-18 17:29:50,2.555s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_Home  Microsoft 365/span_Outlook""))",Chrome 109.0.0.0,,,2566-01-18 17:29:50,2566-01-18 17:30:27,36.315s,PASSED
+"navigateToUrl(""https://outlook.office.com/mail/"")",Chrome 109.0.0.0,,,2566-01-18 17:30:27,2566-01-18 17:30:27,0.435s,PASSED
+"click(findTestObject(""Object Repository/Page_Mail - workflow mail - Outlook/div_workflow mailWOLF Approve Confirm to ch_4994af""))",Chrome 109.0.0.0,,,2566-01-18 17:30:27,2566-01-18 17:30:35,7.905s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/Page_Mail - workflow mail - Outlook/span_WOLF Approve Confirm to change password""), ""[WOLF Approve] Confirm to change password"")",Chrome 109.0.0.0,,,2566-01-18 17:30:35,2566-01-18 17:30:38,3.411s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_Mail - workflow mail - Outlook/a_-confirm-""))",Chrome 109.0.0.0,,,2566-01-18 17:30:38,2566-01-18 17:30:39,0.430s,PASSED
+"switchToWindowTitle(""WOLF"")",Chrome 109.0.0.0,,,2566-01-18 17:30:39,2566-01-18 17:30:39,0.590s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/p_""), ""ยืนยันตนเรียบร้อย"")",Chrome 109.0.0.0,,,2566-01-18 17:30:39,2566-01-18 17:30:40,0.689s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/Page_WOLF/button_""))",Chrome 109.0.0.0,,,2566-01-18 17:30:40,2566-01-18 17:30:41,0.419s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2566-01-18 17:30:41,2566-01-18 17:30:41,0.917s,PASSED
+,,,,,,,
+Test Cases/newpass,Chrome 109.0.0.0,,,2566-01-18 17:35:41,2566-01-18 17:37:20,1m - 39.662s,FAILED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-18 17:35:41,2566-01-18 17:35:43,1.893s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-18 17:35:43,2566-01-18 17:35:44,1.385s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 109.0.0.0,,,2566-01-18 17:35:44,2566-01-18 17:35:45,1.168s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""aeHFOx8jV/A="")",Chrome 109.0.0.0,,,2566-01-18 17:35:45,2566-01-18 17:36:17,31.807s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 109.0.0.0,,,2566-01-18 17:36:17,2566-01-18 17:36:49,31.709s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/div_WA""))",Chrome 109.0.0.0,,,2566-01-18 17:36:49,2566-01-18 17:37:20,31.688s,FAILED

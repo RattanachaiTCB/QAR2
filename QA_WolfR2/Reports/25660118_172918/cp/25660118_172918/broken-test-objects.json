@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/Page_Home  Microsoft 365/span_Outlook",
+      "brokenLocator": "//button[@id\u003d\u0027Mail\u0027]/span/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Outlook\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660118_172918/cp/25660118_172918/Object Repository/Page_WOLF/Page_Home  Microsoft 365/span_Outlook_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/input_Forgot Password_password",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660118_172918/cp/25660118_172918/Object Repository/Page_WOLF/input_Forgot Password_password_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/div_WA",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[2]/div[4]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/div_WA",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[2]/div[4]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660118_172918"
+    }
+  ]
+}

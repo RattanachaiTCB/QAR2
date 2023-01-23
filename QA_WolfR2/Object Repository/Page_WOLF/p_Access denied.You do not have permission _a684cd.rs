@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>49859fd3-bcbf-46ef-89c9-62c96c40e6db</webElementGuid>
+      <webElementGuid>08e64475-fdb3-4e51-9efa-053e0c072082</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-incorrect</value>
-      <webElementGuid>abfddf52-b671-4632-b5be-e69157983d52</webElementGuid>
+      <webElementGuid>2c4b4c7b-10e8-4e07-b3c7-92627893c87f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,15 +40,15 @@
       <value>Access denied.
 You do not have permission to perform access this resource.
 Please add your employee profile.</value>
-      <webElementGuid>602078d2-ffb7-457d-86ad-b00996ecb8f1</webElementGuid>
+      <webElementGuid>2daa4ab1-bb68-4b86-9c52-9f6ffacba1ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;button-container&quot;]/p[@class=&quot;text-incorrect&quot;]</value>
-      <webElementGuid>51773e06-36bf-4bfa-903e-95c16020596a</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens fade-enter-done&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;button-container&quot;]/p[@class=&quot;text-incorrect&quot;]</value>
+      <webElementGuid>6dbfddfc-45b3-493f-b364-da8fb30ec3fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@ Please add your employee profile.</value>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/form/div/div[3]/p</value>
-      <webElementGuid>7efba8a8-d431-48d2-b347-32495dbf42cb</webElementGuid>
+      <webElementGuid>5d1ad3c1-fc4e-4276-b668-69d228203835</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@ Please add your employee profile.</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::p[1]</value>
-      <webElementGuid>4a3de05a-123a-45f5-b6ad-5220ca2b97be</webElementGuid>
+      <webElementGuid>31877589-0400-432d-ab37-401f9d738dfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,19 @@ Please add your employee profile.</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/p</value>
-      <webElementGuid>65b73d83-553a-4d06-9034-c4f7b964d0eb</webElementGuid>
+      <webElementGuid>e648d1c2-9552-4e0a-9e5f-0f0169b2408c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Access denied.
+You do not have permission to perform access this resource.
+Please add your employee profile.' or . = 'Access denied.
+You do not have permission to perform access this resource.
+Please add your employee profile.')]</value>
+      <webElementGuid>99346343-542a-4d8b-8d69-0071136e0102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

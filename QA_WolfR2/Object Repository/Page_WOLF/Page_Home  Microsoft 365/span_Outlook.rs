@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Outlook</name>
+   <tag></tag>
+   <elementGuidId>1e6c1557-f5a8-4f21-b569-a4b3d1329e7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Mail > span.fui-Button__icon.___2vs5x50.f122n59.ftuwxu6.f4d9j23.fe5j1ua.fjamq6b.f64fuq3.f1exjqw5 > div.___mh9s3f0.f22iagw.f1vx9l62.f4d9j23.f122n59.f3swjwz.fzki0ko > span.___s0zyfg0.ftgm304.f1lzky0n.f1lmfglv.f1in0ah0.f1abmfm4.f1nlzb5t.f1p9o1ba.f1sil6mw.fz5stix.f1cmbuwj.f17mccla.fcpl73t.f122n59.fk6fouc.f13mqy1h</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='Mail']/span/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2d732d77-a1f4-46ed-83a2-f7270ac40390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>___s0zyfg0 ftgm304 f1lzky0n f1lmfglv f1in0ah0 f1abmfm4 f1nlzb5t f1p9o1ba f1sil6mw fz5stix f1cmbuwj f17mccla fcpl73t f122n59 fk6fouc f13mqy1h</value>
+      <webElementGuid>af7fe999-07df-4257-b2c2-c92a580b33a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Outlook</value>
+      <webElementGuid>bf0e1133-75cf-4022-b6dd-802eb6eee5e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Mail&quot;)/span[@class=&quot;fui-Button__icon ___2vs5x50 f122n59 ftuwxu6 f4d9j23 fe5j1ua fjamq6b f64fuq3 f1exjqw5&quot;]/div[@class=&quot;___mh9s3f0 f22iagw f1vx9l62 f4d9j23 f122n59 f3swjwz fzki0ko&quot;]/span[@class=&quot;___s0zyfg0 ftgm304 f1lzky0n f1lmfglv f1in0ah0 f1abmfm4 f1nlzb5t f1p9o1ba f1sil6mw fz5stix f1cmbuwj f17mccla fcpl73t f122n59 fk6fouc f13mqy1h&quot;]</value>
+      <webElementGuid>55a9d617-4b60-42d5-a7ea-600e02c4c2a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='Mail']/span/div/span</value>
+      <webElementGuid>6e408591-3aa5-4536-ba2d-2dff9c69fa2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/following::span[2]</value>
+      <webElementGuid>ed1349ca-cd22-4505-b1b7-24e5a247632e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Content'])[1]/following::span[4]</value>
+      <webElementGuid>ede0b01a-04bc-495c-a7e6-34decd57847e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teams'])[1]/preceding::span[1]</value>
+      <webElementGuid>16f8524c-f0b6-4ec8-aabb-e1efba0f112c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Word'])[1]/preceding::span[3]</value>
+      <webElementGuid>57947937-1409-4099-8439-bab963fe8368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Outlook']/parent::*</value>
+      <webElementGuid>d1eb7917-5fa4-4237-90d9-e821820dd573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/button/span/div/span</value>
+      <webElementGuid>d0b79ebd-d2d5-429a-8ce2-5651bc8ada52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Outlook' or . = 'Outlook')]</value>
+      <webElementGuid>844f174c-eca3-4c67-b345-240ee7dd9459</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

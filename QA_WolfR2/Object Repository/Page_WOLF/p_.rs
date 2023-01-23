@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.input-container > p.text-invalid</value>
+         <value>p.text-header</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/form/div/div[2]/div/p</value>
+         <value>//div[@id='root']/div/div/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,34 +22,74 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>f7fb606f-a06e-4a42-80eb-dd3088e4cc48</webElementGuid>
+      <webElementGuid>972554e5-9561-4a4d-93cd-768d3a1da170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-invalid</value>
-      <webElementGuid>6ff83c39-681d-4435-8aa7-aeea87bf6f66</webElementGuid>
+      <value>text-header</value>
+      <webElementGuid>b8a2cc35-79c2-4add-b511-47535546f3ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>กรุณากรอกรหัสผ่าน</value>
-      <webElementGuid>b47952ba-cbd2-4fb6-a158-b30a2f4fb22e</webElementGuid>
+      <value>ยืนยันตนเรียบร้อย</value>
+      <webElementGuid>43192f33-708d-40fd-a11d-785cb0507354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;main-input-container&quot;]/div[@class=&quot;input-container&quot;]/p[@class=&quot;text-invalid&quot;]</value>
-      <webElementGuid>a869c703-1d7a-478a-92fd-0aabbd3e8034</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;error-page-container without-nav&quot;]/div[@class=&quot;forget-password-container&quot;]/div[@class=&quot;text-container&quot;]/p[@class=&quot;text-header&quot;]</value>
+      <webElementGuid>83c53ecf-c54f-424d-8b09-e094b8836002</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/p</value>
+      <webElementGuid>86dcba00-d30c-4d1d-94cf-5bca378e9ddd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ย้อนกลับไปหน้าเข้าสู่ระบบ'])[1]/preceding::p[1]</value>
+      <webElementGuid>16c56606-3916-4485-b53d-cc1a5be189de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ยืนยันตนเรียบร้อย']/parent::*</value>
+      <webElementGuid>2db4d73a-e6cf-4a96-972c-05ecb42eaca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>294b4f7a-8a35-4632-b954-4ede6038fc5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'ยืนยันตนเรียบร้อย' or . = 'ยืนยันตนเรียบร้อย')]</value>
+      <webElementGuid>fac1438d-e51c-46df-a6d7-fb432910ca87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
