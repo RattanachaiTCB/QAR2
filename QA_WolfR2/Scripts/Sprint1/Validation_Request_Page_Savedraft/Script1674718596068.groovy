@@ -21,33 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'))
-
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p_New Request'))
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'cal')
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'KTL-VLD01')
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate Function'))
+WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/i_total_pi pi-plus'))
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Save Draft'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '20')
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/ul_1'))
+WebUI.verifyNotEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Default', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_total_ant-input-number-input'), '1000')
-
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1'), '5000')
-
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1_2'), '5000')
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_GRAND TOTAL_ant-input'))
-
-WebUI.closeBrowser()
+WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121')
 

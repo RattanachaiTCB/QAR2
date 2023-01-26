@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check required filed</description>
+   <name>Validation_Request_Page_Savedraft</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dcbbabd-766d-4aad-b82c-2db75a7d2f4a</testCaseGuid>
+</TestCaseEntity>

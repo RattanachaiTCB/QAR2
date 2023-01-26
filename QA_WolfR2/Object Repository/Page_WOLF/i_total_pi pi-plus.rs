@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_total_pi pi-plus</name>
+   <tag></tag>
+   <elementGuidId>409c1770-9564-4fc6-a5bf-06add5827b9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='table-control']/div/div/table/thead/tr/th[6]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.pi.pi-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>48ba7722-a013-455c-9dd3-0de64550bf88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pi pi-plus</value>
+      <webElementGuid>610408ec-ca62-4888-a4e0-8e28468b15a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-control&quot;)/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-header&quot;]/table[1]/thead[@class=&quot;ant-table-thead&quot;]/tr[1]/th[@class=&quot;ant-table-cell action-column ant-table-cell-fix-right ant-table-cell-fix-right-first&quot;]/i[@class=&quot;pi pi-plus&quot;]</value>
+      <webElementGuid>1a4b3c40-0e83-425a-bbef-a571708a6ccd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table-control']/div/div/table/thead/tr/th[6]/i</value>
+      <webElementGuid>5dc2e180-9605-4394-a578-7217e854d15c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>a03010c7-1c87-4415-a084-ba14584345c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

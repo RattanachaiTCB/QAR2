@@ -6,12 +6,12 @@
    <elementGuidId>31e0c224-9d35-4c93-95a6-6f6f7d14e46a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.ant-input-number-input</value>
+         <key>XPATH</key>
+         <value>//input[@value='0.00']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='5']</value>
+         <key>CSS</key>
+         <value>input.ant-input-number-input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>10a7b6c9-6a2a-41e5-ad7a-07b9b765c09c</webElementGuid>
+      <webElementGuid>32712c64-663a-40db-9ea7-62b01619fc00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>17249b6e-e435-4e49-8522-a76ba4da2162</webElementGuid>
+      <webElementGuid>027f8532-a87a-485f-b0ae-889e957b0db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>spinbutton</value>
-      <webElementGuid>25598aac-066f-4fa1-990f-e01fc68e61f6</webElementGuid>
+      <webElementGuid>7d41b8ed-0099-40a6-a63e-f6c74a2efc85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-valuenow</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a3c5e5e5-4beb-4db0-a42f-5aa1f68b1c6e</webElementGuid>
+      <webElementGuid>f04cb88c-e8fb-4b6c-a266-c140bcc2731b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>step</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>db46f4f0-0772-4a2a-adc4-a1fcc4cf986c</webElementGuid>
+      <webElementGuid>be63b86b-e9d9-4c17-a11e-e539df68a521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,31 +62,119 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-input-number-input</value>
-      <webElementGuid>4decf26f-c098-4ba1-b2d6-68a12f05c6c5</webElementGuid>
+      <webElementGuid>c1853502-4f63-4a79-921b-d24e711f1a2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>5</value>
-      <webElementGuid>38b3c8ea-7914-4f96-98c3-d0b2d1bd4872</webElementGuid>
+      <value>0.00</value>
+      <webElementGuid>8b1ea1b7-2ba2-45e6-8d42-a80f69c89063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;table-control&quot;)/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-body&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 editable-row&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]/div[1]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-form-item-control&quot;]/div[@class=&quot;ant-form-item-control-input&quot;]/div[@class=&quot;ant-form-item-control-input-content&quot;]/div[@class=&quot;ant-input-number-group-wrapper input-component text-right false&quot;]/div[@class=&quot;ant-input-number-wrapper ant-input-number-group&quot;]/div[@class=&quot;ant-input-number ant-input-number-lg ant-input-number-in-form-item input-component text-right false ant-input-number-focused&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;]</value>
-      <webElementGuid>1976f677-8658-4154-8fe3-d3d3926ea3ec</webElementGuid>
+      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[@class=&quot;padding-controller col-xl-4 col-md-4 col-sm-12 col-12&quot;]/div[@class=&quot;input-component-container&quot;]/div[@class=&quot;ant-input-number-group-wrapper input-component text-right false&quot;]/div[@class=&quot;ant-input-number-wrapper ant-input-number-group&quot;]/div[@class=&quot;ant-input-number ant-input-number-lg input-component text-right false ant-input-number-focused&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;]</value>
+      <webElementGuid>95f5e393-3d20-4814-bc27-5345ac83a7a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
+      <value>//input[@value='0.00']</value>
+      <webElementGuid>2b48ace8-34e2-4271-9053-63a6dbd31be2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='basic']/div[3]/div[4]/div/div/div/div/div/input</value>
+      <webElementGuid>206ed5ae-46ef-4b13-8649-c125741507d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>7560fdf8-2456-45cf-b064-c1313179b4ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value='0.00'])[4]</value>
+      <webElementGuid>d53c3695-8a74-4115-ae10-7dc783263085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/input</value>
+      <webElementGuid>90a7bf41-b510-48ee-90d2-15700f34d541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='0']</value>
+      <webElementGuid>b0a0eddc-5699-4c20-9ebe-bd7b04b1f270</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[3]/div/div/div/div/div/div/input</value>
+      <webElementGuid>1419354e-9087-4825-8ce0-962ffd4433ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/div/div/div/div/input</value>
+      <webElementGuid>0322a6ad-ec90-4eaa-8a3f-cef706d4b6ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='2']</value>
+      <webElementGuid>568c5ca7-eedb-4a2a-8c5b-32290c82f37d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[3]/div/div/div/div/div/div/div/div/div/input</value>
+      <webElementGuid>ba98927f-f0da-4a18-88cf-83ad1959d23c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/div/div/div/div/div/div/div/div/input</value>
+      <webElementGuid>27c9b4cc-9bea-4333-a756-4ba78f0eeedc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//input[@value='5']</value>
-      <webElementGuid>f2b063bf-c92a-4a2d-938e-8168e137bffe</webElementGuid>
+      <webElementGuid>9abad972-f45a-43fe-b1d9-36f9c3c96d04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +182,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[5]/div/div/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>3e36db55-015e-43a3-9db5-5dd5c149b5ec</webElementGuid>
+      <webElementGuid>adef5b12-c833-4317-89b7-7b273f984af0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +190,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/div/div/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>65383333-aa48-4d83-90f0-94558e23b727</webElementGuid>
+      <webElementGuid>8a9c285a-bee9-43e6-948c-47fda69deac5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

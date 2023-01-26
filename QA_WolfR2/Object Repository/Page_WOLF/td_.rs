@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Sign In</name>
+   <name>td_</name>
    <tag></tag>
-   <elementGuidId>101d8894-b497-4063-b1ec-7b46e3a4c0d8</elementGuidId>
+   <elementGuidId>511e55d8-b781-40e2-8014-1fdda9ad11a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.login-button</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ff62615d-1cfc-4060-92d9-17ea3ff190bb</webElementGuid>
+      <value>td</value>
+      <webElementGuid>b7a96cee-0159-4f26-b2de-1860c3e264ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>14998c6e-806d-40f1-84bc-07dade393afb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>7e5e2d42-ef3c-4f8b-9c2c-f5a134ef5211</webElementGuid>
+      <value>ant-table-cell ant-table-cell-row-hover</value>
+      <webElementGuid>2feaa5be-7a3a-4a31-b582-fcc031f6dc07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign In</value>
-      <webElementGuid>883a84a9-aeac-4431-ac51-2217172c3bb7</webElementGuid>
+      <value>฿</value>
+      <webElementGuid>0f45b422-4f34-4f5f-b693-d077c0e9ba3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;button-container&quot;]/button[@class=&quot;login-button&quot;]</value>
-      <webElementGuid>67e749ea-3d38-4394-91d8-a1bd72df0876</webElementGuid>
+      <value>id(&quot;table-control&quot;)/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-body&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 editable-row&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]</value>
+      <webElementGuid>f91ea5bc-061c-4673-9022-88d72602b94d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>66c60e10-53b7-4779-857c-6c71e9e1ec59</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/form/div/div[3]/button</value>
-      <webElementGuid>339036bc-ae27-4bb0-87ce-3b4292f62cd4</webElementGuid>
+      <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>d07dcedb-d832-42ce-9548-2068588f2758</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/following::button[1]</value>
-      <webElementGuid>179c403c-ef57-4d68-b23b-0725e8a130ed</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='total'])[1]/following::td[8]</value>
+      <webElementGuid>14dd6e66-c5a9-4d7e-a416-9d340b2790b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sign In']/parent::*</value>
-      <webElementGuid>1a65bc43-004b-4f4f-b24c-3e5723d18c5c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='discount'])[1]/following::td[8]</value>
+      <webElementGuid>3ac3ba8f-4373-4512-91cd-46f7d1585123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='จำนวนเงิน'])[1]/preceding::td[5]</value>
+      <webElementGuid>b7cff74b-7c8f-449d-bbe9-dd89c896cfd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button</value>
-      <webElementGuid>8a8d7885-6005-4fbc-a9e3-c52535b34a20</webElementGuid>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>5de171a8-6392-4f7e-99b4-a74725e2efe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>cc3feaf8-6c26-4066-9ffc-e77abb7fdf44</webElementGuid>
+      <value>//td[(text() = '฿' or . = '฿')]</value>
+      <webElementGuid>dad6f35d-4d2b-4877-a98d-e51012688cce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

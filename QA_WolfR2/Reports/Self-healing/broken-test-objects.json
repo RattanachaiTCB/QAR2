@@ -39,6 +39,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/input_total_ant-input-number-input",
+      "brokenLocator": "//input[@value\u003d\u00271\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/input_total_ant-input-number-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/input__ant-input-number-input_1",
+      "brokenLocator": "//input[@value\u003d\u00272\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@value\u003d\u00270\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/input__ant-input-number-input_1_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/div_Require field warning",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ชื่อ-สกุล\u0027])[1]/following::div[34]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/div_Require field warning_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/button_Confirm",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_9\u0027]/div[3]/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/button_Confirm_neighbor.png"
     }
   ]
 }

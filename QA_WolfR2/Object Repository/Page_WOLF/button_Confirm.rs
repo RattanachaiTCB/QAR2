@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_New Request</name>
+   <name>button_Confirm</name>
    <tag></tag>
-   <elementGuidId>e0ad7722-4638-4017-b63f-3da783c007c0</elementGuidId>
+   <elementGuidId>3798300d-5421-44a3-b714-860f58f8d74f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
+         <value>//div[@id='pr_id_9']/div[3]/div/div/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.request-button-new.TreeSelectNewRequest-media-department-display-none</value>
+         <value>button.Confirm-Button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1b97dca7-7ffc-47eb-8c67-3881bc3df393</webElementGuid>
+      <webElementGuid>428db869-dc8f-4834-a1b9-fbafd2f335c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>request-button-new TreeSelectNewRequest-media-department-display-none</value>
-      <webElementGuid>a6bd0c78-7e19-4a4c-8a92-d290817e60a8</webElementGuid>
+      <value>Confirm-Button</value>
+      <webElementGuid>91cee957-0327-4f1d-8dbf-110e84c2536a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>New Request</value>
-      <webElementGuid>6b2bb96e-8eab-456e-8cc8-2974eaff4d00</webElementGuid>
+      <value>Confirm</value>
+      <webElementGuid>b49e860e-a0bd-4e37-9445-fcc3f899092f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;button-container&quot;]/span[1]/button[@class=&quot;request-button-new TreeSelectNewRequest-media-department-display-none&quot;]</value>
-      <webElementGuid>356733f8-ff03-4f96-857f-3c2e445549ee</webElementGuid>
+      <value>id(&quot;pr_id_9&quot;)/div[@class=&quot;p-dialog-footer&quot;]/div[@class=&quot;Button-line memo-button-padding&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6 col-sm-6 col-6&quot;]/button[@class=&quot;Confirm-Button&quot;]</value>
+      <webElementGuid>4339644b-b9e0-4f47-8347-8e32665204d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
-      <webElementGuid>07a912ba-1245-40fb-95e3-efd10a9c798c</webElementGuid>
+      <value>//div[@id='pr_id_9']/div[3]/div/div/div[2]/button</value>
+      <webElementGuid>48d07c13-7c77-478a-b728-c00fb68a7cd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::button[2]</value>
-      <webElementGuid>b0b14ba5-a8da-40fc-bc7c-8ca16af8d07f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>81babb77-d869-47b4-b1d7-ec5008131d1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::button[2]</value>
-      <webElementGuid>41e5507c-9f35-4450-8f18-52399f524967</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ชื่อ-สกุล'])[1]/following::button[2]</value>
+      <webElementGuid>d43b6fb3-ac86-4372-b967-d70426ddd2f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
+      <webElementGuid>af777d63-4e65-4c01-87b7-5208f44df283</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/button</value>
-      <webElementGuid>54b0812e-0099-4483-9adc-58bf69f4b010</webElementGuid>
+      <value>//div[3]/div/div/div[2]/button</value>
+      <webElementGuid>01f3172d-9741-41a8-870b-a0014e2ce0c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'New Request' or . = 'New Request')]</value>
-      <webElementGuid>727e0629-c00e-440d-9d2d-f4860a6d6257</webElementGuid>
+      <value>//button[(text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>e8d96e64-255e-4942-8a12-501d61cad97a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

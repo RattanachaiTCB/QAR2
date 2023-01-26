@@ -21,33 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'))
-
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p_New Request'))
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'cal')
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'KTL-CCN01')
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate Function'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/i_total_pi pi-plus'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '20')
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/ul_1'))
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '2000')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_total_ant-input-number-input'), '1000')
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1'), '5000')
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1_2'), '5000')
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '0.5')
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_GRAND TOTAL_ant-input'))
-
-WebUI.closeBrowser()
+WebUI.verifyEqual(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), 1000)
 

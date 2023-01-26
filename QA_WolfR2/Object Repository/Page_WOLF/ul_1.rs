@@ -6,12 +6,12 @@
    <elementGuidId>c2be38ff-789f-4990-a418-623048fa3856</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.ant-pagination.ant-table-pagination.ant-table-pagination-right</value>
+         <key>XPATH</key>
+         <value>//form[@id='basic']/div[2]/div[2]/div/div/div/div/div/ul</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='basic']/div[3]/div[2]/div/div/div/div/div/ul</value>
+         <key>CSS</key>
+         <value>ul.ant-pagination.ant-table-pagination.ant-table-pagination-right</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>ul</value>
-      <webElementGuid>c9cfc80e-31c9-44c1-905a-7fd8d4fe357b</webElementGuid>
+      <webElementGuid>ff9ce40f-31f6-4de7-97f6-d3a144a575d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-pagination ant-table-pagination ant-table-pagination-right</value>
-      <webElementGuid>2c94d157-c2ed-4e41-a462-11000c03c2ea</webElementGuid>
+      <webElementGuid>b1735691-8eb2-44a5-984e-6065bbd64944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>unselectable</value>
-      <webElementGuid>4c532327-f310-4971-a4e3-76a0fd14a729</webElementGuid>
+      <webElementGuid>5cf84f59-188b-4e45-a01d-ceac2954ad57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>871d0bdc-e18d-463f-98c5-2dfc1629f1db</webElementGuid>
+      <webElementGuid>9e7d24af-8797-4c37-ab10-2f38f58b32c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,10 +54,66 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[2]/div[@class=&quot;set-layout-required&quot;]/div[@class=&quot;padding-controller col-xl-12 col-md-12 col-sm-12 col-12&quot;]/div[@class=&quot;ant-table-wrapper padding-controller control-table false&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/ul[@class=&quot;ant-pagination ant-table-pagination ant-table-pagination-right&quot;]</value>
-      <webElementGuid>112f3b31-98c4-41fb-a637-40bd2286c598</webElementGuid>
+      <webElementGuid>a5b6cf6f-e41b-45f0-b106-5ef6da9c8da4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='basic']/div[2]/div[2]/div/div/div/div/div/ul</value>
+      <webElementGuid>4a58bd20-03c8-46ec-8cdc-b90a746e1fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='฿'])[1]/following::ul[1]</value>
+      <webElementGuid>f7a0ac2f-034f-452a-838c-09a3bcadae0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='total'])[1]/following::ul[1]</value>
+      <webElementGuid>10a535a4-3efa-4a33-9780-ce10eb386a8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='จำนวนเงิน'])[1]/preceding::ul[1]</value>
+      <webElementGuid>d012cf60-dd33-44bf-b932-a50eddb23a0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เพิ่ม VAT'])[1]/preceding::ul[1]</value>
+      <webElementGuid>ebacae15-c97e-483e-a628-979f7168b56c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul</value>
+      <webElementGuid>ef6749a5-7959-409c-839b-8ca4af5f29b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = '1' or . = '1')]</value>
+      <webElementGuid>ce67c7ee-f46e-4b4e-a127-f111ee644d29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -87,21 +143,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remark'])[1]/preceding::ul[1]</value>
       <webElementGuid>29173354-93d8-4675-9c33-4cd85f754dd3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/ul</value>
-      <webElementGuid>a80ac810-4a7d-4462-ae0b-2d36baa4ba66</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//ul[(text() = '1' or . = '1')]</value>
-      <webElementGuid>6d80a649-6cd6-4a18-99a1-6ba5b31168d0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

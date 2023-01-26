@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>small_is required</name>
+   <tag></tag>
+   <elementGuidId>7eda1b8f-85da-417c-8bfd-6e4d99f1589f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//small[@id='Name-help']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Name-help</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>3df286a4-3426-4f65-9c70-fb63cbe1bdef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Name-help</value>
+      <webElementGuid>fc9d3737-e53c-4b2c-9341-4f3d420bbd99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-error p-d-block</value>
+      <webElementGuid>9a1bbd8c-a888-453b-a771-12cc833f8252</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>วันที่กำหนดเสร็จ is required.</value>
+      <webElementGuid>131239e9-0a67-4fb8-bb8d-5319649b53c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Name-help&quot;)</value>
+      <webElementGuid>b85e36eb-c082-4b89-bd2d-0d3ff80701a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//small[@id='Name-help']</value>
+      <webElementGuid>d9ad40c8-6d36-41b1-a268-e88039792056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='basic']/div[2]/div[2]/div/small</value>
+      <webElementGuid>6eb8d1c9-9060-48b6-8d80-dc0a86a1a8db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::small[1]</value>
+      <webElementGuid>9e066100-6494-4442-82c3-90f5b76ad434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='วันที่กำหนดเสร็จ'])[1]/following::small[1]</value>
+      <webElementGuid>a0ac0a15-9726-4df6-a341-500d25c340bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ชื่อ-สกุล'])[1]/preceding::small[1]</value>
+      <webElementGuid>ea568cd7-7247-4abb-85a6-21794c4d1e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'Name-help', '&quot;', ')')])[1]/preceding::small[1]</value>
+      <webElementGuid>af542340-1201-4227-b7c6-9c7ec9e45785</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//small</value>
+      <webElementGuid>d81bc5a6-6c9b-4154-b65f-07bf50cd8557</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[@id = 'Name-help' and (text() = 'วันที่กำหนดเสร็จ is required.' or . = 'วันที่กำหนดเสร็จ is required.')]</value>
+      <webElementGuid>b42820c7-4f6f-4e2d-8fa9-fb668c08a6ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
