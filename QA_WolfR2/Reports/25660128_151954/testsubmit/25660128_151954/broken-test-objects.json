@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Google Chrome\u0027])[1]/following::p[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027KTL-VLD01 : Validation Form\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/button_Confirm",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/button_Confirm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/span_Wait for Approve",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/span_Wait for Approve_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Department\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Show\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_14758489321_adf401",
+      "brokenLocator": "//iframe[@id\u003d\u0027tiny-react_14758489321674729068763_ifr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_14758489321_adf401_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff",
+      "brokenLocator": "//iframe[@id\u003d\u0027tiny-react_26058033121674819798038_ifr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027pr_id_13_content\u0027]/div[2]/div/div/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/span_Wait for Process",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Wait for Process\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_151954/testsubmit/25660128_151954/Object Repository/Page_WOLF/span_Wait for Process_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testsubmit,Chrome 109.0.0.0,,,2566-01-28 19:19:44,2566-01-28 19:38:16,18m - 32.020s,FAILED
+,,,,,,,
+Test Cases/Login Pass,Chrome 109.0.0.0,,,2566-01-28 19:19:45,2566-01-28 19:19:57,12.201s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-28 19:19:46,2566-01-28 19:19:52,5.816s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-28 19:19:52,2566-01-28 19:19:54,2.481s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 109.0.0.0,,,2566-01-28 19:19:54,2566-01-28 19:19:56,1.656s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-28 19:19:56,2566-01-28 19:19:57,0.802s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 109.0.0.0,,,2566-01-28 19:19:57,2566-01-28 19:19:57,0.621s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Validation_Request_Page_Savedraft,Chrome 109.0.0.0,Check required filed,,2566-01-28 19:19:57,2566-01-28 19:21:11,1m - 13.794s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_New Request""))",Chrome 109.0.0.0,,,2566-01-28 19:19:58,2566-01-28 19:20:03,4.614s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil""), ""KTL-VLD01"")",Chrome 109.0.0.0,,,2566-01-28 19:20:03,2566-01-28 19:20:04,1.133s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form""))",Chrome 109.0.0.0,,,2566-01-28 19:20:04,2566-01-28 19:20:36,32.131s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Save Draft""))",Chrome 109.0.0.0,,,2566-01-28 19:20:36,2566-01-28 19:20:39,2.681s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-28 19:20:39,2566-01-28 19:21:11,31.967s,PASSED
+"verifyNotEqual(getUrl(), ""https://qar2.wolfapprove.com/Default"", STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2566-01-28 19:21:11,2566-01-28 19:21:11,0.159s,PASSED
+"verifyEqual(getUrl(), ""https://qar2.wolfapprove.com/Request?MemoID=0&template=121"")",Chrome 109.0.0.0,,,2566-01-28 19:21:11,2566-01-28 19:21:11,0.063s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Validation_Request_Page_Submit,Chrome 109.0.0.0,,,2566-01-28 19:21:11,2566-01-28 19:22:24,1m - 12.872s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-28 19:21:12,2566-01-28 19:21:12,0.260s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Submit""))",Chrome 109.0.0.0,,,2566-01-28 19:21:12,2566-01-28 19:21:13,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-28 19:21:13,2566-01-28 19:21:45,32.068s,PASSED
+"verifyNotEqual(getUrl(), ""https://qar2.wolfapprove.com/Default"", STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2566-01-28 19:21:45,2566-01-28 19:21:45,0.041s,PASSED
+"verifyEqual(getUrl(), ""https://qar2.wolfapprove.com/Request?MemoID=0&template=121"")",Chrome 109.0.0.0,,,2566-01-28 19:21:45,2566-01-28 19:21:45,0.036s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_WOLF/small_is required""))",Chrome 109.0.0.0,,,2566-01-28 19:21:45,2566-01-28 19:21:46,0.626s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/input""))",Chrome 109.0.0.0,,,2566-01-28 19:21:46,2566-01-28 19:21:49,3.064s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/a_Today""))",Chrome 109.0.0.0,,,2566-01-28 19:21:49,2566-01-28 19:21:49,0.782s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2""))",Chrome 109.0.0.0,,,2566-01-28 19:21:49,2566-01-28 19:21:50,0.854s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/td_TCB""))",Chrome 109.0.0.0,,,2566-01-28 19:21:50,2566-01-28 19:21:51,0.812s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Submit""))",Chrome 109.0.0.0,,,2566-01-28 19:21:51,2566-01-28 19:21:52,0.930s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-28 19:21:52,2566-01-28 19:22:24,32.023s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Save Draft,Chrome 109.0.0.0,,,2566-01-28 19:22:24,2566-01-28 19:23:20,55.785s,PASSED
+delay(8),Chrome 109.0.0.0,,,2566-01-28 19:22:25,2566-01-28 19:22:33,8.033s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/Request?MemoID=0&template=123"")",Chrome 109.0.0.0,,,2566-01-28 19:22:33,2566-01-28 19:22:34,1.239s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2""))",Chrome 109.0.0.0,,,2566-01-28 19:22:34,2566-01-28 19:22:36,2.109s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/div_TCB""))",Chrome 109.0.0.0,,,2566-01-28 19:22:36,2566-01-28 19:22:37,0.727s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Save Draft""))",Chrome 109.0.0.0,,,2566-01-28 19:22:37,2566-01-28 19:22:38,0.811s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-28 19:22:38,2566-01-28 19:23:10,31.963s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-28 19:23:10,2566-01-28 19:23:13,3.055s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Wait for Approve""), ""Draft"")",Chrome 109.0.0.0,,,2566-01-28 19:23:13,2566-01-28 19:23:18,5.364s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_History""))",Chrome 109.0.0.0,,,2566-01-28 19:23:18,2566-01-28 19:23:19,0.645s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Submitted""), ""Draft"")",Chrome 109.0.0.0,,,2566-01-28 19:23:19,2566-01-28 19:23:20,0.867s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Submit,Chrome 109.0.0.0,,,2566-01-28 19:23:20,2566-01-28 19:24:10,50.206s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/Default"")",Chrome 109.0.0.0,,,2566-01-28 19:23:21,2566-01-28 19:23:22,0.799s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-28 19:23:22,2566-01-28 19:23:22,0.032s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-28 19:23:22,2566-01-28 19:23:24,2.222s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Submit""))",Chrome 109.0.0.0,,,2566-01-28 19:23:24,2566-01-28 19:23:28,3.940s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-28 19:23:28,2566-01-28 19:24:00,31.823s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-28 19:24:00,2566-01-28 19:24:05,5.374s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Wait for Approve""), ""Wait for Approve"")",Chrome 109.0.0.0,,,2566-01-28 19:24:05,2566-01-28 19:24:09,3.717s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_History""))",Chrome 109.0.0.0,,,2566-01-28 19:24:09,2566-01-28 19:24:09,0.719s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Submitted""), ""Submitted"")",Chrome 109.0.0.0,,,2566-01-28 19:24:09,2566-01-28 19:24:10,0.620s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Approve,Chrome 109.0.0.0,,,2566-01-28 19:28:17,2566-01-28 19:29:39,1m - 21.486s,FAILED
+delay(5),Chrome 109.0.0.0,,,2566-01-28 19:28:18,2566-01-28 19:28:23,5.011s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/Default"")",Chrome 109.0.0.0,,,2566-01-28 19:28:23,2566-01-28 19:28:24,1.492s,PASSED
+delay(5),Chrome 109.0.0.0,,,2566-01-28 19:28:24,2566-01-28 19:28:29,5.024s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/span_Wait for Approve""))",Chrome 109.0.0.0,,,2566-01-28 19:28:29,2566-01-28 19:29:02,33.372s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Approve""))",Chrome 109.0.0.0,,,2566-01-28 19:29:02,2566-01-28 19:29:39,36.557s,FAILED
+,,,,,,,
+Test Cases/Sprint1/Action_Recall,Chrome 109.0.0.0,,,2566-01-28 19:31:46,2566-01-28 19:32:27,41.282s,FAILED
+"navigateToUrl(""https://qar2.wolfapprove.com/Default"")",Chrome 109.0.0.0,,,2566-01-28 19:31:46,2566-01-28 19:31:47,0.986s,PASSED
+delay(5),Chrome 109.0.0.0,,,2566-01-28 19:31:47,2566-01-28 19:31:52,5.014s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/svg""))",Chrome 109.0.0.0,,,2566-01-28 19:31:52,2566-01-28 19:32:24,32.064s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/span_To Do List""))",Chrome 109.0.0.0,,,2566-01-28 19:32:24,2566-01-28 19:32:25,0.699s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/div_In Process""))",Chrome 109.0.0.0,,,2566-01-28 19:32:25,2566-01-28 19:32:26,0.835s,PASSED
+"click(findTestObject(""Page_WOLF/p_KTL-ACT01-2023-000001""))",Chrome 109.0.0.0,,,2566-01-28 19:32:26,2566-01-28 19:32:27,1.659s,FAILED
+,,,,,,,
+Test Cases/Sprint1/Action_Assign,Chrome 109.0.0.0,,,2566-01-28 19:37:23,2566-01-28 19:38:16,53.908s,FAILED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-28 19:37:23,2566-01-28 19:37:25,2.862s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-28 19:37:25,2566-01-28 19:37:28,2.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""pornpan@qar2.com"")",Chrome 109.0.0.0,,,2566-01-28 19:37:28,2566-01-28 19:37:29,1.335s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-28 19:37:29,2566-01-28 19:37:30,0.663s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 109.0.0.0,,,2566-01-28 19:37:30,2566-01-28 19:37:30,0.560s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000001""))",Chrome 109.0.0.0,,,2566-01-28 19:37:30,2566-01-28 19:37:33,2.789s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Wait for Approve""), ""Wait for Approve"")",Chrome 109.0.0.0,,,2566-01-28 19:37:33,2566-01-28 19:38:16,43.520s,FAILED

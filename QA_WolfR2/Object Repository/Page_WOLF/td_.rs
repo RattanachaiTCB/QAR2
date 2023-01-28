@@ -6,12 +6,12 @@
    <elementGuidId>511e55d8-b781-40e2-8014-1fdda9ad11a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pr_id_14_content']/div/div/table/tbody/tr[5]/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>b7a96cee-0159-4f26-b2de-1860c3e264ab</webElementGuid>
+      <webElementGuid>9788c43f-bf35-4093-8276-a31adc7b2e3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,19 +37,91 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>฿</value>
-      <webElementGuid>0f45b422-4f34-4f5f-b693-d077c0e9ba3d</webElementGuid>
+      <value>บุษลิน ปิติวัฒน์</value>
+      <webElementGuid>27116d8b-48c1-4b29-ab95-bd45be4e8485</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;table-control&quot;)/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-body&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0 editable-row&quot;]/td[@class=&quot;ant-table-cell ant-table-cell-row-hover&quot;]</value>
-      <webElementGuid>f91ea5bc-061c-4673-9022-88d72602b94d</webElementGuid>
+      <value>id(&quot;pr_id_14_content&quot;)/div[@class=&quot;p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll&quot;]/div[@class=&quot;p-datatable-wrapper&quot;]/table[@class=&quot;p-datatable-table&quot;]/tbody[@class=&quot;p-datatable-tbody&quot;]/tr[@class=&quot;p-selectable-row&quot;]/td[2]</value>
+      <webElementGuid>155b35f3-56e5-48cd-a911-756b57f1f3e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>cell</value>
+      <webElementGuid>d5c0435f-2ec1-42cb-9a4f-13e55ddcd46d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pr_id_14_content']/div/div/table/tbody/tr[5]/td[2]</value>
+      <webElementGuid>a16bb0d9-4702-4699-a078-f5b3fe492a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMP005'])[1]/following::td[1]</value>
+      <webElementGuid>4daae87c-329a-46d9-ab1e-72dd91fbed1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัญชีและการเงิน (AC)'])[1]/following::td[2]</value>
+      <webElementGuid>37bfa659-0b2d-4f7a-8138-686ecd82b49a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เจ้าหน้าที่การตลาด'])[1]/preceding::td[1]</value>
+      <webElementGuid>5d414627-70c4-48de-8760-40196d8f0f04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='สารสนเทศ'])[1]/preceding::td[2]</value>
+      <webElementGuid>bbf81b92-89ef-47a4-a11e-2ec3949266db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='บุษลิน ปิติวัฒน์']/parent::*</value>
+      <webElementGuid>d01e77d9-09a0-412b-8395-0309a76c26a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[2]</value>
+      <webElementGuid>a1acaac3-e9ca-476e-8bae-c057beea5c41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'บุษลิน ปิติวัฒน์' or . = 'บุษลิน ปิติวัฒน์')]</value>
+      <webElementGuid>9a35057b-f386-4e78-8146-d85b97a84f10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

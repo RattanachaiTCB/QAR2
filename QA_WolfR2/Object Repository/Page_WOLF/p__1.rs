@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p.text-invalid</value>
+         <value>div.card-footer-container.mobile > div.list-aprroval-container > div.waiting-for-container > p.text-name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/form/div/div/p[2]</value>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[4]/div/div[2]/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,39 +22,135 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>78a22551-b601-4d17-a029-c5c851075519</webElementGuid>
+      <webElementGuid>3e204ee1-2a4f-41bf-8f98-528e8229c175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-invalid</value>
-      <webElementGuid>84090eec-efda-4db9-addf-43ffea4e3ab6</webElementGuid>
+      <value>text-name</value>
+      <webElementGuid>e7042199-02a4-468a-802e-5e241677bb39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>กรุณากรอกชื่อบัญชี</value>
-      <webElementGuid>59f41f09-1c68-4939-840d-52d2a55f2b0c</webElementGuid>
+      <value>บุษลิน ปิติวัฒน์</value>
+      <webElementGuid>eaf2f64d-c670-4e48-94e8-d93cb1fce973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;main-input-container&quot;]/p[@class=&quot;text-invalid&quot;]</value>
-      <webElementGuid>38b10500-b54c-4a63-a7b3-0779ac679185</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-footer-container mobile&quot;]/div[@class=&quot;list-aprroval-container&quot;]/div[@class=&quot;waiting-for-container&quot;]/p[@class=&quot;text-name&quot;]</value>
+      <webElementGuid>828fc9a8-a063-4f89-b5dd-9a430b6f61c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[4]/div/div[2]/p[2]</value>
+      <webElementGuid>2647ed9e-0c4e-4c15-b1f9-b0eb44b9f2b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Process'])[2]/following::p[4]</value>
+      <webElementGuid>b68b1c48-ae45-464c-be87-0839928e7846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Process'])[1]/following::p[14]</value>
+      <webElementGuid>a0f1b982-a57a-466c-a2e4-bc049a7012a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AC01-2023-000007'])[1]/preceding::p[1]</value>
+      <webElementGuid>cb44d6e2-be69-4113-81d4-b0d909fc0db1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Standard QAR2 version 09012023'])[1]/preceding::p[3]</value>
+      <webElementGuid>4144a7dc-54a8-4d3d-9409-dc88a584ac84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/p[2]</value>
+      <webElementGuid>fca99252-c695-4be2-ab54-0d0485a54451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'บุษลิน ปิติวัฒน์' or . = 'บุษลิน ปิติวัฒน์')]</value>
+      <webElementGuid>b8838f99-ab6f-42ca-b230-3cf23c346f7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[2]/following::p[4]</value>
+      <webElementGuid>d179415d-6b29-4072-a81b-7088bfc0ef24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::p[14]</value>
+      <webElementGuid>0425386f-b4d4-4c1b-a2f3-a5ad02c35771</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KTL-ACT01-2023-000003'])[1]/preceding::p[1]</value>
+      <webElementGuid>18867e40-3737-49cb-ac8d-f8cf0abbb80c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Action Flow Approval By Katalon'])[3]/preceding::p[3]</value>
+      <webElementGuid>945bbf51-b479-4cb8-8665-a8ef48f84cfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'พรพรรณ ธนากานต์' or . = 'พรพรรณ ธนากานต์')]</value>
+      <webElementGuid>3a47d49c-7478-40a3-9701-0a7f5af33e3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='root']/div/div/form/div/div/p[2]</value>
-      <webElementGuid>ef66a496-2d9a-462a-b7f8-f100210ef62b</webElementGuid>
+      <webElementGuid>f5e38984-2095-40a1-a3bc-979aceb4adba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/preceding::p[3]</value>
-      <webElementGuid>1ac5c29f-231a-4e81-99bf-58611991f4a6</webElementGuid>
+      <webElementGuid>60245624-ff37-4d8b-8964-0f1b9d290304</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +166,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::p[3]</value>
-      <webElementGuid>c398a762-1acd-4733-8651-7ab45aae40e1</webElementGuid>
+      <webElementGuid>5070615f-33b8-4f95-957d-3f6786046dc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +174,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='กรุณากรอกชื่อบัญชี']/parent::*</value>
-      <webElementGuid>7ae53c5c-f6dc-4025-81a8-25c4cf34e21d</webElementGuid>
+      <webElementGuid>2b80d1cf-755c-47de-9360-98a76d41c724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>731be31f-75ed-4598-aea6-8dd3ce643707</webElementGuid>
+      <webElementGuid>d73bd908-d705-4bc5-97cf-0970f0ac4c60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'กรุณากรอกชื่อบัญชี' or . = 'กรุณากรอกชื่อบัญชี')]</value>
-      <webElementGuid>1361f86e-1d19-4b12-9c45-a21776985a85</webElementGuid>
+      <webElementGuid>6f54fc82-dece-4321-81a0-6f167b36c5fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

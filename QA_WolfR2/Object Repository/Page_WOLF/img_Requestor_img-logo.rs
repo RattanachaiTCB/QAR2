@@ -6,12 +6,12 @@
    <elementGuidId>4c5d5624-1e8c-4193-a50d-a3dd5814bc46</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div[2]/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>img.img-logo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>077ccf65-b588-41fb-beb3-9c7e902c7200</webElementGuid>
+      <webElementGuid>38cddcf3-4904-4ea6-90b2-fa3e7dcaa3e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>img-logo</value>
-      <webElementGuid>7e063aeb-6cb2-4b54-bf4b-45fadd88a320</webElementGuid>
+      <webElementGuid>6cf70016-e1fd-4793-a7da-3b3d4069cdcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://qar2.wolfapprove.com//Images/Logo/25650325164009_wolfLogo.png</value>
-      <webElementGuid>439e3bff-33d4-41ce-a3e5-d011490b4c25</webElementGuid>
+      <webElementGuid>9364685a-0e86-4847-995f-a6195ce26ae1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>logo</value>
-      <webElementGuid>50611de2-2b7e-4492-b830-24de0ed2a40b</webElementGuid>
+      <webElementGuid>71b43a16-d3bd-4c50-83c4-00657b5a46bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;navbar-container -active&quot;]/div[@class=&quot;logo-container desktop&quot;]/img[@class=&quot;img-logo&quot;]</value>
-      <webElementGuid>54408e8b-e1ae-48a2-8df9-f3620f3e8e60</webElementGuid>
+      <webElementGuid>0c8c984b-9425-45ff-b68d-3cd4a7181241</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div[2]/img</value>
-      <webElementGuid>9b6b115c-5e85-4e06-87fa-d917bb1019b8</webElementGuid>
+      <webElementGuid>4f05be5c-0832-4580-be63-37ef535014ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='logo']</value>
-      <webElementGuid>0581fe3b-9439-443d-a108-464ea344f8fd</webElementGuid>
+      <webElementGuid>16121c94-42d2-44aa-adf5-0dc6add3b879</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>f5590b16-afce-41dc-a0cd-0fe685e102db</webElementGuid>
+      <webElementGuid>6e6c2c13-8236-45b1-b9ce-2984ce88cf21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://qar2.wolfapprove.com//Images/Logo/25650325164009_wolfLogo.png' and @alt = 'logo']</value>
-      <webElementGuid>9440600c-b9ae-4cc1-9f31-a80c4bb9e15e</webElementGuid>
+      <webElementGuid>dfbb512c-c37e-4ea5-b1b0-494e6356c3c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

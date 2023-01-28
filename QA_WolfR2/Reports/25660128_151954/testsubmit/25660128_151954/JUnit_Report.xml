@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testsubmit" time="1230.862" tests="8" failures="3" errors="0">
+   <testsuite name="testsubmit" tests="8" failures="3" errors="0" time="1230.862" skipped="0" timestamp="2566-01-28 15:20:09" hostname="Nijjaree - DESKTOP-OGBS4VH.techcons.biz" id="Test Suites/testsubmit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954"/>
+         <property name="logFiles" value="C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894350926.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894423682.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894496625.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894569352.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894652566.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894729857.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894807134.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894883558.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895073139.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895073554.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895128673.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895128902.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895185113.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895185316.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895239880.png, C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895240099.png"/>
+         <property name="hostName" value="Nijjaree - DESKTOP-OGBS4VH.techcons.biz"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.58"/>
+         <property name="sessionId" value="6cd1559245b0a62e13db493c60b7faa3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Pass" time="15.935" classname="Test Cases/Login Pass" status="PASSED">
+         <system-out><![CDATA[2566-01-28 15:20:10 - [TEST_CASE][PASSED] - Test Cases/Login Pass: Test Cases/Login Pass
+
+2566-01-28 15:20:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-01-28 15:20:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-01-28 15:20:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-01-28 15:20:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-01-28 15:20:19 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-28 15:20:22 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-28 15:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "wolf01@qar2.com"): Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2566-01-28 15:20:24 - [MESSAGE][PASSED] - Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2566-01-28 15:20:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:20:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:20:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:20:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Validation_Request_Page_Savedraft" time="71.732" classname="Test Cases/Sprint1/Validation_Request_Page_Savedraft" status="PASSED">
+         <system-out><![CDATA[2566-01-28 15:20:26 - [TEST_CASE][PASSED] - Test Cases/Sprint1/Validation_Request_Page_Savedraft: Test Cases/Sprint1/Validation_Request_Page_Savedraft
+
+2566-01-28 15:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_New Request")): Object: 'Object Repository/Page_WOLF/button_New Request' is clicked on
+
+2566-01-28 15:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_New Request' is clicked on
+
+2566-01-28 15:20:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil"), "KTL-VLD01"): Text 'KTL-VLD01' is set on object 'Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'
+
+2566-01-28 15:20:31 - [MESSAGE][PASSED] - Text 'KTL-VLD01' is set on object 'Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'
+
+2566-01-28 15:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form")): Object: 'Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form' is clicked on
+
+2566-01-28 15:21:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:21:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form'. Try using Self-healing.
+
+2566-01-28 15:21:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='KTL-VLD01 : Validation Form']/parent::*'.
+
+2566-01-28 15:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form' is clicked on
+
+2566-01-28 15:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Save Draft")): Object: 'Object Repository/Page_WOLF/button_Save Draft' is clicked on
+
+2566-01-28 15:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Save Draft' is clicked on
+
+2566-01-28 15:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Confirm")): Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:21:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:21:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Confirm'. Try using Self-healing.
+
+2566-01-28 15:21:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/button_Confirm' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]'.
+
+2566-01-28 15:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:21:37 - [TEST_STEP][PASSED] - verifyNotEqual(getUrl(), "https://qar2.wolfapprove.com/Default", STOP_ON_FAILURE): Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Default' are not equal
+
+2566-01-28 15:21:37 - [MESSAGE][PASSED] - Current window's url is: 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121'
+
+2566-01-28 15:21:38 - [MESSAGE][PASSED] - Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Default' are not equal
+
+2566-01-28 15:21:38 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://qar2.wolfapprove.com/Request?MemoID=0&template=121"): Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' are equal
+
+2566-01-28 15:21:38 - [MESSAGE][PASSED] - Current window's url is: 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121'
+
+2566-01-28 15:21:38 - [MESSAGE][PASSED] - Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Validation_Request_Page_Submit" time="73.651" classname="Test Cases/Sprint1/Validation_Request_Page_Submit" status="PASSED">
+         <system-out><![CDATA[2566-01-28 15:21:38 - [TEST_CASE][PASSED] - Test Cases/Sprint1/Validation_Request_Page_Submit: Test Cases/Sprint1/Validation_Request_Page_Submit
+
+2566-01-28 15:21:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-01-28 15:21:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-01-28 15:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Submit")): Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-28 15:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-28 15:21:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Confirm")): Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:22:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:22:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Confirm'. Try using Self-healing.
+
+2566-01-28 15:22:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/button_Confirm' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]'.
+
+2566-01-28 15:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:22:12 - [TEST_STEP][PASSED] - verifyNotEqual(getUrl(), "https://qar2.wolfapprove.com/Default", STOP_ON_FAILURE): Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Default' are not equal
+
+2566-01-28 15:22:12 - [MESSAGE][PASSED] - Current window's url is: 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121'
+
+2566-01-28 15:22:12 - [MESSAGE][PASSED] - Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Default' are not equal
+
+2566-01-28 15:22:12 - [TEST_STEP][PASSED] - verifyEqual(getUrl(), "https://qar2.wolfapprove.com/Request?MemoID=0&template=121"): Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' are equal
+
+2566-01-28 15:22:12 - [MESSAGE][PASSED] - Current window's url is: 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121'
+
+2566-01-28 15:22:12 - [MESSAGE][PASSED] - Actual object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' and expected object 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121' are equal
+
+2566-01-28 15:22:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_WOLF/small_is required")): Object 'Object Repository/Page_WOLF/small_is required' is visible
+
+2566-01-28 15:22:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WOLF/small_is required' is visible
+
+2566-01-28 15:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/input")): Object: 'Object Repository/Page_WOLF/input' is clicked on
+
+2566-01-28 15:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/input' is clicked on
+
+2566-01-28 15:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/a_Today")): Object: 'Object Repository/Page_WOLF/a_Today' is clicked on
+
+2566-01-28 15:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/a_Today' is clicked on
+
+2566-01-28 15:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2")): Object: 'Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2' is clicked on
+
+2566-01-28 15:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2' is clicked on
+
+2566-01-28 15:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/td_TCB")): Object: 'Object Repository/Page_WOLF/td_TCB' is clicked on
+
+2566-01-28 15:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/td_TCB' is clicked on
+
+2566-01-28 15:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Submit")): Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-28 15:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-28 15:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Confirm")): Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:22:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:22:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Confirm'. Try using Self-healing.
+
+2566-01-28 15:22:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/button_Confirm' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]'.
+
+2566-01-28 15:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Action_Save Draft" time="55.727" classname="Test Cases/Sprint1/Action_Save Draft" status="PASSED">
+         <system-out><![CDATA[2566-01-28 15:22:51 - [TEST_CASE][PASSED] - Test Cases/Sprint1/Action_Save Draft: Test Cases/Sprint1/Action_Save Draft
+
+2566-01-28 15:22:53 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2566-01-28 15:23:01 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2566-01-28 15:23:01 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/Request?MemoID=0&template=123"): Navigate to 'https://qar2.wolfapprove.com/Request?MemoID=0&template=123' successfully
+
+2566-01-28 15:23:03 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/Request?MemoID=0&template=123' successfully
+
+2566-01-28 15:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2")): Object: 'Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2' is clicked on
+
+2566-01-28 15:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2' is clicked on
+
+2566-01-28 15:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/div_TCB")): Object: 'Object Repository/Page_WOLF/div_TCB' is clicked on
+
+2566-01-28 15:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/div_TCB' is clicked on
+
+2566-01-28 15:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Save Draft")): Object: 'Object Repository/Page_WOLF/button_Save Draft' is clicked on
+
+2566-01-28 15:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Save Draft' is clicked on
+
+2566-01-28 15:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Confirm")): Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:23:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:23:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Confirm'. Try using Self-healing.
+
+2566-01-28 15:23:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/button_Confirm' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]'.
+
+2566-01-28 15:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-28 15:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-28 15:23:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Wait for Approve"), "Draft"): Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' are matched.
+
+2566-01-28 15:23:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' are matched.
+
+2566-01-28 15:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_History")): Object: 'Object Repository/Page_WOLF/button_History' is clicked on
+
+2566-01-28 15:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_History' is clicked on
+
+2566-01-28 15:23:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Submitted"), "Draft"): Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Submitted' are matched.
+
+2566-01-28 15:23:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Action_Submit" time="50.016" classname="Test Cases/Sprint1/Action_Submit" status="PASSED">
+         <system-out><![CDATA[2566-01-28 15:23:47 - [TEST_CASE][PASSED] - Test Cases/Sprint1/Action_Submit: Test Cases/Sprint1/Action_Submit
+
+2566-01-28 15:23:48 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/Default"): Navigate to 'https://qar2.wolfapprove.com/Default' successfully
+
+2566-01-28 15:23:50 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/Default' successfully
+
+2566-01-28 15:23:50 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-01-28 15:23:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-01-28 15:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-28 15:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-28 15:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Submit")): Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-28 15:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-28 15:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Confirm")): Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:24:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:24:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Confirm'. Try using Self-healing.
+
+2566-01-28 15:24:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/button_Confirm' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]'.
+
+2566-01-28 15:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-28 15:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-28 15:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-28 15:24:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Wait for Approve"), "Wait for Approve"): Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' are matched.
+
+2566-01-28 15:24:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' are matched.
+
+2566-01-28 15:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_History")): Object: 'Object Repository/Page_WOLF/button_History' is clicked on
+
+2566-01-28 15:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_History' is clicked on
+
+2566-01-28 15:24:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Submitted"), "Submitted"): Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Submitted' are matched.
+
+2566-01-28 15:24:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Action_Approve" time="72.658" classname="Test Cases/Sprint1/Action_Approve" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint1/Action_Approve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2566-01-28 15:28:16 - [TEST_CASE][FAILED] - Test Cases/Sprint1/Action_Approve: Test Cases/Sprint1/Action_Approve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2566-01-28 15:28:17 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/Default"): Navigate to 'https://qar2.wolfapprove.com/Default' successfully
+
+2566-01-28 15:28:18 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/Default' successfully
+
+2566-01-28 15:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/span_Wait for Approve")): Object: 'Object Repository/Page_WOLF/span_Wait for Approve' is clicked on
+
+2566-01-28 15:28:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:28:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/span_Wait for Approve'. Try using Self-healing.
+
+2566-01-28 15:28:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:28:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/span_Wait for Approve' was broken. Propose an alternative one: '//div[2]/span'.
+
+2566-01-28 15:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/span_Wait for Approve' is clicked on
+
+2566-01-28 15:28:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_WOLF/button_Approve")): Unable to click on object 'Object Repository/Page_WOLF/button_Approve' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1674731387960.run(Script1674731387960.groovy:24)
+	... 16 more
+)
+
+2566-01-28 15:29:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:29:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Approve'. Try using Self-healing.
+
+2566-01-28 15:29:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div/button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:29:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]'.
+
+2566-01-28 15:29:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[1]/preceding::button[8]'.
+
+2566-01-28 15:29:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::button[9]'.
+
+2566-01-28 15:29:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div/button[2]'.
+
+2566-01-28 15:29:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[(text() = ' Approve' or . = ' Approve')]'.
+
+2566-01-28 15:29:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = ' Approve' or . = ' Approve')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:29:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: button.memo-button.approve'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:29:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_WOLF/button_Approve' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1674731387960.run(Script1674731387960.groovy:24)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894569352.png]]]]></system-out>
+         <system-err><![CDATA[2566-01-28 15:28:16 - [TEST_CASE][FAILED] - Test Cases/Sprint1/Action_Approve: Test Cases/Sprint1/Action_Approve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Action_Recall" time="76.416" classname="Test Cases/Sprint1/Action_Recall" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint1/Action_Recall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Action_Recall.run(Action_Recall:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2566-01-28 15:33:27 - [TEST_CASE][FAILED] - Test Cases/Sprint1/Action_Recall: Test Cases/Sprint1/Action_Recall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Action_Recall.run(Action_Recall:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2566-01-28 15:33:27 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/Default"): Navigate to 'https://qar2.wolfapprove.com/Default' successfully
+
+2566-01-28 15:33:28 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/Default' successfully
+
+2566-01-28 15:33:28 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-01-28 15:33:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-01-28 15:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/svg")): Object: 'Object Repository/Page_WOLF/svg' is clicked on
+
+2566-01-28 15:34:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Department'])[1]/following::*[name()='svg'][2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:34:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/svg'. Try using Self-healing.
+
+2566-01-28 15:34:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/svg' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::*[name()='svg'][3]'.
+
+2566-01-28 15:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/svg' is clicked on
+
+2566-01-28 15:34:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/span_To Do List")): Object: 'Object Repository/Page_WOLF/span_To Do List' is clicked on
+
+2566-01-28 15:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/span_To Do List' is clicked on
+
+2566-01-28 15:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/div_In Process")): Object: 'Object Repository/Page_WOLF/div_In Process' is clicked on
+
+2566-01-28 15:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/div_In Process' is clicked on
+
+2566-01-28 15:34:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_WOLF/p_KTL-ACT01-2023-000001")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000001' is clicked on
+
+2566-01-28 15:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000001' is clicked on
+
+2566-01-28 15:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_WOLF/button_Recall")): Object: 'Object Repository/Page_WOLF/button_Recall' is clicked on
+
+2566-01-28 15:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Recall' is clicked on
+
+2566-01-28 15:34:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_")): Object: 'Object Repository/Page_WOLF/p_' is clicked on
+
+2566-01-28 15:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_' is clicked on
+
+2566-01-28 15:34:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_WOLF/p")): Object: 'Object Repository/Page_WOLF/p' is clicked on
+
+2566-01-28 15:34:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe[@id='tiny-react_14758489321674729068763_ifr']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:34:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_14758489321_adf401'. Try using Self-healing.
+
+2566-01-28 15:34:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='pr_id_14_content']/div[2]/div/div/div[2]/div/iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:34:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_14758489321_adf401' was broken. Propose an alternative one: '//iframe'.
+
+2566-01-28 15:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p' is clicked on
+
+2566-01-28 15:34:43 - [TEST_STEP][FAILED] - setText(findTestObject("Page_WOLF/body_Recall"), "Recall"): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Action_Recall.run(Action_Recall:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1674818993035.run(Script1674818993035.groovy:39)
+	... 16 more
+)
+
+2566-01-28 15:34:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_WOLF/body_Recall' does not exist
+
+2566-01-28 15:34:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2566-01-28 15:34:43 - [MESSAGE][FAILED] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Action_Recall.run(Action_Recall:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1674818993035.run(Script1674818993035.groovy:39)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674894883558.png]]]]></system-out>
+         <system-err><![CDATA[2566-01-28 15:33:27 - [TEST_CASE][FAILED] - Test Cases/Sprint1/Action_Recall: Test Cases/Sprint1/Action_Recall FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Action_Recall.run(Action_Recall:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Action_Assign" time="54.927" classname="Test Cases/Sprint1/Action_Assign" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sprint1/Action_Assign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Action_Assign.run(Action_Assign:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2566-01-28 15:39:45 - [TEST_CASE][FAILED] - Test Cases/Sprint1/Action_Assign: Test Cases/Sprint1/Action_Assign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Action_Assign.run(Action_Assign:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2566-01-28 15:39:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-01-28 15:39:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-01-28 15:39:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-01-28 15:39:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-01-28 15:39:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-01-28 15:39:48 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-28 15:39:50 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-28 15:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "pornpan@qar2.com"): Text 'pornpan@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2566-01-28 15:39:51 - [MESSAGE][PASSED] - Text 'pornpan@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2566-01-28 15:39:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:39:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:39:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:39:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-28 15:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-ACT01-2023-000001")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000001' is clicked on
+
+2566-01-28 15:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000001' is clicked on
+
+2566-01-28 15:39:56 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Wait for Approve"), "Wait for Approve"): Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Action_Assign.run(Action_Assign:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2566-01-28 15:40:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:40:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/span_Wait for Approve'. Try using Self-healing.
+
+2566-01-28 15:40:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:40:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:40:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='Wait for Approve']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:40:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span'.
+
+2566-01-28 15:40:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Information'])[3]/following::span[1]'.
+
+2566-01-28 15:40:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='History'])[2]/following::span[1]'.
+
+2566-01-28 15:40:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::span[1]'.
+
+2566-01-28 15:40:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Wait for Approve']/parent::*'.
+
+2566-01-28 15:40:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/span'.
+
+2566-01-28 15:40:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[(text() = 'Wait for Approve' or . = 'Wait for Approve')]'.
+
+2566-01-28 15:40:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div[2]/span'.
+
+2566-01-28 15:40:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/following::span[1]'.
+
+2566-01-28 15:40:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::span[1]'.
+
+2566-01-28 15:40:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[2]/preceding::span[1]'.
+
+2566-01-28 15:40:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='KTL-VLD01-2023-000004'])[1]/preceding::span[1]'.
+
+2566-01-28 15:40:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[3]/div[2]/span'.
+
+2566-01-28 15:40:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div/div[3]/span'.
+
+2566-01-28 15:40:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Test Action Flow Approval By Katalon'])[1]/following::span[1]'.
+
+2566-01-28 15:40:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='KTL-ACT01-2023-000001'])[1]/following::span[2]'.
+
+2566-01-28 15:40:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::span[1]'.
+
+2566-01-28 15:40:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[2]/preceding::span[1]'.
+
+2566-01-28 15:40:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[3]/span'.
+
+2566-01-28 15:40:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Wait for Approve' or . = 'Wait for Approve')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:40:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.p-badge.p-component.set-css-status-new'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-28 15:40:40 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Action_Assign.run(Action_Assign:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895239880.png]]
+
+2566-01-28 15:40:40 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Action_Assign.run(Action_Assign:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660128_151954\\testsubmit\\25660128_151954\\1674895240099.png]]]]></system-out>
+         <system-err><![CDATA[2566-01-28 15:39:45 - [TEST_CASE][FAILED] - Test Cases/Sprint1/Action_Assign: Test Cases/Sprint1/Action_Assign FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Action_Assign.run(Action_Assign:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/span_Wait for Approve' located by '//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-01-28 15:20:09 - [TEST_SUITE][FAILED] - testsubmit: Test Cases/Sprint1/Action_Approve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2566-01-28 15:20:09 - [TEST_SUITE][FAILED] - testsubmit: Test Cases/Sprint1/Action_Approve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WOLF/button_Approve'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Action_Approve.run(Action_Approve:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674893994952.run(TempTestSuite1674893994952.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WOLF/button_Approve' located by '//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

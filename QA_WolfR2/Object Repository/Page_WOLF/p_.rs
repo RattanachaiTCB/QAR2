@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p.text-header</value>
+         <value>p.headtext-form.text-Is-require.set-font-require-comment</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/p</value>
+         <value>//div[@id='pr_id_13_header']/div/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,39 +22,175 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>972554e5-9561-4a4d-93cd-768d3a1da170</webElementGuid>
+      <webElementGuid>365e29d4-6d95-49b2-9a22-326266fea640</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-header</value>
-      <webElementGuid>b8a2cc35-79c2-4add-b511-47535546f3ac</webElementGuid>
+      <value>headtext-form text-Is-require set-font-require-comment</value>
+      <webElementGuid>479568c7-b7fe-4d8d-8db5-6ba4492cf7a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ยืนยันตนเรียบร้อย</value>
-      <webElementGuid>43192f33-708d-40fd-a11d-785cb0507354</webElementGuid>
+      <value>*</value>
+      <webElementGuid>887ded97-0457-47bf-8f0b-544e3f4b379c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;error-page-container without-nav&quot;]/div[@class=&quot;forget-password-container&quot;]/div[@class=&quot;text-container&quot;]/p[@class=&quot;text-header&quot;]</value>
-      <webElementGuid>83c53ecf-c54f-424d-8b09-e094b8836002</webElementGuid>
+      <value>id(&quot;pr_id_13_header&quot;)/div[@class=&quot;comment-header&quot;]/p[@class=&quot;headtext-form text-Is-require set-font-require-comment&quot;]</value>
+      <webElementGuid>c689d3ae-f43c-484f-98bb-a6a84c25bc9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//div[@id='pr_id_13_header']/div/p[2]</value>
+      <webElementGuid>2d7e7d7b-289b-4105-a557-4f5c63132673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::p[2]</value>
+      <webElementGuid>738cca55-847f-4114-a049-215a592240f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='attachment'])[1]/following::p[3]</value>
+      <webElementGuid>0aad1e69-afd4-464c-90b0-5237e53eaace</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::p[1]</value>
+      <webElementGuid>70605e1d-88a3-4134-82b8-cb9996ef8bd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::p[1]</value>
+      <webElementGuid>39c6cd94-636f-4693-afec-868e0c6104cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p[2]</value>
+      <webElementGuid>a67b1bfa-a7a5-4e11-9f73-96ecf6e06aeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '*' or . = '*')]</value>
+      <webElementGuid>17e59d7a-9274-4fb0-9a88-3f5c6d931b46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[4]/div/div[2]/p[2]</value>
+      <webElementGuid>580c25a9-956a-47f8-acbd-354c5aca41b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[2]/following::p[4]</value>
+      <webElementGuid>c3bb900b-1d3c-4045-89e9-feab6f340580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/following::p[10]</value>
+      <webElementGuid>94b06901-330c-475a-86f8-3a427b1720a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[2]/preceding::p[1]</value>
+      <webElementGuid>6e9b269c-6259-411c-8ef4-1ed32712ad95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Demo 25012023'])[1]/preceding::p[3]</value>
+      <webElementGuid>598427b3-c9bd-4415-afa4-f872698120e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/div/div[2]/p[2]</value>
+      <webElementGuid>f92de1c7-481a-42c7-97e6-e389e10ab4b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'วูล์ฟ' or . = 'วูล์ฟ')]</value>
+      <webElementGuid>2a6a0979-667f-4eb6-91e9-531c16c45125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pr_id_15_header']/div/p[2]</value>
+      <webElementGuid>911defb2-bef6-4926-8715-1f0eaccb17db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เวลาสิ้นสุด'])[1]/following::p[3]</value>
+      <webElementGuid>303183ac-ed30-4117-8ada-a3ef3d03209d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='วันที่สิ้นสุด'])[1]/following::p[4]</value>
+      <webElementGuid>19582931-f135-4558-9c54-888dc710507a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='root']/div/div/div/p</value>
-      <webElementGuid>86dcba00-d30c-4d1d-94cf-5bca378e9ddd</webElementGuid>
+      <webElementGuid>48ccd0a4-a1d2-4aa6-b693-06c2314f32cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +198,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ย้อนกลับไปหน้าเข้าสู่ระบบ'])[1]/preceding::p[1]</value>
-      <webElementGuid>16c56606-3916-4485-b53d-cc1a5be189de</webElementGuid>
+      <webElementGuid>2fc93091-6c7e-4def-94da-cfed66ff3e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +206,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ยืนยันตนเรียบร้อย']/parent::*</value>
-      <webElementGuid>2db4d73a-e6cf-4a96-972c-05ecb42eaca9</webElementGuid>
+      <webElementGuid>1a18cc87-a565-4244-9452-5823576148cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +214,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>294b4f7a-8a35-4632-b954-4ede6038fc5a</webElementGuid>
+      <webElementGuid>9e0e96ea-c145-43c0-bf45-a55ff8944f43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +222,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'ยืนยันตนเรียบร้อย' or . = 'ยืนยันตนเรียบร้อย')]</value>
-      <webElementGuid>fac1438d-e51c-46df-a6d7-fb432910ca87</webElementGuid>
+      <webElementGuid>10690d7a-35ad-441f-b21e-575d9abc28cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +230,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/form/div/div[2]/div/p</value>
-      <webElementGuid>19c9bfa8-e157-45e6-ac3e-5ba1c34cfbc3</webElementGuid>
+      <webElementGuid>895c3df9-ee95-4880-b44b-621bbd6972b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +238,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/preceding::p[1]</value>
-      <webElementGuid>7a0cace0-330c-44e9-a77f-75adebff5951</webElementGuid>
+      <webElementGuid>13f653be-7797-49fd-b86d-03e52c088eea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +246,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::p[1]</value>
-      <webElementGuid>ddbd6c90-6eaa-4e60-a31d-4ef074bbec1e</webElementGuid>
+      <webElementGuid>4a9a950a-8f18-4a0a-b74f-f9d99e459770</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +254,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='กรุณากรอกรหัสผ่าน']/parent::*</value>
-      <webElementGuid>2ef77fc1-4b8b-4dc3-a561-078e43cc1e16</webElementGuid>
+      <webElementGuid>ca898332-3a9e-4c0a-b143-03d0f4cb378e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +262,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/p</value>
-      <webElementGuid>e352d473-6edb-4f84-8ce8-a16d06f56b82</webElementGuid>
+      <webElementGuid>a27ffa01-a1b0-4cdc-ac55-7cb8f47f1466</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +270,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'กรุณากรอกรหัสผ่าน' or . = 'กรุณากรอกรหัสผ่าน')]</value>
-      <webElementGuid>723b2e27-1b80-4657-8a9b-046ffd05060c</webElementGuid>
+      <webElementGuid>cb524379-4eef-4bdd-82de-53c84c100fe3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

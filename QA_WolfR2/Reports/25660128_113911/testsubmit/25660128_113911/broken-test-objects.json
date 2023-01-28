@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Google Chrome\u0027])[1]/following::p[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027KTL-VLD01 : Validation Form\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_113911/testsubmit/25660128_113911/Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/button_Confirm",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_13\u0027]/div[3]/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_113911/testsubmit/25660128_113911/Object Repository/Page_WOLF/button_Confirm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/span_Wait for Approve",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Wait for Approve\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_113911/testsubmit/25660128_113911/Object Repository/Page_WOLF/span_Wait for Approve_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/button_Approve",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[2]/div[2]/div/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_113911/testsubmit/25660128_113911/Object Repository/Page_WOLF/button_Approve_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Department\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Show\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_113911/testsubmit/25660128_113911/Object Repository/Page_WOLF/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/span_Wait for Approve",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div/div[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660128_113911/testsubmit/25660128_113911/Object Repository/Page_WOLF/span_Wait for Approve_position.png"
+    }
+  ]
+}

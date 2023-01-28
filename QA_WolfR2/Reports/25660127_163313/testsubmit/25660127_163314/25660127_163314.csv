@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testsubmit,Chrome 109.0.0.0,,,2566-01-27 16:33:25,2566-01-27 16:37:20,3m - 54.098s,FAILED
+,,,,,,,
+Test Cases/Login Pass,Chrome 109.0.0.0,,,2566-01-27 16:33:26,2566-01-27 16:33:34,8.173s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-27 16:33:26,2566-01-27 16:33:30,3.344s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-27 16:33:30,2566-01-27 16:33:31,1.774s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 109.0.0.0,,,2566-01-27 16:33:31,2566-01-27 16:33:33,1.353s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-27 16:33:33,2566-01-27 16:33:33,0.485s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 109.0.0.0,,,2566-01-27 16:33:33,2566-01-27 16:33:34,0.519s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-27 16:33:34,2566-01-27 16:33:34,0.167s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Submit,Chrome 109.0.0.0,,,2566-01-27 16:35:27,2566-01-27 16:36:04,37.142s,FAILED
+"navigateToUrl(""https://qar2.wolfapprove.com/Default"")",Chrome 109.0.0.0,,,2566-01-27 16:35:27,2566-01-27 16:35:27,0.179s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-27 16:35:27,2566-01-27 16:35:27,0.021s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-27 16:35:27,2566-01-27 16:36:04,36.932s,FAILED
+,,,,,,,
+Test Cases/Sprint1/Action_Save Draft,Chrome 109.0.0.0,,,2566-01-27 16:37:19,2566-01-27 16:37:19,0.034s,FAILED
+"navigateToUrl(""https://qar2.wolfapprove.com/Request?MemoID=0&template=123"")",Chrome 109.0.0.0,,,2566-01-27 16:37:19,2566-01-27 16:37:19,0.023s,FAILED
+,,,,,,,
+Test Cases/Sprint1/Action_Approve,Chrome 109.0.0.0,,,2566-01-27 16:37:20,2566-01-27 16:37:20,0.026s,FAILED
+"navigateToUrl(""https://qar2.wolfapprove.com/Default"")",Chrome 109.0.0.0,,,2566-01-27 16:37:20,2566-01-27 16:37:20,0.017s,FAILED

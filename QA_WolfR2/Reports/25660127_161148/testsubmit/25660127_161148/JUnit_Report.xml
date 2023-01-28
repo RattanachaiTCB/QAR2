@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testsubmit" time="86.217" tests="2" failures="0" errors="0">
+   <testsuite name="testsubmit" tests="2" failures="0" errors="0" time="86.217" skipped="0" timestamp="2566-01-27 16:12:01" hostname="Nijjaree - DESKTOP-OGBS4VH.techcons.biz" id="Test Suites/testsubmit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660127_161148\\testsubmit\\25660127_161148"/>
+         <property name="logFiles" value="C:\\Users\\Nijjaree\\Documents\\GitHub\\QAR2\\QA_WolfR2\\Reports\\25660127_161148\\testsubmit\\25660127_161148\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nijjaree - DESKTOP-OGBS4VH.techcons.biz"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="172.16.173.45"/>
+         <property name="sessionId" value="598b5aca31af9e50130c8601f0aae2f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Pass" time="9.41" classname="Test Cases/Login Pass" status="PASSED">
+         <system-out><![CDATA[2566-01-27 16:12:01 - [TEST_CASE][PASSED] - Test Cases/Login Pass: Test Cases/Login Pass
+
+2566-01-27 16:12:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-01-27 16:12:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-01-27 16:12:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-01-27 16:12:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-01-27 16:12:06 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-27 16:12:08 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-27 16:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_username"), "wolf01@qar2.com"): Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2566-01-27 16:12:09 - [MESSAGE][PASSED] - Text 'wolf01@qar2.com' is set on object 'Object Repository/Page_WOLF/input_Forgot Password_username'
+
+2566-01-27 16:12:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), "/eWc8J9JFEG5WeA2mg7b1w=="): Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-27 16:12:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-27 16:12:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_WOLF/input_Forgot Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-27 16:12:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_WOLF/input_Forgot Password_password'
+
+2566-01-27 16:12:10 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-01-27 16:12:11 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint1/Action_Submit" time="76.274" classname="Test Cases/Sprint1/Action_Submit" status="PASSED">
+         <system-out><![CDATA[2566-01-27 16:12:11 - [TEST_CASE][PASSED] - Test Cases/Sprint1/Action_Submit: Test Cases/Sprint1/Action_Submit
+
+2566-01-27 16:12:11 - [TEST_STEP][PASSED] - navigateToUrl("https://qar2.wolfapprove.com/"): Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-27 16:12:12 - [MESSAGE][PASSED] - Navigate to 'https://qar2.wolfapprove.com/' successfully
+
+2566-01-27 16:12:12 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-01-27 16:12:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-01-27 16:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-27 16:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-27 16:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Submit")): Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-27 16:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Submit' is clicked on
+
+2566-01-27 16:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_Confirm")): Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-27 16:12:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='pr_id_15']/div[3]/div/div/div[2]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-27 16:12:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/button_Confirm'. Try using Self-healing.
+
+2566-01-27 16:12:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/button_Confirm' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]'.
+
+2566-01-27 16:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_Confirm' is clicked on
+
+2566-01-27 16:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004")): Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-27 16:13:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-01-27 16:13:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004'. Try using Self-healing.
+
+2566-01-27 16:13:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/p'.
+
+2566-01-27 16:13:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/following::p[1]'.
+
+2566-01-27 16:13:25 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::p[5]'.
+
+2566-01-27 16:13:25 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Nijjaree/Documents/GitHub/QAR2/QA_WolfR2/Reports/Self-healing/Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004_neighbor.png
+
+2566-01-27 16:13:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::p[5]'.
+
+2566-01-27 16:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004' is clicked on
+
+2566-01-27 16:13:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Wait for Approve"), "Wait for Approve"): Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' are matched.
+
+2566-01-27 16:13:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Wait for Approve' are matched.
+
+2566-01-27 16:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WOLF/button_History")): Object: 'Object Repository/Page_WOLF/button_History' is clicked on
+
+2566-01-27 16:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WOLF/button_History' is clicked on
+
+2566-01-27 16:13:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_WOLF/span_Submitted"), "Submitted"): Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Submitted' are matched.
+
+2566-01-27 16:13:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_WOLF/span_Submitted' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-01-27 16:12:01 - [TEST_SUITE][PASSED] - testsubmit: Test Cases/Sprint1/Action_Submit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

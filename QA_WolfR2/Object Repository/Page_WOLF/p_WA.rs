@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//div[@id='root']/div[2]/div[4]/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>0e4b9a64-7bbd-4900-bfcb-03c73e3e90d3</webElementGuid>
+      <webElementGuid>ba9e786f-ad99-48b5-afac-07a8daa5c5cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>profile-name</value>
-      <webElementGuid>acb6e112-8a54-4590-ac13-aeec2866dd56</webElementGuid>
+      <webElementGuid>d111989e-4197-48c8-a501-99d70e3a874b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>WA</value>
-      <webElementGuid>4f5ded57-d6b3-47ff-a1db-ed1d1231eb71</webElementGuid>
+      <webElementGuid>f5201440-091e-4c23-9070-f4a3f464fb73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;navbar-container -active&quot;]/div[@class=&quot;profile-container desktop&quot;]/div[@class=&quot;profile-button&quot;]/p[@class=&quot;profile-name&quot;]</value>
-      <webElementGuid>a858fcec-b8b3-4fa9-a868-b127fac08f08</webElementGuid>
+      <webElementGuid>2f27ea8a-2d39-4176-a3e7-d5de60917a2e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,47 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div[4]/div/p</value>
-      <webElementGuid>2edbdc36-1b54-4266-8fef-e7f799e2240f</webElementGuid>
+      <webElementGuid>a96eb8bb-f6ea-4807-ad8d-baa840e3ce7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='In Process'])[1]/preceding::p[3]</value>
+      <webElementGuid>45d51106-28f2-42f8-a3de-8f0e5f4873a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::p[6]</value>
+      <webElementGuid>a1b386b3-369d-4a47-8001-edbfbcbde523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='WA']/parent::*</value>
+      <webElementGuid>74314e79-600a-4aa0-8f65-04388c55573d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p</value>
+      <webElementGuid>5999932d-9838-4dca-a632-7142cc512f86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'WA' or . = 'WA')]</value>
+      <webElementGuid>72f791a3-9890-4a2e-ac21-d69be1da5728</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,29 +111,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::p[4]</value>
       <webElementGuid>e1c14e49-4fdc-4c6a-bda4-9fb30f60ce03</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='WA']/parent::*</value>
-      <webElementGuid>faf55946-696b-45c7-afd4-b5ae48fd978e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/p</value>
-      <webElementGuid>175a97a2-8eed-4246-b35f-4efedd066e37</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//p[(text() = 'WA' or . = 'WA')]</value>
-      <webElementGuid>3967eaab-9695-4224-906f-664ca035c511</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

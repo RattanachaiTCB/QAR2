@@ -57,3 +57,37 @@ WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Sign In'))
 WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd'), 
     'Access denied. You do not have permission to perform access this resource. Please add your employee profile.')
 
+WebUI.click(findTestObject('Page_WOLF/button_Approve'))
+
+WebUI.click(findTestObject('Page_WOLF/button_Rework'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/p_'))
+
+WebUI.click(findTestObject('Page_WOLF/p'))
+
+WebUI.setText(findTestObject('Page_WOLF/body_comment'), '<p style="">comment</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+
+WebUI.click(findTestObject('Page_WOLF/p_DTP-2023-000001'))
+
+WebUI.click(findTestObject('Page_WOLF/button_Cancel_1'))
+
+WebUI.click(findTestObject('Page_WOLF/html_import url(httpsfonts.googleapis.comcss2familySarabundisplayswap) body  font-family Sarabun, sans-serif import url(httpsfonts.cdnfonts.comcssleelawadee) body  font-family Leelawadee, sans-serif katalonfont-familymon'))
+
+WebUI.setText(findTestObject('Page_WOLF/body_cancel'), '<p>cancel</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
+
+WebUI.click(findTestObject('Page_WOLF/button_Request Comment'))
+
+WebUI.click(findTestObject('Page_WOLF/html_import url(httpsfonts.googleapis.comcss2familySarabundisplayswap) body  font-family Sarabun, sans-serif import url(httpsfonts.cdnfonts.comcssleelawadee) body  font-family Leelawadee, sans-serif katalonfont-familymon'))
+
+WebUI.setText(findTestObject('Page_WOLF/body_comment'), '<p style="">comment</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/td_EMP001'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/span_Yes'))
+
+WebUI.closeBrowser()
+

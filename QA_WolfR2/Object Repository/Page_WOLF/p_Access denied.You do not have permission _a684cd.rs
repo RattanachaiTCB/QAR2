@@ -6,12 +6,12 @@
    <elementGuidId>d2b161f7-e113-4b01-a2ba-8601d9461a9d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.text-incorrect</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/form/div/div[3]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-incorrect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>08e64475-fdb3-4e51-9efa-053e0c072082</webElementGuid>
+      <webElementGuid>a006b666-1477-45f0-940d-a838a9f9d006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-incorrect</value>
-      <webElementGuid>2c4b4c7b-10e8-4e07-b3c7-92627893c87f</webElementGuid>
+      <webElementGuid>ff98587d-3ecc-47fc-b9f8-6d3ad5751c75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <value>Access denied.
 You do not have permission to perform access this resource.
 Please add your employee profile.</value>
-      <webElementGuid>2daa4ab1-bb68-4b86-9c52-9f6ffacba1ae</webElementGuid>
+      <webElementGuid>271c9f3f-8390-4608-bf5d-491a6725a293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,15 +48,15 @@ Please add your employee profile.</value>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;login-screens fade-enter-done&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;button-container&quot;]/p[@class=&quot;text-incorrect&quot;]</value>
-      <webElementGuid>6dbfddfc-45b3-493f-b364-da8fb30ec3fe</webElementGuid>
+      <webElementGuid>4556af4e-307b-4506-9534-658ac733cede</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/form/div/div[3]/p</value>
-      <webElementGuid>5d1ad3c1-fc4e-4276-b668-69d228203835</webElementGuid>
+      <webElementGuid>1c1a3bd8-499a-4f63-951f-3471e7f41469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@ Please add your employee profile.</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::p[1]</value>
-      <webElementGuid>31877589-0400-432d-ab37-401f9d738dfd</webElementGuid>
+      <webElementGuid>8d34f167-af68-4a8b-8535-600fe1339dc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@ Please add your employee profile.</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/p</value>
-      <webElementGuid>e648d1c2-9552-4e0a-9e5f-0f0169b2408c</webElementGuid>
+      <webElementGuid>1d8441d5-988a-4abf-8248-9a1e42a8c572</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,18 +84,6 @@ You do not have permission to perform access this resource.
 Please add your employee profile.' or . = 'Access denied.
 You do not have permission to perform access this resource.
 Please add your employee profile.')]</value>
-      <webElementGuid>99346343-542a-4d8b-8d69-0071136e0102</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//p[(text() = 'Access denied.
-You do not have permission to perform access this resource.
-Please add your employee profile.' or . = 'Access denied.
-You do not have permission to perform access this resource.
-Please add your employee profile.')]</value>
-      <webElementGuid>4eb276d3-3b89-4de0-9709-bb5c3ebe9338</webElementGuid>
+      <webElementGuid>471c161d-439a-42e2-a257-138ee437049b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

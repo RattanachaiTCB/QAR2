@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/button_Confirm",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_15\u0027]/div[3]/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660127_161148/testsubmit/25660127_161148/Object Repository/Page_WOLF/button_Confirm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Wait for Approve\u0027])[1]/following::p[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/25660127_161148/testsubmit/25660127_161148/Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004_neighbor.png"
+    }
+  ]
+}

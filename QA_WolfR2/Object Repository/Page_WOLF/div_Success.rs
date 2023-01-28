@@ -6,12 +6,12 @@
    <elementGuidId>51007dc2-ad8f-4f79-b544-9692d5a3eebc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.ant-notification-notice-message</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::div[10]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-notification-notice-message</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a4f721a5-c5fb-4ec2-8ce4-bb6a5cd3034e</webElementGuid>
+      <webElementGuid>61756dac-5850-48ce-a4fd-020e2f50c61e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-notification-notice-message</value>
-      <webElementGuid>5d091851-88af-4a9b-8fe4-f96fbbc1b195</webElementGuid>
+      <webElementGuid>3406b4b6-54a1-408c-99f0-a8541e7b22d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Success</value>
-      <webElementGuid>cdb8a3fc-7008-4579-ad50-2ba611cbf8f5</webElementGuid>
+      <webElementGuid>d239f600-aebd-43ee-9345-c6bf0efefb37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[3]/div[@class=&quot;ant-notification ant-notification-topRight&quot;]/div[1]/div[@class=&quot;ant-notification-hook-holder&quot;]/div[@class=&quot;ant-notification-notice alert-custom ant-notification-notice-success ant-notification-notice-closable&quot;]/div[@class=&quot;ant-notification-notice-content&quot;]/div[@class=&quot;ant-notification-notice-with-icon&quot;]/div[@class=&quot;ant-notification-notice-message&quot;]</value>
-      <webElementGuid>b202b718-3c9c-48e9-8309-25f0b5af5742</webElementGuid>
+      <webElementGuid>ecfa6953-dc07-4bb1-bca8-a5dacfaeab90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::div[10]</value>
-      <webElementGuid>6b572095-ddca-45d9-a9a7-bdda48d08c76</webElementGuid>
+      <webElementGuid>e667d8f7-ce1c-4f2e-98d0-14cfc78b5685</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Success']/parent::*</value>
-      <webElementGuid>8a5040dd-de29-4674-8ee7-b2ecf2170d9f</webElementGuid>
+      <webElementGuid>1650760a-88c9-47d6-b624-e49735b4337c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/div/div</value>
-      <webElementGuid>6e642bd1-475e-41ae-9d58-d8e04e3274c1</webElementGuid>
+      <webElementGuid>a1573c5a-ea2d-4bb1-9378-8d1d147fe1b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Success' or . = 'Success')]</value>
-      <webElementGuid>61315eb1-af8d-4ad9-a435-8133d3b04944</webElementGuid>
+      <webElementGuid>74840895-1363-4a12-8dfd-3df7a80da620</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

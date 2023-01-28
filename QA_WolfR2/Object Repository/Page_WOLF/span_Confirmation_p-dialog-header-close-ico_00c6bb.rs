@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Confirmation_p-dialog-header-close-ico_00c6bb</name>
+   <tag></tag>
+   <elementGuidId>856931e6-daee-4647-a316-b57d1e2b6d12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#pr_id_16 > div.p-dialog-header > div.p-dialog-header-icons > button.p-dialog-header-icon.p-dialog-header-close.p-link > span.p-dialog-header-close-icon.pi.pi-times</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pr_id_16']/div/div[2]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5e049380-9a53-4034-8748-116b01ca7083</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dialog-header-close-icon pi pi-times</value>
+      <webElementGuid>2459076f-fc7d-4d65-a78d-a32418601521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_16&quot;)/div[@class=&quot;p-dialog-header&quot;]/div[@class=&quot;p-dialog-header-icons&quot;]/button[@class=&quot;p-dialog-header-icon p-dialog-header-close p-link&quot;]/span[@class=&quot;p-dialog-header-close-icon pi pi-times&quot;]</value>
+      <webElementGuid>229c8ccd-018e-45df-8667-0e592317761b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pr_id_16']/div/div[2]/button/span</value>
+      <webElementGuid>0c4429d3-5c07-473d-a1fe-a5e48e40c188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/button/span</value>
+      <webElementGuid>c7836aba-9ce4-4fb7-a41b-8047cd0c5c45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

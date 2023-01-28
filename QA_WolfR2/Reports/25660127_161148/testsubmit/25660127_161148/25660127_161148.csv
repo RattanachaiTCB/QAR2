@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testsubmit,Chrome 109.0.0.0,,,2566-01-27 16:12:01,2566-01-27 16:13:27,1m - 26.217s,PASSED
+,,,,,,,
+Test Cases/Login Pass,Chrome 109.0.0.0,,,2566-01-27 16:12:01,2566-01-27 16:12:11,9.410s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-27 16:12:02,2566-01-27 16:12:06,4.094s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-27 16:12:06,2566-01-27 16:12:08,1.689s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 109.0.0.0,,,2566-01-27 16:12:08,2566-01-27 16:12:09,1.285s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-27 16:12:09,2566-01-27 16:12:10,0.658s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 109.0.0.0,,,2566-01-27 16:12:10,2566-01-27 16:12:10,0.670s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-27 16:12:10,2566-01-27 16:12:11,0.261s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Submit,Chrome 109.0.0.0,,,2566-01-27 16:12:11,2566-01-27 16:13:27,1m - 16.274s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-27 16:12:11,2566-01-27 16:12:12,0.360s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-27 16:12:12,2566-01-27 16:12:12,0.020s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-27 16:12:12,2566-01-27 16:12:16,4.126s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Submit""))",Chrome 109.0.0.0,,,2566-01-27 16:12:16,2566-01-27 16:12:21,4.684s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-27 16:12:21,2566-01-27 16:12:52,31.688s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-27 16:12:52,2566-01-27 16:13:25,32.885s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Wait for Approve""), ""Wait for Approve"")",Chrome 109.0.0.0,,,2566-01-27 16:13:25,2566-01-27 16:13:26,0.423s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_History""))",Chrome 109.0.0.0,,,2566-01-27 16:13:26,2566-01-27 16:13:26,0.587s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Submitted""), ""Submitted"")",Chrome 109.0.0.0,,,2566-01-27 16:13:26,2566-01-27 16:13:27,0.651s,PASSED

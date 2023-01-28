@@ -6,12 +6,12 @@
    <elementGuidId>773c610d-f65e-45b7-ba15-174af0235378</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.memo-button.draft</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>228f445e-7ded-4199-a9ec-6e056f02723b</webElementGuid>
+      <webElementGuid>526401f1-9606-461e-a5df-8d15e2786845</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>memo-button draft</value>
-      <webElementGuid>3e8f0b3b-9ce0-450e-9ee5-a128997d8d10</webElementGuid>
+      <webElementGuid>0d38e900-51c3-4776-ac83-d5f3cc2f10b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save Draft</value>
-      <webElementGuid>1b687c03-64bb-493a-ba70-325effc8c803</webElementGuid>
+      <webElementGuid>58899c6d-8082-4c46-9782-685457496690</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;header-request set-z-index&quot;]/div[@class=&quot;confirm-container&quot;]/div[@class=&quot;memo-button-container&quot;]/button[@class=&quot;memo-button draft&quot;]</value>
-      <webElementGuid>73cec90d-53f4-404a-945b-eae66185244d</webElementGuid>
+      <webElementGuid>b070b998-b26c-48b8-9a7b-67f7a66a5ba1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]</value>
-      <webElementGuid>361377fe-7fee-4f59-a075-736bda25cd97</webElementGuid>
+      <webElementGuid>67f53098-38da-4781-b181-0a40c866a1ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[1]/preceding::button[1]</value>
-      <webElementGuid>f6f353be-b036-4d9d-bed1-2b2b0beec30e</webElementGuid>
+      <webElementGuid>aaeb2800-92c1-45a0-bc11-c952c390b6fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::button[2]</value>
-      <webElementGuid>ad966ac4-c667-462b-9d36-de57c6805e05</webElementGuid>
+      <webElementGuid>799ba004-1091-42d7-a30c-bbd8eefd55a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
-      <webElementGuid>45914caf-2f88-408a-97cc-5bf98f2bbb97</webElementGuid>
+      <webElementGuid>e1c333be-62df-477d-9440-e24744a67686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Save Draft' or . = 'Save Draft')]</value>
-      <webElementGuid>a30aaa24-75d0-44cb-b678-e3e220ab1676</webElementGuid>
+      <webElementGuid>503dd947-53b3-4a95-9434-d0c888a47439</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

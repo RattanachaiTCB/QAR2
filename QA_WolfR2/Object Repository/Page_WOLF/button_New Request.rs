@@ -6,12 +6,12 @@
    <elementGuidId>e0ad7722-4638-4017-b63f-3da783c007c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.request-button-new.TreeSelectNewRequest-media-department-display-none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1b97dca7-7ffc-47eb-8c67-3881bc3df393</webElementGuid>
+      <webElementGuid>d039afad-c802-4282-828e-0c5642b1eb3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>request-button-new TreeSelectNewRequest-media-department-display-none</value>
-      <webElementGuid>a6bd0c78-7e19-4a4c-8a92-d290817e60a8</webElementGuid>
+      <webElementGuid>b3dc36e1-2411-413d-88d0-8e0d387983a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Request</value>
-      <webElementGuid>6b2bb96e-8eab-456e-8cc8-2974eaff4d00</webElementGuid>
+      <webElementGuid>b6a13197-c241-4a03-b742-5385fe3d04ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;button-container&quot;]/span[1]/button[@class=&quot;request-button-new TreeSelectNewRequest-media-department-display-none&quot;]</value>
-      <webElementGuid>356733f8-ff03-4f96-857f-3c2e445549ee</webElementGuid>
+      <webElementGuid>7e2c0768-91d0-45da-9e6f-78106f82164f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
-      <webElementGuid>07a912ba-1245-40fb-95e3-efd10a9c798c</webElementGuid>
+      <webElementGuid>b374c3d9-e504-4366-b018-fd7ff7f92496</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::button[2]</value>
-      <webElementGuid>b0b14ba5-a8da-40fc-bc7c-8ca16af8d07f</webElementGuid>
+      <webElementGuid>74b31669-671d-4e68-ac5b-c3e5c5b22970</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::button[2]</value>
-      <webElementGuid>41e5507c-9f35-4450-8f18-52399f524967</webElementGuid>
+      <webElementGuid>554c511a-acf6-47b2-aaf5-94aa2e5976d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
-      <webElementGuid>54b0812e-0099-4483-9adc-58bf69f4b010</webElementGuid>
+      <webElementGuid>7ba54d1f-057c-46f5-9aa9-c7cec09616e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'New Request' or . = 'New Request')]</value>
-      <webElementGuid>727e0629-c00e-440d-9d2d-f4860a6d6257</webElementGuid>
+      <webElementGuid>81fe7cc3-d899-4969-a727-e73b9f98e328</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

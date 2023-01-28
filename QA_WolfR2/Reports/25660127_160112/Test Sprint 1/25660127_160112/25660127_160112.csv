@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Sprint 1,Chrome 109.0.0.0,Test New Request Flow,,2566-01-27 16:01:22,2566-01-27 16:06:29,5m - 6.641s,FAILED
+,,,,,,,
+Test Cases/Login Pass,Chrome 109.0.0.0,,,2566-01-27 16:01:23,2566-01-27 16:01:31,8.439s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2566-01-27 16:01:23,2566-01-27 16:01:27,3.665s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/"")",Chrome 109.0.0.0,,,2566-01-27 16:01:27,2566-01-27 16:01:28,1.653s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_username""), ""wolf01@qar2.com"")",Chrome 109.0.0.0,,,2566-01-27 16:01:28,2566-01-27 16:01:30,1.220s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), ""/eWc8J9JFEG5WeA2mg7b1w=="")",Chrome 109.0.0.0,,,2566-01-27 16:01:30,2566-01-27 16:01:30,0.594s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_WOLF/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 109.0.0.0,,,2566-01-27 16:01:30,2566-01-27 16:01:31,0.526s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-27 16:01:31,2566-01-27 16:01:31,0.244s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Validation_Request_Page_Savedraft,Chrome 109.0.0.0,Check required filed,,2566-01-27 16:01:31,2566-01-27 16:02:40,1m - 9.260s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_New Request""))",Chrome 109.0.0.0,,,2566-01-27 16:01:32,2566-01-27 16:01:33,1.656s,PASSED
+"setText(findTestObject(""Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil""), ""KTL-VLD01"")",Chrome 109.0.0.0,,,2566-01-27 16:01:33,2566-01-27 16:01:34,0.853s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form""))",Chrome 109.0.0.0,,,2566-01-27 16:01:34,2566-01-27 16:02:06,31.980s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Save Draft""))",Chrome 109.0.0.0,,,2566-01-27 16:02:06,2566-01-27 16:02:08,2.165s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-27 16:02:08,2566-01-27 16:02:40,31.806s,PASSED
+"verifyNotEqual(getUrl(), ""https://qar2.wolfapprove.com/Default"", STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2566-01-27 16:02:40,2566-01-27 16:02:40,0.072s,PASSED
+"verifyEqual(getUrl(), ""https://qar2.wolfapprove.com/Request?MemoID=0&template=121"")",Chrome 109.0.0.0,,,2566-01-27 16:02:40,2566-01-27 16:02:40,0.025s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Validation_Request_Page_Submit,Chrome 109.0.0.0,,,2566-01-27 16:02:40,2566-01-27 16:03:19,38.957s,PASSED
+waitForPageLoad(5),Chrome 109.0.0.0,,,2566-01-27 16:02:41,2566-01-27 16:02:41,0.026s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Submit""))",Chrome 109.0.0.0,,,2566-01-27 16:02:41,2566-01-27 16:02:41,0.524s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-27 16:02:41,2566-01-27 16:02:42,0.509s,PASSED
+"verifyNotEqual(getUrl(), ""https://qar2.wolfapprove.com/Default"", STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2566-01-27 16:02:42,2566-01-27 16:02:42,0.009s,PASSED
+"verifyEqual(getUrl(), ""https://qar2.wolfapprove.com/Request?MemoID=0&template=121"")",Chrome 109.0.0.0,,,2566-01-27 16:02:42,2566-01-27 16:02:42,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_WOLF/small_is required""))",Chrome 109.0.0.0,,,2566-01-27 16:02:42,2566-01-27 16:02:42,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/input""))",Chrome 109.0.0.0,,,2566-01-27 16:02:42,2566-01-27 16:02:45,2.692s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/a_Today""))",Chrome 109.0.0.0,,,2566-01-27 16:02:45,2566-01-27 16:02:46,0.613s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2""))",Chrome 109.0.0.0,,,2566-01-27 16:02:46,2566-01-27 16:02:46,0.538s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/td_TCB""))",Chrome 109.0.0.0,,,2566-01-27 16:02:46,2566-01-27 16:02:47,0.709s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Submit""))",Chrome 109.0.0.0,,,2566-01-27 16:02:47,2566-01-27 16:02:48,0.736s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-27 16:02:48,2566-01-27 16:03:19,31.689s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Save Draft,Chrome 109.0.0.0,,,2566-01-27 16:03:19,2566-01-27 16:04:04,44.393s,PASSED
+"navigateToUrl(""https://qar2.wolfapprove.com/Request?MemoID=0&template=123"")",Chrome 109.0.0.0,,,2566-01-27 16:03:20,2566-01-27 16:03:21,0.970s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2""))",Chrome 109.0.0.0,,,2566-01-27 16:03:21,2566-01-27 16:03:23,1.945s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/div_TCB""))",Chrome 109.0.0.0,,,2566-01-27 16:03:23,2566-01-27 16:03:23,0.696s,PASSED
+"click(findTestObject(""Page_WOLF/button_Save Draft""))",Chrome 109.0.0.0,,,2566-01-27 16:03:23,2566-01-27 16:03:24,0.750s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_Confirm""))",Chrome 109.0.0.0,,,2566-01-27 16:03:24,2566-01-27 16:03:56,31.491s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-27 16:03:56,2566-01-27 16:03:58,2.840s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Wait for Approve""), ""Draft"")",Chrome 109.0.0.0,,,2566-01-27 16:03:58,2566-01-27 16:04:02,3.809s,PASSED
+"click(findTestObject(""Object Repository/Page_WOLF/button_History""))",Chrome 109.0.0.0,,,2566-01-27 16:04:02,2566-01-27 16:04:03,0.595s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_WOLF/span_Submitted""), ""Draft"")",Chrome 109.0.0.0,,,2566-01-27 16:04:03,2566-01-27 16:04:04,0.742s,PASSED
+,,,,,,,
+Test Cases/Sprint1/Action_Submit,Chrome 109.0.0.0,,,2566-01-27 16:05:52,2566-01-27 16:06:29,36.310s,FAILED
+"click(findTestObject(""Object Repository/Page_WOLF/p_KTL-ACT01-2023-000004""))",Chrome 109.0.0.0,,,2566-01-27 16:05:52,2566-01-27 16:06:29,36.298s,FAILED

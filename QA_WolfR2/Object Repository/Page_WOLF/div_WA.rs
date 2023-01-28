@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>974f32b2-275f-4d4d-ad0f-82ffe82f8160</webElementGuid>
+      <webElementGuid>a190bc2e-4686-4fc2-81d9-5da464abc0a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>profile-button</value>
-      <webElementGuid>c32ea4df-50ad-4201-a6c2-681292b9ee34</webElementGuid>
+      <webElementGuid>948c921c-38a6-4da8-bc51-ba5016f28d6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>WA</value>
-      <webElementGuid>2386e28e-e335-4901-bd50-2039f3da0e80</webElementGuid>
+      <webElementGuid>6abca81c-5786-40aa-8e5e-2fb5f1eda9e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;navbar-container -active&quot;]/div[@class=&quot;profile-container desktop&quot;]/div[@class=&quot;profile-button&quot;]</value>
-      <webElementGuid>f4e5359c-9dcf-420d-9d4a-93a5c301739a</webElementGuid>
+      <webElementGuid>e0b6faee-502f-427d-bad3-fa899c884087</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div[4]/div</value>
-      <webElementGuid>27156f37-093a-4ae3-ac24-1043e668a1b3</webElementGuid>
+      <webElementGuid>f58a3092-b9f3-4f95-bfbc-c4b1f7676f89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::div[6]</value>
-      <webElementGuid>fbd449fc-0cf2-4764-91b4-d5ad5c0e826b</webElementGuid>
+      <webElementGuid>f53e7902-0bd9-4233-8a24-b7aa31ff31a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::div[9]</value>
-      <webElementGuid>cf589800-9de9-4ac8-92ec-bcd860404cfa</webElementGuid>
+      <webElementGuid>68c0e3f1-88d9-41c6-b124-3070ea25f23e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div</value>
-      <webElementGuid>5c02a281-709e-4a38-8a74-d189dabfe0b1</webElementGuid>
+      <webElementGuid>0a3dcc71-aa6b-4bcf-9882-1e0649d29767</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,22 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'WA' or . = 'WA')]</value>
-      <webElementGuid>de6706f6-5471-4ffd-a99c-411a3d3d6013</webElementGuid>
+      <webElementGuid>0cd988ac-3a97-47e3-a1b2-a946da773b61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To Do List'])[1]/preceding::div[4]</value>
+      <webElementGuid>1707fecf-c753-4f81-9a7c-327298f91328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::div[16]</value>
+      <webElementGuid>970c30da-94e3-44fb-a98b-f50d9ad2e3bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
