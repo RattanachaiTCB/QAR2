@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[7]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[7]//p[(text() = 'AC01 : แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher' or . = 'AC01 : แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>0a2e46a3-869e-4e1f-bc99-fd55bb2ea97d</webElementGuid>
+      <webElementGuid>a402088e-6e92-4e60-b35a-6e5d219d54e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>template-text</value>
-      <webElementGuid>73f4b630-8be8-442f-8da4-fc683237375d</webElementGuid>
+      <webElementGuid>059d0dab-bd34-4e69-b059-078549e19db7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AC01 : แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher</value>
-      <webElementGuid>1b543d53-aa57-4c16-9647-daae643f477f</webElementGuid>
+      <webElementGuid>74521df1-108c-49f5-a25f-30479528499c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-popover ant-popover-placement-bottomLeft&quot;]/div[@class=&quot;ant-popover-content&quot;]/div[@class=&quot;ant-popover-inner&quot;]/div[@class=&quot;ant-popover-inner-content&quot;]/div[@class=&quot;collapse-container&quot;]/div[@class=&quot;ant-collapse ant-collapse-icon-position-end group-template-collapse&quot;]/div[@class=&quot;ant-collapse-item ant-collapse-item-active group-template-panel&quot;]/div[@class=&quot;ant-collapse-content ant-collapse-content-active&quot;]/div[@class=&quot;ant-collapse-content-box&quot;]/div[@class=&quot;template-item-container&quot;]/p[@class=&quot;template-text&quot;]</value>
-      <webElementGuid>344d7e80-5369-40bc-9d29-98413eb5f675</webElementGuid>
+      <webElementGuid>eb75058a-72da-42ae-a4aa-2b5b7215915a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[7]</value>
-      <webElementGuid>f44cda8a-064d-4b78-808b-09678e9f5ce5</webElementGuid>
+      <webElementGuid>893bed60-566c-442b-8f66-7d9d47b1f878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/following::p[7]</value>
-      <webElementGuid>48ac26bc-b188-44cb-b742-8442c5f76e0b</webElementGuid>
+      <webElementGuid>9a53e67d-794f-41b3-bc19-0126699a4984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='AC01 : แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher']/parent::*</value>
-      <webElementGuid>4216e21d-6dc0-4f25-aff5-e940a2e6af46</webElementGuid>
+      <webElementGuid>a4d6f34e-a923-4cbe-8d7d-ae41a9ed8a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div/div[2]/div[5]/div[2]/div/div/p</value>
-      <webElementGuid>2e02c7cf-73ac-45cc-99f3-35cffb17c947</webElementGuid>
+      <webElementGuid>3974ede0-7440-4493-a7e9-700626259078</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'AC01 : แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher' or . = 'AC01 : แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher')]</value>
-      <webElementGuid>6b5c156c-013c-47e9-8533-7fa595499f97</webElementGuid>
+      <webElementGuid>b33e0671-4332-46df-b51f-6c2e34c8f230</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>div.waiting-for-container</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[4]/div/div[2]</value>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d77caf8d-ba48-4156-a4bc-77de61fac551</webElementGuid>
+      <webElementGuid>74346886-befa-4da5-bd8f-c8e87f74a614</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waiting-for-container</value>
-      <webElementGuid>62883a0a-343b-4d53-91c1-c442ab6ba654</webElementGuid>
+      <webElementGuid>819ac7b1-bb58-47c5-8f74-71478a979688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,18 +38,74 @@
       <name>text</name>
       <type>Main</type>
       <value>Waiting forวูล์ฟ</value>
-      <webElementGuid>22c9e5e5-6b3e-4b6f-b550-9291fdec335c</webElementGuid>
+      <webElementGuid>3a8633c5-f399-47fe-ad84-9c89b896ea77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-footer-container mobile&quot;]/div[@class=&quot;list-aprroval-container&quot;]/div[@class=&quot;waiting-for-container&quot;]</value>
-      <webElementGuid>834296fa-b32c-4461-b55c-3f7897b28009</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-footer-container desktop&quot;]/div[@class=&quot;list-aprroval-container&quot;]/div[@class=&quot;waiting-for-container&quot;]</value>
+      <webElementGuid>f3c9d090-aead-47a2-9add-2ac955864356</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>b0fb024f-a34b-4cf6-a71b-44babd32c73a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::div[4]</value>
+      <webElementGuid>09a0e4cd-d788-415c-8eea-4c2f520275b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bee Naphat Test'])[1]/following::div[6]</value>
+      <webElementGuid>6b75d836-288b-4e1a-87ba-af46cef24bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::div[1]</value>
+      <webElementGuid>7131770b-bed2-4485-b640-2a1fddde30c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[2]/preceding::div[4]</value>
+      <webElementGuid>9fd600d7-a48d-4905-875b-b1baafc53b27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>af8662d1-6fbd-4ee1-847c-3e8a6de28220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Waiting forวูล์ฟ' or . = 'Waiting forวูล์ฟ')]</value>
+      <webElementGuid>71f4fee1-bbb9-4bd7-bde4-79831a809c19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -94,13 +151,5 @@
       <type>Main</type>
       <value>//div[3]/div[4]/div/div[2]</value>
       <webElementGuid>8c76e3dc-08b5-4ab4-9da4-7062bf2eea3f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Waiting forวูล์ฟ' or . = 'Waiting forวูล์ฟ')]</value>
-      <webElementGuid>e7485e76-a963-4f2e-a24d-6fcdaa4fc119</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::*[name()='svg'][3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>a9e62ff9-9d46-4826-9163-eaf1ce4cf2fa</webElementGuid>
+      <webElementGuid>6d52df45-fff7-4133-beee-155755c85423</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>4ad4341c-b463-4c9d-b149-fb313fd8fc0d</webElementGuid>
+      <webElementGuid>eb7bd621-f0c1-4555-8eeb-593911529c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>def57cb7-05fe-451e-95c1-00856dedb4f0</webElementGuid>
+      <webElementGuid>98d3fdf4-c83d-439a-8da4-98599361d439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>de8ff8eb-eb4e-40c9-994a-7206512fe127</webElementGuid>
+      <webElementGuid>b0a3d922-df88-46d7-bcb2-8d8233a3014b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 512 512</value>
-      <webElementGuid>86c6d6b9-b579-4436-93e7-d5c2f771c2ee</webElementGuid>
+      <webElementGuid>ad435cc4-47be-4ef5-b186-592a38f6217b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>height</name>
       <type>Main</type>
       <value>28</value>
-      <webElementGuid>5c495941-e0a8-4178-ae28-dd50f1a900fc</webElementGuid>
+      <webElementGuid>89d106fc-4e0e-49d8-bc25-4743313ce0bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>width</name>
       <type>Main</type>
       <value>28</value>
-      <webElementGuid>415df6d4-c54b-4fd4-9f78-0037d93d3e46</webElementGuid>
+      <webElementGuid>92c06b30-dcfb-43cd-ab9c-487df8250e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>8f5484d1-b97b-47e6-aa72-5a1a217fc034</webElementGuid>
+      <webElementGuid>6732a111-b533-4f48-a6c6-1738d46ab2c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;button-container&quot;]/button[@class=&quot;ant-btn ant-btn-text ant-btn-lg ant-btn-icon-only&quot;]/svg[1]</value>
-      <webElementGuid>2a532637-4958-4dbf-acd0-685cfdb77e98</webElementGuid>
+      <webElementGuid>c068f68c-c841-4686-8847-a2dcb71eae90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::*[name()='svg'][3]</value>
-      <webElementGuid>aafcf021-d56b-443d-a9dd-c49f88d3c7db</webElementGuid>
+      <webElementGuid>faa77d3d-111a-4729-80bb-26d8fa04e21b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::*[name()='svg'][5]</value>
-      <webElementGuid>4fad1c62-4f18-4b8b-8fac-7390c5728bc2</webElementGuid>
+      <webElementGuid>87f0fcaa-15c8-4cca-bd6f-09057cabca45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

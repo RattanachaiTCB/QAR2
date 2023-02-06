@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p.headtext-form.text-Is-require.set-font-require-comment</value>
+         <value>div.waiting-for-container > p.text-name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='pr_id_13_header']/div/p[2]</value>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,34 +22,90 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>365e29d4-6d95-49b2-9a22-326266fea640</webElementGuid>
+      <webElementGuid>474c3106-5f05-4be6-94fc-3828df0f97bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>headtext-form text-Is-require set-font-require-comment</value>
-      <webElementGuid>479568c7-b7fe-4d8d-8db5-6ba4492cf7a9</webElementGuid>
+      <value>text-name</value>
+      <webElementGuid>b3182fa8-5d53-4071-9c10-6fe8ad0a381e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>*</value>
-      <webElementGuid>887ded97-0457-47bf-8f0b-544e3f4b379c</webElementGuid>
+      <value>วูล์ฟ</value>
+      <webElementGuid>0c8d1ab5-fbb0-471e-b06e-eaf757f06f51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_13_header&quot;)/div[@class=&quot;comment-header&quot;]/p[@class=&quot;headtext-form text-Is-require set-font-require-comment&quot;]</value>
-      <webElementGuid>c689d3ae-f43c-484f-98bb-a6a84c25bc9e</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-footer-container desktop&quot;]/div[@class=&quot;list-aprroval-container&quot;]/div[@class=&quot;waiting-for-container&quot;]/p[@class=&quot;text-name&quot;]</value>
+      <webElementGuid>d0dda4db-a673-49a9-ac3b-1ec1b1911cdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/p[2]</value>
+      <webElementGuid>87c9bd6a-e7e8-4e35-b363-6e757bb094c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::p[4]</value>
+      <webElementGuid>3283f369-19e0-496b-bc1d-669b0050100e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bee Naphat Test'])[1]/following::p[6]</value>
+      <webElementGuid>f4701e58-e100-4558-b8cf-e075b6a9de6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::p[1]</value>
+      <webElementGuid>cdd2baad-0720-49f9-8243-65d5757b28b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[2]/preceding::p[7]</value>
+      <webElementGuid>507cb4a3-d131-45ba-be7b-41fcbdbe316b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p[2]</value>
+      <webElementGuid>b95f44ed-30a2-4c8a-9f09-80c1e3e73cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'วูล์ฟ' or . = 'วูล์ฟ')]</value>
+      <webElementGuid>25f7c4df-6e64-4fd8-80db-37da7bc289a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -151,14 +207,6 @@
       <type>Main</type>
       <value>//div[3]/div[4]/div/div[2]/p[2]</value>
       <webElementGuid>f92de1c7-481a-42c7-97e6-e389e10ab4b9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//p[(text() = 'วูล์ฟ' or . = 'วูล์ฟ')]</value>
-      <webElementGuid>2a6a0979-667f-4eb6-91e9-531c16c45125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
