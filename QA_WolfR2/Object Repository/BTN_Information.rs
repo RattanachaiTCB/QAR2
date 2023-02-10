@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'ant-col ant-col-offset-1' and (text() = 'Information' or . = 'Information')]</value>
+         <value>//button[@id = 'Information']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,23 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>2f32dc33-2b0b-46fe-af4b-b575c5aec390</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c5bde9cf-459e-4f17-98f6-883c6803b50e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ant-col ant-col-offset-1</value>
-      <webElementGuid>79fa9ee2-1bd5-45e7-b899-44ddc84c9306</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
       <value>Information</value>
-      <webElementGuid>b8362858-dc84-4916-a020-582164ee0166</webElementGuid>
+      <webElementGuid>391ec36c-b8c8-4619-859b-fc7446c474e6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

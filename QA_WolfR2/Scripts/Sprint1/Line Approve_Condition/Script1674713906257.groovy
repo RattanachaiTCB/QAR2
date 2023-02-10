@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.navigateToUrl('https://localhost:5001/')
 
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
 
@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fi
 
 WebUI.click(findTestObject('FormCondition'))
 
-WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=102')
+WebUI.verifyEqual(WebUI.getUrl(), 'https://localhost:5001/Request?MemoID=0&template=102')
 
 WebUI.click(findTestObject('Dropdown Select'))
 
@@ -64,14 +64,4 @@ WebUI.click(findTestObject('DropdownOptionC'))
 WebUI.click(findTestObject('BTN_LineApprove'))
 
 WebUI.verifyTextPresent('พงษ์สิทธิ์ พงศ์พิโรจ', false)
-//
-//WebUI.click(findTestObject('BTN_Information'))
-//
-//WebUI.click(findTestObject('DropdownOptionC'))
-//
-//WebUI.click(findTestObject('DropdownOptionD'))
-//
-//WebUI.click(findTestObject('BTN_LineApprove'))
-//
-//WebUI.verifyTextPresent('ธรรมิกา สุขประเสริญ', false)
 

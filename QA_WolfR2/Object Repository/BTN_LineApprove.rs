@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'ant-col ant-col-offset-1' and (text() = 'Line Approvals' or . = 'Line Approvals')]</value>
+         <value>//button[@id = 'Line_Approvals']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,23 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>8ab79ff1-55e3-4931-9fbd-f8564cecfd16</webElementGuid>
+      <value>button</value>
+      <webElementGuid>d9eb4d5c-c129-47d8-be31-d37b3bfc17be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>ant-col ant-col-offset-1</value>
-      <webElementGuid>cf45b616-d3fa-46a3-9a33-78f903a616ad</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Line Approvals</value>
-      <webElementGuid>c49ffc98-e38b-4adc-8308-ba223f2f0427</webElementGuid>
+      <value>Line_Approvals</value>
+      <webElementGuid>cd38813a-06f4-4dab-8a6d-a3f844cb9298</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -44,6 +44,7 @@ WebUI.click(findTestObject('Page_WOLF/input'))
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/div_10'))
 
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value'))
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/Request?MemoID=574&isCopy')
