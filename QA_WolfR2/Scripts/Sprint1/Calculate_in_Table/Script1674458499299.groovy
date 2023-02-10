@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.navigateToUrl('https://localhost:5001/')
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'))
 
@@ -37,17 +37,22 @@ WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate F
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/i_total_pi pi-plus'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '20')
+WebUI.click(findTestObject('Object Repository/Page_WOLF/input_total_0_0_price'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/ul_1'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_total_0_0_price'), '2,000.00')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_total_ant-input-number-input'), '1000')
+WebUI.click(findTestObject('Page_WOLF/input__0_1_amount'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1'), '5000')
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input__0_1_amount'), '2')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1_2'), '5000')
+WebUI.click(findTestObject('Object Repository/Page_WOLF/input__0_2_discount'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_GRAND TOTAL_ant-input'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input__0_2_discount'), '100')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_WOLF/div_priceamountdiscounttotal11'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/td__ant-table-cell ant-table-cell-row-hover'))
+
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_WOLF/input_GRAND TOTAL_ant-input-number-input'), 
+    'value', '3,900.00', 0)
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot Password_password</name>
+   <name>input__0_2_discount</name>
    <tag></tag>
-   <elementGuidId>ac0aa7eb-0544-408c-95f1-24e20bbac86b</elementGuidId>
+   <elementGuidId>fa2ad079-42c1-43c6-a34f-5eb631ec4eee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='password']</value>
+         <value>//input[@id='0_2_discount']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
+         <value>#0_2_discount</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>82d749a5-a24a-4d0c-b524-d8688baefc63</webElementGuid>
+      <webElementGuid>cebd5bb0-5eba-4a60-bbfc-c57d75c039e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>2d33b4df-4664-4134-a923-9f10bc05fa44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>spinbutton</value>
+      <webElementGuid>617d3904-0dba-4e20-b0f4-26ba10c90147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-valuenow</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>ae3ec108-ddc4-4483-94f2-e3e20293c134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>step</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4c669ccd-70e3-479e-b263-6c9905d4f3be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>deb7ba73-47e1-4843-b110-9f1d2bd7908b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>8ea5c144-944d-469e-863d-1c4bbf1377c4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Enter Password</value>
-      <webElementGuid>c5b4aeda-8993-48ed-b6dc-4daeef238df5</webElementGuid>
+      <value>0_2_discount</value>
+      <webElementGuid>515eb5ee-837b-43cd-9da6-1e997066731a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-field </value>
-      <webElementGuid>e2979b5b-ebfa-4eff-a4c4-fb4d9b1a92dd</webElementGuid>
+      <value>ant-input-number-input</value>
+      <webElementGuid>89262a91-384d-45db-9cfa-6356d6cd0072</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>W</value>
-      <webElementGuid>2d60c596-7320-4c36-8867-753132f346ef</webElementGuid>
+      <value>4</value>
+      <webElementGuid>74ba2819-41ed-436e-a623-b66c4050cd31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;main-input-container&quot;]/div[@class=&quot;input-container&quot;]/input[@class=&quot;input-field&quot;]</value>
-      <webElementGuid>edbfd331-4a64-4328-9b8e-d8ec40588dbb</webElementGuid>
+      <value>id(&quot;0_2_discount&quot;)</value>
+      <webElementGuid>ee428090-1982-46a0-bf77-15fab6644602</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='password']</value>
-      <webElementGuid>0b127ff4-b0ef-426c-be42-e6f5d89afba6</webElementGuid>
+      <value>//input[@id='0_2_discount']</value>
+      <webElementGuid>9246b8ba-21fa-4c35-b919-36e792cd29d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/form/div/div[2]/div/input</value>
-      <webElementGuid>1aa9e1c0-7dec-4aff-b435-8446c5520566</webElementGuid>
+      <value>//div[@id='table-control']/div/div[2]/table/tbody/tr[2]/td[4]/div/div/div/div/div/div/div/div/div/input</value>
+      <webElementGuid>eb47a1d6-8b0a-4a92-b052-bb65bb9bc8ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>b6b9e503-3685-4d9e-a66f-738eadcfb5da</webElementGuid>
+      <value>//td[4]/div/div/div/div/div/div/div/div/div/input</value>
+      <webElementGuid>33d7dec5-83cc-4275-a6ee-d5c1f42b47cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'password' and @type = 'password' and @placeholder = 'Enter Password']</value>
-      <webElementGuid>3e51f881-d499-4ef8-9b8d-5f2384e5b659</webElementGuid>
+      <value>//input[@id = '0_2_discount']</value>
+      <webElementGuid>e03b43d0-3fab-4065-a490-b284a37d8a20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

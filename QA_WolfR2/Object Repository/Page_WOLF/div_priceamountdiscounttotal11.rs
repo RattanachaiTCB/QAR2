@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_priceamountdiscounttotal11</name>
+   <tag></tag>
+   <elementGuidId>54ed2343-1644-4b5b-a185-b6c9776e5e9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='basic']/div[2]/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-table-wrapper.padding-controller.control-table.false > div.ant-spin-nested-loading > div.ant-spin-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1dd908fe-256b-4bce-a881-2ab05002de29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-spin-container</value>
+      <webElementGuid>76f9ea7c-3221-475c-8596-87f0c45c71b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>#priceamountdiscounttotal      1฿1</value>
+      <webElementGuid>9300937d-7ae8-41bf-9b81-ff235307349f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[2]/div[@class=&quot;set-layout-required&quot;]/div[@class=&quot;padding-controller col-xl-12 col-md-12 col-sm-12 col-12&quot;]/div[@class=&quot;ant-table-wrapper padding-controller control-table false&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]</value>
+      <webElementGuid>f59a5085-a6a9-4f91-b37a-ceba430a101b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='basic']/div[2]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>df67ab63-76c5-41e0-b890-1382f06a3824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Table1'])[1]/following::div[6]</value>
+      <webElementGuid>f84e2bba-d36d-4d16-b85d-a0e85388b1d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Calculate Function By Katalon'])[1]/following::div[10]</value>
+      <webElementGuid>98798da9-f33a-4660-abd8-1ded3a0b97d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>544cd532-7561-4789-81c5-ea4f4ffa545e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '#priceamountdiscounttotal      1฿1' or . = '#priceamountdiscounttotal      1฿1')]</value>
+      <webElementGuid>d3fc3798-a929-4eb0-8d3e-d135b71819f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

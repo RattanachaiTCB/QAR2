@@ -39,7 +39,9 @@ WebUI.click(findTestObject('Dropdown Select'))
 
 WebUI.click(findTestObject('DropdownOptionA'))
 
-WebUI.click(findTestObject('BTN_LineApprove'))
+WebUI.waitForElementClickable(findTestObject('Page_WOLF/button_Line Approvals'), 5)
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Line Approvals'))
 
 WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
 

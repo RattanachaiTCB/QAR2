@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_New Request</name>
+   <name>button_New Request_1</name>
    <tag></tag>
-   <elementGuidId>e0ad7722-4638-4017-b63f-3da783c007c0</elementGuidId>
+   <elementGuidId>f9180f98-a2e0-4054-852a-2ab91d2e4c44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>736b8a7f-937d-4586-821c-a13ac88fe89a</webElementGuid>
+      <webElementGuid>2ba6dbb1-89ca-4869-bb91-f34f5387d181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>request-button-new TreeSelectNewRequest-media-department-display-none</value>
-      <webElementGuid>7b50ab84-31c5-4f41-b749-43ce4e51bc1d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>New Request</value>
-      <webElementGuid>c0f58da4-39a9-48f4-b177-c93cdb93f85c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;NewRequest&quot;)</value>
-      <webElementGuid>96481808-69a7-43a6-958c-e607c9861754</webElementGuid>
+      <webElementGuid>787fdb3d-260c-4417-a051-ae82ba7c3264</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +38,23 @@
       <name>id</name>
       <type>Main</type>
       <value>NewRequest</value>
-      <webElementGuid>391cb2fa-2e3f-4dbd-827b-1f908b05168d</webElementGuid>
+      <webElementGuid>641b7e61-c942-4dc4-b8ba-c85c7b6f350f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Request</value>
+      <webElementGuid>37160a4c-b10b-41d6-a725-ea8c4ca8bb6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;NewRequest&quot;)</value>
+      <webElementGuid>fd68b345-72e4-453c-9a01-6f6855add0e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='NewRequest']</value>
-      <webElementGuid>d7086c47-1d93-49af-964e-00d02daca5c8</webElementGuid>
+      <webElementGuid>2fc749b3-8810-412b-9d6d-c2b114214927</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
-      <webElementGuid>180f829d-9f4d-4823-9002-d13cd1b4ad76</webElementGuid>
+      <webElementGuid>f4f821f1-d17e-4a32-8910-10cd8830cc75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::button[2]</value>
-      <webElementGuid>69c3f0bf-c082-45e8-93fe-38f4122ed3a3</webElementGuid>
+      <webElementGuid>27fc8374-6ba9-4b16-a94f-fb7e0f092585</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::button[2]</value>
-      <webElementGuid>d8fbcc32-e8f8-4a22-b03a-a5f3e17c6842</webElementGuid>
+      <webElementGuid>2115b84d-d33c-4eb6-af5b-9e49e7513979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
-      <webElementGuid>67516413-adf3-4ec0-b0fc-b643c337f384</webElementGuid>
+      <webElementGuid>6061513b-e358-4a66-969e-7860c4c4945c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,14 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'NewRequest' and (text() = 'New Request' or . = 'New Request')]</value>
-      <webElementGuid>62526f4a-33f5-421b-82b8-193e94e985b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'New Request' or . = 'New Request')]</value>
-      <webElementGuid>44fec2d4-4c93-4cad-8898-1de346fa38d0</webElementGuid>
+      <webElementGuid>855c3285-60ce-444a-8376-0a3687492991</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

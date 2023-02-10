@@ -7,22 +7,26 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@value='0.00'])[6]</value>
+         <value>(//input[@id='จำนวนเงินรวม_GRAND_TOTAL'])</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'จำนวนเงินรวม_GRAND_TOTAL']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.ant-input-number.ant-input-number-lg.input-component.text-right.false.ant-input-number-focused > div.ant-input-number-input-wrap > input.ant-input-number-input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>162a2ce3-b979-47d0-aa36-69b70578b035</webElementGuid>
+      <webElementGuid>9d8fef43-00c7-47a0-9ca8-05f3169b99ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>07ea828c-2d52-41f5-a92a-de0d3375ef73</webElementGuid>
+      <webElementGuid>a9d66a5b-26a6-4add-bab1-c0f87f481a69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +42,15 @@
       <name>role</name>
       <type>Main</type>
       <value>spinbutton</value>
-      <webElementGuid>4ec7684d-e2a7-414b-b203-440363dbf33c</webElementGuid>
+      <webElementGuid>1022b47d-6343-43bf-91c3-d12e18222231</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-valuenow</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>b3d71aa8-533f-4430-9e1b-80c48a2fdf9e</webElementGuid>
+      <value>2</value>
+      <webElementGuid>c865bf22-5f5a-49ed-a3f9-ad6b90b6730d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>step</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>680fedfe-1ee8-40a9-ae4a-1a0136acd695</webElementGuid>
+      <webElementGuid>1fcdc654-990a-4b15-8298-c4e94ee94810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,31 +66,39 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-input-number-input</value>
-      <webElementGuid>ff21894f-6bb7-4203-8af8-f122f4efa73a</webElementGuid>
+      <webElementGuid>5def8318-40ad-4444-a0cc-18b14886b5f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>0.00</value>
-      <webElementGuid>d389c4f4-b0d1-41f6-b9a2-5f0d0e91fd6c</webElementGuid>
+      <value>2.00</value>
+      <webElementGuid>3e9707e3-f1ff-4b31-9002-c9566f345c9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[@class=&quot;padding-controller col-xl-4 col-md-4 col-sm-12 col-12&quot;]/div[@class=&quot;input-component-container&quot;]/div[@class=&quot;ant-input-number-group-wrapper input-component text-right false&quot;]/div[@class=&quot;ant-input-number-wrapper ant-input-number-group&quot;]/div[@class=&quot;ant-input-number ant-input-number-lg input-component text-right false ant-input-number-focused&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;]</value>
+      <webElementGuid>6229c739-896e-43d8-a52b-3393eff17bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[@class=&quot;padding-controller col-xl-4 col-md-4 col-sm-12 col-12&quot;]/div[@class=&quot;input-component-container&quot;]/div[@class=&quot;ant-input-number-group-wrapper input-component text-right false&quot;]/div[@class=&quot;ant-input-number-wrapper ant-input-number-group&quot;]/div[@class=&quot;ant-input-number ant-input-number-lg input-component text-right false ant-input-number-disabled ant-input-number-readonly&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;]</value>
-      <webElementGuid>ce77155c-3223-4970-b0a3-fcb0a834d7b3</webElementGuid>
+      <value>จำนวนเงินรวม_GRAND_TOTAL</value>
+      <webElementGuid>939e88d6-a5d6-44d6-8b38-bb9145702da6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@value='0.00'])[6]</value>
-      <webElementGuid>b42cd2da-2e06-4311-bba4-1fe42d3b1e5b</webElementGuid>
+      <value>(//input[@value='2.00'])[3]</value>
+      <webElementGuid>6e307fbb-a5b9-4bb8-ab6c-f298d3bf0c69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='basic']/div[6]/div[4]/div/div/div/div/div/input</value>
-      <webElementGuid>96563e90-f334-4d69-9bb6-b524db4c44e9</webElementGuid>
+      <webElementGuid>86681412-462a-4748-bcc8-e26771e95f3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +114,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[4]/div/div/div/div/div/input</value>
-      <webElementGuid>a77b93cf-67aa-4dc2-b35e-2d069c14902f</webElementGuid>
+      <webElementGuid>c1b4a325-c684-49d5-8f86-e48e825c63c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value='0.00'])[6]</value>
+      <webElementGuid>65f4821e-1b9d-4b3c-9082-54db3401b1ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +130,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value='1,500.00'])[2]</value>
-      <webElementGuid>00d18de9-3745-4d3f-a415-f311816b8154</webElementGuid>
+      <webElementGuid>6c9980e8-67e3-40b8-9dce-eab59ba8dcfa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>48ba7722-a013-455c-9dd3-0de64550bf88</webElementGuid>
+      <webElementGuid>267029a1-6899-4c4b-af66-c1650b548714</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>pi pi-plus</value>
-      <webElementGuid>610408ec-ca62-4888-a4e0-8e28468b15a4</webElementGuid>
+      <webElementGuid>1aee71df-d178-475e-a79f-923289b9f295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table-control&quot;)/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-header&quot;]/table[1]/thead[@class=&quot;ant-table-thead&quot;]/tr[1]/th[@class=&quot;ant-table-cell action-column ant-table-cell-fix-right ant-table-cell-fix-right-first&quot;]/i[@class=&quot;pi pi-plus&quot;]</value>
-      <webElementGuid>1a4b3c40-0e83-425a-bbef-a571708a6ccd</webElementGuid>
+      <webElementGuid>3d824bb6-9fe1-482d-b010-a471750e6809</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='table-control']/div/div/table/thead/tr/th[6]/i</value>
-      <webElementGuid>5dc2e180-9605-4394-a578-7217e854d15c</webElementGuid>
+      <webElementGuid>d3645b73-3734-4c26-bb55-f93545572a08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i</value>
-      <webElementGuid>a03010c7-1c87-4415-a084-ba14584345c7</webElementGuid>
+      <webElementGuid>447c037d-2e2d-44e4-9547-18def6a0217c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
