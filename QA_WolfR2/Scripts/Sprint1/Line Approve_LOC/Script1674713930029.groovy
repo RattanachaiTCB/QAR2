@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+
+WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_New Request'))
+
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
+
+WebUI.click(findTestObject('FormLineOfComand'))
+
+WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=90')
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+
+WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
+
+WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
+

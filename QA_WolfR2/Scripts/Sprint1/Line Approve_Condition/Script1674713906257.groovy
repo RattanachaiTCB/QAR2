@@ -19,51 +19,97 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://localhost:5001/')
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
 
-WebUI.click(findTestObject('FormCondition'))
+WebUI.click(findTestObject('Object Repository/FormCondition'))
 
-WebUI.verifyEqual(WebUI.getUrl(), 'https://localhost:5001/Request?MemoID=0&template=102')
+WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=102')
 
-WebUI.click(findTestObject('Dropdown Select'))
+WebUI.click(findTestObject('Object Repository/Dropdown Select'))
 
-WebUI.click(findTestObject('DropdownOptionA'))
+WebUI.click(findTestObject('Object Repository/DropdownOptionA'))
 
+<<<<<<< Updated upstream
 WebUI.waitForElementClickable(findTestObject('Page_WOLF/button_Line Approvals'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Line Approvals'))
+=======
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+>>>>>>> Stashed changes
 
 WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
 
 WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
 
-WebUI.click(findTestObject('BTN_Information'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Information'))
 
-WebUI.click(findTestObject('DropdownOptionA'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/span_a'))
 
-WebUI.click(findTestObject('DropdownOptionB'))
+WebUI.click(findTestObject('Object Repository/DropdownOptionB'))
 
-WebUI.click(findTestObject('BTN_LineApprove'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
 
 WebUI.verifyTextPresent('ธรรมิกา สุขประเสริญ', false)
 
-WebUI.click(findTestObject('BTN_Information'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Information'))
 
-WebUI.click(findTestObject('DropdownOptionB'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/span_b'))
 
-WebUI.click(findTestObject('DropdownOptionC'))
+WebUI.click(findTestObject('Object Repository/DropdownOptionC'))
 
-WebUI.click(findTestObject('BTN_LineApprove'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
 
 WebUI.verifyTextPresent('พงษ์สิทธิ์ พงศ์พิโรจ', false)
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Information'))
+
+WebUI.focus(findTestObject('input_number'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('input_number'), '3500')
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+
+WebUI.verifyTextPresent('ปภาดา นันทวัฒน์', false)
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Information'))
+
+WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/input__ant-input-number-input'), '10000')
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+
+WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
+
+WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Information'))
+
+WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/input__ant-input-number-input'), '10000')
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+
+WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
+
+WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
+
+WebUI.verifyTextPresent('บุษลิน ปิติวัฒน์', false)
+
+WebUI.verifyTextPresent('ธรรมิกา สุขประเสริญ', false)
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/span_c'))
+
+WebUI.click(findTestObject('Object Repository/DropdownOptionD'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+
+WebUI.verifyTextPresent('ธรรมิกา สุขประเสริญ', false)
 

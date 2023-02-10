@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_New Request</name>
+   <tag></tag>
+   <elementGuidId>6c95a30e-4f6b-437e-b3f3-49433e1a3a8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.request-button-new.TreeSelectNewRequest-media-department-display-none</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1180cd41-486d-4c4b-ac88-abb9fd3c877f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>request-button-new TreeSelectNewRequest-media-department-display-none</value>
+      <webElementGuid>9cebdfe6-b6f6-4117-ae84-d2d893283849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Request</value>
+      <webElementGuid>290b8a33-0e04-46d4-9460-ab0e6e09fc52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;button-container&quot;]/span[1]/button[@class=&quot;request-button-new TreeSelectNewRequest-media-department-display-none&quot;]</value>
+      <webElementGuid>f9042459-402f-4323-b8cc-3945a8f6b8d8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div/div[2]/span/button</value>
+      <webElementGuid>6a6e8cbb-b83c-47f1-847b-0fc194bcd2fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::button[2]</value>
+      <webElementGuid>bde90270-0e4a-4871-906c-1456d94d106c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::button[2]</value>
+      <webElementGuid>26b0bc2f-ca2e-44da-9a7c-ff0b7d9819ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/button</value>
+      <webElementGuid>54c403ef-378a-423b-b794-0423b0a482b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'New Request' or . = 'New Request')]</value>
+      <webElementGuid>e9b3e4c1-78fc-42aa-9425-23d4f68f2f03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

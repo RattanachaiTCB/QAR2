@@ -21,16 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
 
-WebUI.click(findTestObject('FormCondition'))
+WebUI.click(findTestObject('FormLineOfComand'))
 
-WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=102')
+WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=90')
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Line Approvals'))
+
+WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
+

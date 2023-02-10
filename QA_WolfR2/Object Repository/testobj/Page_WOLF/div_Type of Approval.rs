@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Type of Approval</name>
+   <tag></tag>
+   <elementGuidId>6835f7e5-e221-471d-a19d-6ba7b7c21e6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::div[41]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>73611892-43c2-41b1-bf64-6e4b2ff1393a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-collapse-header</value>
+      <webElementGuid>ab5e9bf5-0cec-452a-8a0e-d5cc8d8c4dc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d3574f6e-c4d3-4385-a825-76e4f671bc8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6a4f1a62-9c0e-41d1-ae41-666729cf86f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e1eee6bf-3338-48e4-a307-bb1a30bce194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Type of Approval</value>
+      <webElementGuid>4bc91889-8732-4c10-bfa5-8cb09a5b058e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-popover ant-popover-placement-bottomLeft&quot;]/div[@class=&quot;ant-popover-content&quot;]/div[@class=&quot;ant-popover-inner&quot;]/div[@class=&quot;ant-popover-inner-content&quot;]/div[@class=&quot;collapse-container&quot;]/div[@class=&quot;ant-collapse ant-collapse-icon-position-end group-template-collapse&quot;]/div[@class=&quot;ant-collapse-item group-template-panel&quot;]/div[@class=&quot;ant-collapse-header&quot;]</value>
+      <webElementGuid>840341a7-87cc-4483-8bad-afd0d6be568c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::div[41]</value>
+      <webElementGuid>9f0460af-7b7d-40a2-9237-38ce2a844de4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/following::div[41]</value>
+      <webElementGuid>241b09a0-1f28-45d7-b9b3-ba5d481a3c3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div</value>
+      <webElementGuid>4836357c-1846-4a45-bf17-f5011a3a413a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Type of Approval' or . = 'Type of Approval')]</value>
+      <webElementGuid>e1efffad-33ab-4a7b-bc26-d2ec25bca7cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

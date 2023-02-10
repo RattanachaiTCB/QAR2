@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Line Approvals</name>
+   <tag></tag>
+   <elementGuidId>8c5e9f54-d0f2-4e14-854c-5158efc0bc7e</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'BTN' and (text() = 'Line Approvals' or . = 'Line Approvals')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[4]/div/div/div/div/div[3]/button</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>43dbf35d-61d1-4821-852f-89e8c2539a9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>BTN</value>
+      <webElementGuid>6057f8e6-4364-418e-b059-0c38efa244e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Line Approvals</value>
+      <webElementGuid>208e482e-8f89-4a07-af79-dcfa0cb4fe98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;inner-content show-tablet-navbar-request-max-1024&quot;]/div[@class=&quot;filter-container&quot;]/div[@class=&quot;Sidebar RequestSideBarElement-display-none&quot;]/div[3]/button[@class=&quot;BTN&quot;]</value>
+      <webElementGuid>7eef5a7d-297c-4f7c-9a95-ea9a544c610f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div[4]/div/div/div/div/div[3]/button</value>
+      <webElementGuid>b2f1a950-b482-4511-bda5-40014f3f9098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[2]/following::button[1]</value>
+      <webElementGuid>934e563a-122a-4d24-820d-71f5be901cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[2]/following::button[2]</value>
+      <webElementGuid>3285c59f-f522-4719-80a4-ec392d45da33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachment'])[2]/preceding::button[1]</value>
+      <webElementGuid>c88ad9f5-7b3e-414f-b7e1-9b5682a2caa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[3]/button</value>
+      <webElementGuid>612f4384-46f7-46e9-8c54-05a3560972af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Line Approvals' or . = 'Line Approvals')]</value>
+      <webElementGuid>f73ea62e-d38a-4f7a-a614-3a07d4cd7f31</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
