@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>option a in Type of approval condition form</description>
+   <name>DropdownOptionD</name>
+   <tag></tag>
+   <elementGuidId>70bfcfbb-56ef-4c80-a20c-2225101fe719</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'd' or . = 'd') and @class = 'ant-select-item-option-content']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>70fe725e-97eb-4b4e-a3a5-6d085e8f09a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>d</value>
+      <webElementGuid>1ae0647c-56a4-4cf4-a670-87638a889032</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-item-option-content</value>
+      <webElementGuid>de612ad7-f141-4d0a-8969-fb675d20098f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
