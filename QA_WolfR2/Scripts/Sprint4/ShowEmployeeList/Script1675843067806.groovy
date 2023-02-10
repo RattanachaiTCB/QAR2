@@ -18,14 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-
-
-
-
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.navigateToUrl('https://localhost:5001/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
@@ -33,13 +28,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/span_Rework'))
+WebUI.click(findTestObject('button settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Cancel'))
+WebUI.click(findTestObject('btnSubmenuEmployee'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p (7)'))
+WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/body_Cancel'), 'Cancel')
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Employee(0)')
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
 
