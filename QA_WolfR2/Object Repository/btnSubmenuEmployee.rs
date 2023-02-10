@@ -7,26 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@id, 'Employee') and contains(@class, 'button-submenu') and (text() = 'Employee' or . = 'Employee')]</value>
+         <value>//a[@href = '/Settings?name=Employee']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>a729e73b-5a16-4e02-92f8-11ecb4117e1d</webElementGuid>
+      <webElementGuid>5de91178-fab3-4336-8d4a-a074c25bc525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button-submenu</value>
-      <webElementGuid>d0adaaa2-5994-4a75-8bf0-a1fc3136ff98</webElementGuid>
+      <webElementGuid>1a33db41-190b-4ae9-ae63-73f2dd3030d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,14 +34,22 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>29767f0c-f359-4f5f-8478-33ae98788840</webElementGuid>
+      <webElementGuid>bbf6f47e-c793-44a2-b2b3-b87cac51bfe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>040f5095-562f-4ab6-862b-86db95b6c1fa</webElementGuid>
+      <webElementGuid>1bca4e3d-8e55-4ba1-b43c-2019cc0467b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings?name=Employee</value>
+      <webElementGuid>6db5e8d9-3446-42d2-ad9e-5c2e1e2d1a1d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
