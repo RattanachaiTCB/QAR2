@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Can Search Employee</description>
+   <name>ShowEmployeeSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc9d4531-957d-441e-95ab-153e58f4d036</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubmenuEmployee</name>
+   <tag></tag>
+   <elementGuidId>639164ce-88c5-4015-aaa1-3c198450b838</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(@id, 'Employee') and contains(@class, 'button-submenu')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Employee</value>
+      <webElementGuid>c7c6a00f-df62-40f0-9da2-80ff5b7ce74b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-submenu</value>
+      <webElementGuid>36210603-59f0-4d30-b18d-b85d097b8e31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>71d30661-b793-40ae-bb84-2d8c94f5bbbe</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

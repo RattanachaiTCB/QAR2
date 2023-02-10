@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>แสดง employeelist</description>
+   <name>ShowEmployeeList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>187b26cf-6a9b-4a84-948e-664a50aec30b</testCaseGuid>
+</TestCaseEntity>
