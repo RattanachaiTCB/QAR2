@@ -16,12 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.support.ui.Select as Select
-import org.junit.Assert as Assert
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
@@ -43,11 +37,19 @@ WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate F
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/div__padding-controller col-xl-4 col-md-4 c_16246f'))
 
-WebUI.clearText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '2000')
 
-driver.findElement(By.xpath('//*[@id="basic"]/div[4]/div[4]/div/div/div/div/div/input')).clear()
+WebUI.click(findTestObject('Object Repository/Page_WOLF/div__padding-controller col-xl-4 col-md-4 c_16246f'))
 
-driver.findElement(By.xpath('//*[@id="basic"]/div[4]/div[4]/div/div/div/div/div/input')).sendKeys('2000')
+WebUI.doubleClick(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '0.5')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/div__padding-controller col-xl-4 col-md-4 c_16246f'))
+
+WebUI.verifyEqual(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), 1000)
+
+WebUI.closeBrowser()
 

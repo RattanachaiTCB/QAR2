@@ -6,12 +6,12 @@
    <elementGuidId>78037161-386a-4996-af6f-a00eea592d68</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='In Process'])[1]/following::div[6]</value>
+         <key>CSS</key>
+         <value>div.ant-select.ant-select-single.ant-select-show-arrow.ant-select-open > div.ant-select-selector</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.ant-select-item-option-content</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>409c7ead-8afc-453c-8ed7-3252468cb8f1</webElementGuid>
+      <webElementGuid>62330009-8d2d-46b6-8de9-c7dccf7e2648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-select-item-option-content</value>
-      <webElementGuid>86041818-173b-4f13-8a93-d64fb8f18a33</webElementGuid>
+      <value>ant-select-selector</value>
+      <webElementGuid>e0563095-b4f6-4398-9156-ffec93533b49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,66 +38,18 @@
       <name>text</name>
       <type>Main</type>
       <value>To Do List</value>
-      <webElementGuid>9684933e-ac85-43be-a20a-822efba2e449</webElementGuid>
+      <webElementGuid>1094223d-cbe1-4e82-836f-3aaae11712f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
-      <webElementGuid>7c16f2cb-cc54-4c37-be3e-fc68b36a3d17</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;desktop&quot;]/div[@class=&quot;content filter-content&quot;]/div[@class=&quot;worklist-filter-container&quot;]/div[@class=&quot;all-filter-container&quot;]/div[@class=&quot;Sidebar&quot;]/div[@class=&quot;filter-select-container&quot;]/div[@class=&quot;ant-select ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>1ab63768-f5a6-4951-89f8-bbdd9f167c62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='In Process'])[1]/following::div[6]</value>
-      <webElementGuid>e92059ca-bf61-41a2-a2e6-47b3ddecd1af</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='To Do List'])[1]/following::div[7]</value>
-      <webElementGuid>2060b69f-0b30-4ef9-81a5-e144c0d8e564</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='In Process'])[2]/preceding::div[1]</value>
-      <webElementGuid>36008862-7842-4b1d-8448-84768c6ce911</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Related List'])[3]/preceding::div[3]</value>
-      <webElementGuid>49a2af1c-30dc-4e28-b82f-09a48aa7bcc1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div/div/div[2]/div/div/div/div/div</value>
-      <webElementGuid>393fc27a-ecfc-4029-ada8-41371558e98a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'To Do List' or . = 'To Do List')]</value>
-      <webElementGuid>6fdc3b6a-e952-4da6-8c58-4601a4793976</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -135,5 +87,13 @@
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div[2]/div/div</value>
       <webElementGuid>41345db4-86c9-46e7-ac21-6fced6beca9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'To Do List' or . = 'To Do List')]</value>
+      <webElementGuid>bfa291ea-09dc-472b-9ec1-f26ae9b01c78</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

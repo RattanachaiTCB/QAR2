@@ -6,12 +6,12 @@
    <elementGuidId>84960d9c-46da-43a3-9585-5a7cd9ff2701</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[2]/following::div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[2]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>90fa9bca-e922-4152-a201-38dadd2b56d0</webElementGuid>
+      <webElementGuid>ad55d866-f4be-4522-aa08-2d7aaba9c323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-select-item-option-content</value>
-      <webElementGuid>9f145bf1-e5d9-4657-8644-6e6339cafbef</webElementGuid>
+      <webElementGuid>f6454db7-4104-4eac-90b4-95d46f0bb4cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancelled</value>
-      <webElementGuid>7641dd43-f015-4aa2-ac8a-f381d6e001b0</webElementGuid>
+      <webElementGuid>8b59e920-6b84-4f27-9ad9-84093a162d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[4]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
-      <webElementGuid>f0805dc7-963b-4462-93fd-da5a2703c125</webElementGuid>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
+      <webElementGuid>537107dc-5712-4044-81f9-9c195c4d622c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[2]/following::div[2]</value>
-      <webElementGuid>b9599d16-b392-47ce-83ee-56d0590a416f</webElementGuid>
+      <webElementGuid>f73c0bfc-7e79-4480-be0f-718968caadc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related List'])[1]/following::div[4]</value>
-      <webElementGuid>dfe48e18-87f9-4580-acfe-62993c033c9a</webElementGuid>
+      <webElementGuid>f6c342b1-59d4-45e7-ac3d-f777ca82cb36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,23 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rejected'])[2]/preceding::div[1]</value>
-      <webElementGuid>99357f78-5bfe-4688-83b6-6654a64f00d2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/div/div/div[2]/div/div/div/div[5]/div</value>
-      <webElementGuid>66f14d1b-85e0-4aa2-a8dc-b30758dc95e0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Cancelled' or . = 'Cancelled')]</value>
-      <webElementGuid>a1ca2ed0-c217-43cd-82ab-81a25d790ad0</webElementGuid>
+      <webElementGuid>f8a1fee5-f24b-4ad7-bd07-23c5cebbe37b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,5 +79,13 @@
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div/div/div[5]/div</value>
       <webElementGuid>c9f6d0df-56e5-474c-94b6-d543cc90c1bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cancelled' or . = 'Cancelled')]</value>
+      <webElementGuid>7157568c-44a4-4500-82ee-c55fb048218b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
