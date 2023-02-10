@@ -16,6 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.Select
+
+import static org.junit.Assert.assertArrayEquals
+import static org.junit.Assert.assertEquals
+
+import org.junit.Assert
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
@@ -27,13 +46,20 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('button settings'))
+WebUI.navigateToUrl('https://localhost:5001/Request?MemoID=0&template=574')
 
-WebUI.click(findTestObject('btnSubmenuEmployee'))
+String Company = WebUI.getText(findTestObject('เพิ่ม object'))  //object
+String Subject = WebUI.getText(findTestObject('เพิ่ม object'))  //object
+String DueDate = WebUI.getText(findTestObject('เพิ่ม object'))  //object
+String FullName = WebUI.getText(findTestObject('เพิ่ม object'))  //object
 
-WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyEqual(WebUI.getUrl(), 'https://localhost:5001/Request?MemoID=0&template=574&isCopy')
 
-WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Employee(0)')
+WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), Company)
+WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), Subject)
+WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), DueDate)
+WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), FullName)
 
-WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
+
+
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[contains(@id, 'Employee') and contains(@class, 'button-submenu')]</value>
+         <value>//a[contains(@id, 'Employee') and contains(@class, 'button-submenu') and (text() = 'Employee' or . = 'Employee')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>c7c6a00f-df62-40f0-9da2-80ff5b7ce74b</webElementGuid>
+      <webElementGuid>a729e73b-5a16-4e02-92f8-11ecb4117e1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,14 +26,22 @@
       <name>class</name>
       <type>Main</type>
       <value>button-submenu</value>
-      <webElementGuid>36210603-59f0-4d30-b18d-b85d097b8e31</webElementGuid>
+      <webElementGuid>d0adaaa2-5994-4a75-8bf0-a1fc3136ff98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>71d30661-b793-40ae-bb84-2d8c94f5bbbe</webElementGuid>
+      <value>a</value>
+      <webElementGuid>29767f0c-f359-4f5f-8478-33ae98788840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee</value>
+      <webElementGuid>040f5095-562f-4ab6-862b-86db95b6c1fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__p-inputtext p-component p-filled inf_c2f357</name>
+   <tag></tag>
+   <elementGuidId>57fa9630-1c09-4d6e-839c-1a9850caf217</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='TCB : บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.p-filled.information-inputTexta-width-inputText-company</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1352fb51-ce0a-4405-9be8-bf82518da5e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-filled information-inputTexta-width-inputText-company</value>
+      <webElementGuid>94b5ca60-ab70-4e73-957f-d9ec2c0411b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Select</value>
+      <webElementGuid>1d7ff96d-04c3-496e-8c06-c17ccce567d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>TCB : บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)</value>
+      <webElementGuid>a2ebefab-1ea8-4a9e-b64c-99bb9328516a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;Information-panding-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-4 col-sm-12 col-12&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[1]/span[@class=&quot;inputTextComponents-width&quot;]/input[@class=&quot;p-inputtext p-component p-filled information-inputTexta-width-inputText-company&quot;]</value>
+      <webElementGuid>53d7082b-9444-451b-befe-140f2515b06f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='TCB : บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)']</value>
+      <webElementGuid>3ee9b36e-fa62-49d0-a034-3e1833fd3ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div[2]/div[2]/div/div/span/input</value>
+      <webElementGuid>92ca2765-85c0-4a8b-918b-b280181181f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>15a5d786-a82c-4f6c-82c7-894bd9a9868f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Select']</value>
+      <webElementGuid>2b418ed7-d238-4de3-a663-4494f0d78c05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

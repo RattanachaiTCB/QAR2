@@ -19,13 +19,34 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.navigateToUrl('https://localhost:5001/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+WebUI.setText(findTestObject('Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_WOLF/button_Sign In'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p_Waiting for'), 'วูล์ฟ')
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/p_KTL-VLD01-2023-000004'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357'))
+
+WebUI.click(findTestObject('Page_WOLF/td_'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/td_()'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/p_Copy'))
+
+WebUI.click(findTestObject('Page_WOLF/input'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/div_10'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value'))
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Request?MemoID=574&isCopy')
+
+WebUI.closeBrowser()
 
