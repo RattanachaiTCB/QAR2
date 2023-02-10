@@ -27,16 +27,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page_WOLF/svg'))
+WebUI.click(findTestObject('Object Repository/Page_WOLF/svg'))
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/span_To Do List'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/div_In Process'))
+WebUI.click(findTestObject('Object Repository/Page_WOLF/div_Cancelled'))
 
-WebUI.verifyNotEqual(findTestObject('Object Repository/Page_WOLF/span_Wait for Approve'), 'Completed')
+WebUI.verifyEqual(findTestObject('Object Repository/Page_WOLF/span_Cancelled'), 'Cancelled')
 
-WebUI.verifyNotEqual(findTestObject('Object Repository/Page_WOLF/span_Wait for Approve'), 'Cancelled')
-
-WebUI.verifyTextPresent('Worklist / In Process', false)
-WebUI.verifyTextPresent('Waiting for    วูล์ฟ', false)
+WebUI.closeBrowser()
 
