@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_-_p-dialog-header-close-icon pi pi-times</name>
+   <tag></tag>
+   <elementGuidId>1fc4e38e-1fa7-4188-85a0-fd6199237c98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dialog-header-close-icon.pi.pi-times</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pr_id_5']/div/div[2]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4c415065-c343-43fe-af8a-09f61d255440</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dialog-header-close-icon pi pi-times</value>
+      <webElementGuid>28ae1c55-d03b-47bb-9598-6048adff3134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_5&quot;)/div[@class=&quot;p-dialog-header&quot;]/div[@class=&quot;p-dialog-header-icons&quot;]/button[@class=&quot;p-dialog-header-icon p-dialog-header-close p-link&quot;]/span[@class=&quot;p-dialog-header-close-icon pi pi-times&quot;]</value>
+      <webElementGuid>fa430d67-2979-459c-b666-b6b8fc02dbf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pr_id_5']/div/div[2]/button/span</value>
+      <webElementGuid>31d2ab8f-dff2-41d5-81f2-a673250094ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span</value>
+      <webElementGuid>19202266-1f92-40c7-98db-ae486cb30625</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

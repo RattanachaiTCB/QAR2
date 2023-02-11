@@ -369,6 +369,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/input_Forgot Password_username",
+      "brokenLocator": "//input[@name\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

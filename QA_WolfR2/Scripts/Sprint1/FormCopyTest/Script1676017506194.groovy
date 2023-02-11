@@ -21,33 +21,37 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://localhost:5001/login')
 
-WebUI.setText(findTestObject('Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.click(findTestObject('Page_WOLF/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/p_KTL-VLD01-2023-000004'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/p_KTL-VLD01-2023-000004 (1)'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)'))
 
-WebUI.click(findTestObject('Page_WOLF/td_'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/span_-_p-dialog-header-close-icon pi pi-times'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_b0aa40'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/td_()'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/p_Copy'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value (1)'))
 
-WebUI.click(findTestObject('Page_WOLF/input'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Copy'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/div_10'))
+WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value'))
+WebUI.getUrl()
 
-WebUI.openBrowser('')
+WebUI.verifyElementText(findTestObject('testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)'), 'TCB')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/Request?MemoID=574&isCopy')
+WebUI.verifyTextPresent('Test Validation By Katalon', false)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value (1)'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/div_New Request SubmitSave DraftRequestorIn_7e3c92'))
 

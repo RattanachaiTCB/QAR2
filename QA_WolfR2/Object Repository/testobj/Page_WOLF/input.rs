@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input</name>
+   <tag></tag>
+   <elementGuidId>015eb237-5fed-434c-b931-b50a971f6ede</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[title=&quot;10 Feb 2023&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='10 Feb 2023']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>70ffb7f2-26f6-498d-af1f-9924d88dc4e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Select date</value>
+      <webElementGuid>ef44f844-66f3-447c-9dbb-c490d4430a49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>10 Feb 2023</value>
+      <webElementGuid>5a9ebd29-2854-45f4-bed3-78d520a0bc9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>13</value>
+      <webElementGuid>a476575c-1208-40bf-851d-0419616c2e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>7fe1b6f7-1ad3-4822-81e3-c5a290454fe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>10 Feb 2023</value>
+      <webElementGuid>a03e0be2-849f-4684-b895-cfe8e22665cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[@class=&quot;padding-controller col-xl-4 col-md-4 col-sm-12 col-12&quot;]/div[@class=&quot;input-component-container&quot;]/div[@class=&quot;ant-picker ant-picker-large ant-picker-focused&quot;]/div[@class=&quot;ant-picker-input&quot;]/input[1]</value>
+      <webElementGuid>9d72ef8e-5f11-47c9-9365-ade00db549ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='10 Feb 2023']</value>
+      <webElementGuid>53f2c0a4-7cb4-4c0b-a2b4-0f1bb06e0c38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='basic']/div[2]/div[2]/div/div/div/input</value>
+      <webElementGuid>515242f0-625f-407b-a64b-c69ec33b3f63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>c1d4670b-c96f-4b87-a5f7-4675c80c06cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Select date' and @title = '10 Feb 2023']</value>
+      <webElementGuid>ae35a843-75f7-4399-a7c6-bda6aa73762a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
