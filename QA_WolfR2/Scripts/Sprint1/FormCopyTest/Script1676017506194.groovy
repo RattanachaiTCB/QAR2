@@ -43,15 +43,28 @@ WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Copy'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.getUrl()
+String Company = WebUI.getText(findTestObject('testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)' //object
+        ))
 
-WebUI.verifyElementText(findTestObject('testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)'), 'TCB')
+String Subject = WebUI.getText(findTestObject('subject' //object
+        ))
 
-WebUI.verifyTextPresent('Test Validation By Katalon', false)
+String DueDate = WebUI.getText(findTestObject('calendar' //object
+        ))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input'))
+String FullName = WebUI.getText(findTestObject('testobj/Page_WOLF/input_-_items1.layout1.data.value (1)' //object
+        ))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value (1)'))
+String currentUrl = WebUI.getUrl()
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/div_New Request SubmitSave DraftRequestorIn_7e3c92'))
+WebUI.verifyEqual(currentUrl, 'https://localhost:5001/Request?MemoID=574&isCopy')
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)')), 
+    Company)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('subject')), Subject)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('calendar')), DueDate)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('testobj/Page_WOLF/input_-_items1.layout1.data.value (1)')), FullName)
 
