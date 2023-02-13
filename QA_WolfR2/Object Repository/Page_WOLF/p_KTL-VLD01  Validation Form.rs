@@ -6,31 +6,34 @@
    <elementGuidId>6292e5b1-d63f-4aad-a195-73322ff0c8ac</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//p[@class = 'template-text' and (text() = 'KTL-VLD01 : Validation Form' or . = 'KTL-VLD01 : Validation Form')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>6780306a-c52f-4ba0-848e-4e9e4c629225</webElementGuid>
+      <webElementGuid>6067735e-a082-4b1c-bf8c-829b33bf7a3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>template-text</value>
-      <webElementGuid>fcf146d2-04ff-4fa6-a190-4416b4eeb501</webElementGuid>
+      <webElementGuid>ad86c59d-96c8-4801-8a1b-18030e0b257e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>KTL-VLD01 : Validation Form</value>
-      <webElementGuid>33bee09d-813e-4137-8c6b-3bd14783753f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-popover ant-popover-placement-bottomLeft&quot;]/div[@class=&quot;ant-popover-content&quot;]/div[@class=&quot;ant-popover-inner&quot;]/div[@class=&quot;ant-popover-inner-content&quot;]/div[@class=&quot;collapse-container&quot;]/div[@class=&quot;ant-collapse ant-collapse-icon-position-end group-template-collapse&quot;]/div[@class=&quot;ant-collapse-item ant-collapse-item-active group-template-panel&quot;]/div[@class=&quot;ant-collapse-content ant-collapse-content-active&quot;]/div[@class=&quot;ant-collapse-content-box&quot;]/div[@class=&quot;template-item-container&quot;]/p[@class=&quot;template-text&quot;]</value>
-      <webElementGuid>e31d9e4a-9a6c-4585-8da4-d7e523288f8d</webElementGuid>
+      <webElementGuid>11542ae1-f6aa-47db-a64b-e0450512beda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +49,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[4]</value>
-      <webElementGuid>5ddbbb74-978a-4b48-8941-26f5c6bdc1b6</webElementGuid>
+      <webElementGuid>9a849771-34f2-4e80-84e2-33269e817e14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/following::p[4]</value>
-      <webElementGuid>cfdda0d2-ff0e-4222-af96-bb37e266d60d</webElementGuid>
+      <webElementGuid>0190ad72-f3a8-4b3e-8015-b417bc065838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='KTL-VLD01 : Validation Form']/parent::*</value>
-      <webElementGuid>6e444a37-fa35-401a-a44c-5e695a2d7e8c</webElementGuid>
+      <webElementGuid>09a1f536-eb83-4fd7-b225-8afa46d22659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div[2]/p</value>
-      <webElementGuid>d2fc1398-f7b0-4a69-a372-4c73373a6e2a</webElementGuid>
+      <webElementGuid>49acfb41-c1ec-4f1d-8275-657b94f4bff6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +81,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'KTL-VLD01 : Validation Form' or . = 'KTL-VLD01 : Validation Form')]</value>
-      <webElementGuid>c7a56552-1b67-412e-938b-ed6508bc1d63</webElementGuid>
+      <webElementGuid>bb53644b-259d-49f0-83fe-b2ba250a76c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::p[3]</value>
-      <webElementGuid>5c83df93-24f8-418a-887d-d700963605dd</webElementGuid>
+      <webElementGuid>38fe593b-ebee-41a1-a025-5b1494ef21a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/following::p[3]</value>
-      <webElementGuid>981295f4-6feb-4e93-ae00-de553459bcef</webElementGuid>
+      <webElementGuid>2da8a539-faa3-4561-81d1-c95e82054bb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +105,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/p</value>
-      <webElementGuid>900fabe1-ee73-4435-bc29-2c2b2c02513f</webElementGuid>
+      <webElementGuid>5b95539e-64f7-43af-9358-413c09f65068</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

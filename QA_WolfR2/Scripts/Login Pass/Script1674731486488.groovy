@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://localhost:5001/login')
-
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.openBrowser('https://qar2.wolfapprove.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 

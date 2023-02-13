@@ -17,25 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.convertWebElementToTestObject(5)
-
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/span_Wait for Approve'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Approve'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/svg'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/span_To Do List'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/div_In Process'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p__1'), 'พรพรรณ ธนากานต์')
-
-WebUI.verifyNotEqual(findTestObject('Object Repository/Page_WOLF/p__1'), 'วูล์ฟ')
-

@@ -6,6 +6,10 @@
    <elementGuidId>3bf52e3a-d4ce-4b82-8cd4-456c93278c32</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'TCB' or . = 'TCB')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>td</value>
       </entry>
@@ -14,23 +18,15 @@
          <value>//div[@id='pr_id_7_content']/div/div/table/tbody/tr/td</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>1c6bf5e8-ba7a-4ac5-b527-133b5b6520cd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>cell</value>
-      <webElementGuid>5651c5c4-e295-4b49-9bf5-a9720681eaa6</webElementGuid>
+      <value>span</value>
+      <webElementGuid>73488566-edb0-489b-b5d6-232d28299762</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TCB</value>
-      <webElementGuid>4beba95b-cc80-4528-8cf6-c751b7421983</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;pr_id_7_content&quot;)/div[@class=&quot;p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll&quot;]/div[@class=&quot;p-datatable-wrapper&quot;]/table[@class=&quot;p-datatable-table&quot;]/tbody[@class=&quot;p-datatable-tbody&quot;]/tr[@class=&quot;p-selectable-row&quot;]/td[1]</value>
-      <webElementGuid>915f4dcf-96f4-49d2-8ef0-af0719eaa0f7</webElementGuid>
+      <webElementGuid>82f9f33e-89d2-45f7-bda4-7721bf932836</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +42,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_7_content']/div/div/table/tbody/tr/td</value>
-      <webElementGuid>4ce82c6d-9d86-47b6-bc27-c967231ddd4a</webElementGuid>
+      <webElementGuid>cbfddd69-3fad-4c8b-9cfa-8357ff172478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::td[1]</value>
-      <webElementGuid>ba8c8686-f3e2-438a-a4f5-c23f5967c6be</webElementGuid>
+      <webElementGuid>bdf541c9-b96e-47bd-94ba-8cb24b21f9c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='attachment'])[1]/following::td[1]</value>
-      <webElementGuid>fc014f65-f856-4efa-8e9f-0161d79491ea</webElementGuid>
+      <webElementGuid>f8f7e9f9-4140-4249-9430-6cca800f355d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TechCons Biz Co.,Ltd. (Head Office)'])[1]/preceding::td[1]</value>
-      <webElementGuid>ee86ca22-4450-4cb7-a987-343d8f0e5a21</webElementGuid>
+      <webElementGuid>b56c30e4-9d56-47bd-906e-8dbf08ef75bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>5c54595a-32e9-4d6e-87b3-eb0956984602</webElementGuid>
+      <webElementGuid>225569f8-c0be-46cc-9ef7-51dd2c98c4db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +82,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'TCB' or . = 'TCB')]</value>
-      <webElementGuid>a51f2081-6e8d-41b2-be3d-f9e4855f6cf9</webElementGuid>
+      <webElementGuid>22f51c11-1429-4a44-98b0-0c6913282950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_5_content']/div/div/table/tbody/tr/td</value>
-      <webElementGuid>8149ec1b-9e51-4f0a-88f7-f6d5b4540ce2</webElementGuid>
+      <webElementGuid>035666e3-ee8e-44ec-8120-4c0e114b2901</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::td[1]</value>
-      <webElementGuid>b40bf404-90fb-416e-b152-8c4d3b56796d</webElementGuid>
+      <webElementGuid>944e90e8-2b74-4ede-b2c1-1317a49a0bd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[43]</value>
-      <webElementGuid>0a934209-960b-4f86-82df-7961ad5af203</webElementGuid>
+      <webElementGuid>bd15a1a4-e3f0-46cb-b282-92b88053b2cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td</value>
-      <webElementGuid>a4916043-e292-4e83-b2a8-93d58891a2f0</webElementGuid>
+      <webElementGuid>149a9794-7d56-419e-85e6-dd3c19dd95c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ชื่อ-สกุล'])[1]/following::td[1]</value>
-      <webElementGuid>e0349c76-2083-4b5a-ab8a-98fae4a350be</webElementGuid>
+      <webElementGuid>aeeabc5a-07e0-439f-b4c5-957d861bc931</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +130,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::td[1]</value>
-      <webElementGuid>93a72aae-3e3f-435c-bad7-28b09c5b23d6</webElementGuid>
+      <webElementGuid>d5692852-e6ab-49f9-93b0-7ea5eadb4cfb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
