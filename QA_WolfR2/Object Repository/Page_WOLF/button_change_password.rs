@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_WA</name>
+   <name>button_change_password</name>
    <tag></tag>
-   <elementGuidId>b9740dbf-3a36-4bb6-8c05-9b3f608462ad</elementGuidId>
+   <elementGuidId>28afef04-26ca-4d29-b731-fe0a3b0acf56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.profile-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div[4]/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::div[17]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +21,54 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>30b9e44f-f939-4698-81dc-506f05018435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>profile-button</value>
-      <webElementGuid>39a0cbaa-f229-4e50-8a38-b2db2be54bba</webElementGuid>
+      <value>popup-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>WA</value>
-      <webElementGuid>be905006-f221-4cc5-a9ee-5476dfde1075</webElementGuid>
+      <value>Change Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;navbar-container -active&quot;]/div[@class=&quot;profile-container desktop&quot;]/div[@class=&quot;profile-button&quot;]</value>
-      <webElementGuid>8671b011-5f6b-4964-8236-d5fd6dde1ac0</webElementGuid>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-popover ant-popover-placement-bottomRight&quot;]/div[@class=&quot;ant-popover-content&quot;]/div[@class=&quot;ant-popover-inner&quot;]/div[@class=&quot;ant-popover-inner-content&quot;]/div[@class=&quot;main-user-popup-content&quot;]/div[@class=&quot;popup-button-box&quot;]/div[@class=&quot;popup-container&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div[4]/div</value>
-      <webElementGuid>654ed990-deef-498d-8cd6-343691e0444e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::div[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::div[6]</value>
-      <webElementGuid>3243b81a-5826-410d-a907-690f75ff7bb0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::div[9]</value>
-      <webElementGuid>ad1b0ab1-e892-4a57-8fad-0a31be752e42</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/following::div[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div</value>
-      <webElementGuid>dbe5c7e9-39b0-4e0d-97a7-f4a6677dce28</webElementGuid>
+      <value>//div[3]/div/div/div/div[2]/div/div/div[2]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'WA' or . = 'WA')]</value>
-      <webElementGuid>db3ddc47-cf2d-47d5-a909-eaece21b1057</webElementGuid>
+      <value>//div[(text() = 'Change Password' or . = 'Change Password')]</value>
    </webElementXpaths>
 </WebElementEntity>

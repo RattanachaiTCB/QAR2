@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_concat(id(, , fil, , ))_fil</name>
+   <name>input_searchType</name>
    <tag></tag>
    <elementGuidId>17f890ef-d365-42bd-b1e8-bba25d1f6143</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='fil']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#fil</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='fil']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'fil' and @placeholder = 'ค้นหา ประเภทแบบฟอร์ม / แบบฟอร์ม' and @id = 'fil']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d12ea3fd-6adc-416e-b849-cb84b13d7dfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,6 @@
       <name>class</name>
       <type>Main</type>
       <value>input-custom</value>
-      <webElementGuid>558751ac-fe28-4738-9981-c72a3869be1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +40,6 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>4d9f0516-0071-4b8b-a50f-72a80666a29a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,6 @@
       <name>name</name>
       <type>Main</type>
       <value>fil</value>
-      <webElementGuid>fc74bfab-ec2a-4176-99ae-6d987989ea5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,6 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>ค้นหา ประเภทแบบฟอร์ม / แบบฟอร์ม</value>
-      <webElementGuid>99de48b0-94ed-48b3-a79c-c1d132ffa8d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,6 @@
       <name>id</name>
       <type>Main</type>
       <value>fil</value>
-      <webElementGuid>3629c04e-5807-41f8-b14e-93241cc30703</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +68,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;fil&quot;)</value>
-      <webElementGuid>b704a536-e57c-46a1-905e-5bf8639314ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +75,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='fil']</value>
-      <webElementGuid>14fefd3d-a566-4d03-a224-249c7cf01293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +82,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>e70bce18-efa3-443e-93e3-877806e7318d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +89,5 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'fil' and @placeholder = 'ค้นหา ประเภทแบบฟอร์ม / แบบฟอร์ม' and @id = 'fil']</value>
-      <webElementGuid>3a364cf2-e24a-4824-910e-c991bc5f35da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

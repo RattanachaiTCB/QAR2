@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Submit'))
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/div_WA'))
+WebUI.click(findTestObject('Page_WOLF/button_profile'))
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/div_Logout'))
 

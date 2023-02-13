@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__current_password</name>
+   <name>input__comfirm_password</name>
    <tag></tag>
-   <elementGuidId>5941a996-140c-457b-b3ca-70cacf10f6d5</elementGuidId>
+   <elementGuidId>fb7e5132-0694-4a5e-a8f1-c55061d4a73d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;current_password&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@name='comfirm_password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='current_password']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;comfirm_password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8ff97063-45a3-434c-a336-5896bb785db3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>current_password</value>
-      <webElementGuid>771f21de-7112-4b85-9686-a9eaa7469a6c</webElementGuid>
+      <value>comfirm_password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +36,6 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>af44899f-a31f-45a8-9ac1-dd38a6a99364</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +43,13 @@
       <name>class</name>
       <type>Main</type>
       <value>input-password </value>
-      <webElementGuid>eef75ee6-cb02-448b-b98f-63ac585ce870</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>W</value>
-      <webElementGuid>92d55248-1de1-4d54-8722-cf90c003d721</webElementGuid>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,30 +57,26 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ant-scrolling-effect&quot;]/div[4]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap&quot;]/div[@class=&quot;ant-modal modal-password&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[1]/div[@class=&quot;input-change-password-container&quot;]/div[@class=&quot;main-input-change-container&quot;]/div[@class=&quot;input-container&quot;]/div[@class=&quot;input-password-container&quot;]/input[@class=&quot;input-password&quot;]</value>
-      <webElementGuid>ca1ba4ee-2d22-44d0-9305-aad1809f715f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='current_password']</value>
-      <webElementGuid>0975da9f-5fbe-4b61-b3f9-8ae80ea8f03e</webElementGuid>
+      <value>//input[@name='comfirm_password']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/div/div[2]/input</value>
-      <webElementGuid>41db658a-1c0d-414d-bc12-05f72da6ef61</webElementGuid>
+      <value>//div[3]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'current_password' and @type = 'password']</value>
-      <webElementGuid>0fcceed9-bed3-4e90-9d0a-3c9b0da3f7e8</webElementGuid>
+      <value>//input[@name = 'comfirm_password' and @type = 'password']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__comfirm_password</name>
+   <name>input_comfirm_password</name>
    <tag></tag>
-   <elementGuidId>fb7e5132-0694-4a5e-a8f1-c55061d4a73d</elementGuidId>
+   <elementGuidId>a894f7b9-225d-4148-afda-a0022221d142</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;comfirm_password&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='comfirm_password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;comfirm_password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>73ac2bda-db13-47ea-9b82-adb2b56ddcba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,6 @@
       <name>name</name>
       <type>Main</type>
       <value>comfirm_password</value>
-      <webElementGuid>a7ebfa36-8cf4-4ac8-b0e1-d02257d78727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +36,6 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>5f8bf8b0-be8c-4b68-8451-448898897e18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +43,13 @@
       <name>class</name>
       <type>Main</type>
       <value>input-password </value>
-      <webElementGuid>060fb87a-25d1-4bad-92a9-a4f030adfe4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>f648c50b-80e7-4841-aee5-ac5f83e2bdfa</webElementGuid>
+      <value>W</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +57,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ant-scrolling-effect&quot;]/div[4]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap&quot;]/div[@class=&quot;ant-modal modal-password&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[1]/div[@class=&quot;input-change-password-container&quot;]/div[@class=&quot;main-input-change-container&quot;]/div[@class=&quot;input-container&quot;]/div[@class=&quot;input-password-container&quot;]/input[@class=&quot;input-password&quot;]</value>
-      <webElementGuid>65ceb22a-06ab-4732-96f8-d11c13d838ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='comfirm_password']</value>
-      <webElementGuid>6ad6a393-8f36-4be6-b546-077249dbc5ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +71,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/input</value>
-      <webElementGuid>57e13096-77a6-4de1-b0ac-c22a5fea82d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +78,5 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'comfirm_password' and @type = 'password']</value>
-      <webElementGuid>a9275f63-5176-40b7-8424-9b8adc14a34e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

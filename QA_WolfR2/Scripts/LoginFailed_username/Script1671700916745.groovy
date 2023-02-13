@@ -23,6 +23,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Sign In'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p_Access denied.You do not have permission _a684cd'), 
+WebUI.verifyElementText(findTestObject('login/text_check_permission'), 
     'Access denied. You do not have permission to perform access this resource. Please add your employee profile.')
 

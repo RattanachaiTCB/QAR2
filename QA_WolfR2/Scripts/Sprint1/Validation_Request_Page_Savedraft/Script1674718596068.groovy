@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'KTL-VLD01')
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'KTL-VLD01')
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form'))
 

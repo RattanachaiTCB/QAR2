@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_</name>
+   <name>button_</name>
    <tag></tag>
-   <elementGuidId>eed7b1f2-a0d7-4ad4-ae58-19f74a766f7e</elementGuidId>
+   <elementGuidId>dc279d28-8c25-4803-8dde-379a20cd8ba6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.text-header</value>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/p</value>
+         <key>CSS</key>
+         <value>button.button-confirm-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>a05bc14d-c60b-4089-bda0-be776b1b6b05</webElementGuid>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-header</value>
-      <webElementGuid>936434cd-2a2d-4149-8471-0847cccfa361</webElementGuid>
+      <value>button-confirm-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ยืนยันตนเรียบร้อย</value>
-      <webElementGuid>c8eafd3b-56db-4da3-9744-84f1b0945378</webElementGuid>
+      <value>ย้อนกลับไปหน้าเข้าสู่ระบบ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;error-page-container without-nav&quot;]/div[@class=&quot;forget-password-container&quot;]/div[@class=&quot;text-container&quot;]/p[@class=&quot;text-header&quot;]</value>
-      <webElementGuid>c1fd2807-8427-4ef9-b1ca-42f330b5cd7c</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;error-page-container without-nav&quot;]/div[@class=&quot;forget-password-container&quot;]/div[@class=&quot;text-container&quot;]/button[@class=&quot;button-confirm-2&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/p</value>
-      <webElementGuid>784de484-7306-42fe-9e03-dcb65ff5ad62</webElementGuid>
+      <value>//div[@id='root']/div/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ย้อนกลับไปหน้าเข้าสู่ระบบ'])[1]/preceding::p[1]</value>
-      <webElementGuid>5842348b-c0ce-4d01-a3d3-08e72c8c64f1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ยืนยันตนเรียบร้อย']/parent::*</value>
-      <webElementGuid>d99698a4-2e7c-4f3f-937e-df622efafbdd</webElementGuid>
+      <value>//*/text()[normalize-space(.)='ย้อนกลับไปหน้าเข้าสู่ระบบ']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
-      <webElementGuid>f0aada4b-103b-4197-b7f8-641a8f60da8c</webElementGuid>
+      <value>//button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'ยืนยันตนเรียบร้อย' or . = 'ยืนยันตนเรียบร้อย')]</value>
-      <webElementGuid>5dc76fa0-d13c-435a-8325-dd10a17b80af</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'ย้อนกลับไปหน้าเข้าสู่ระบบ' or . = 'ย้อนกลับไปหน้าเข้าสู่ระบบ')]</value>
    </webElementXpaths>
 </WebElementEntity>

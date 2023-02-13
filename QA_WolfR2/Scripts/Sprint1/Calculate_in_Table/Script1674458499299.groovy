@@ -31,7 +31,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/p_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'cal')
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'cal')
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate Function'))
 
