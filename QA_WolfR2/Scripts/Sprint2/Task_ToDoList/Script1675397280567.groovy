@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.navigateToUrl('https://localhost:5001/Default')
 
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
@@ -27,7 +27,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p_Waiting for'), 'Waiting for')
+WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p_'), 'วูล์ฟ')
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Worklist / To Do List (0)')
+
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
+
+String Waitfor = WebUI.getText(findTestObject('Page_WOLF/p_Waiting for'))
+
+WebUI.verifyEqual(Waitfor, 'วูล์ฟ')
 

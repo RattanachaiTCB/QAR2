@@ -13,40 +13,36 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@class = 'text-name' and @id = 'TestAccurateWaitfor']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>903b9385-9b21-4bec-bfde-6b98687e8e84</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>text-label</value>
-      <webElementGuid>acf60c0f-32dc-4ba9-853b-465dfe183cb1</webElementGuid>
+      <webElementGuid>42e79910-ef9e-49c1-827a-956cf942e7d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Waiting for</value>
-      <webElementGuid>a58476c1-23fa-4b4a-ac7e-85bcaa01dcc5</webElementGuid>
+      <value>text-name</value>
+      <webElementGuid>f519b552-0f02-443f-a032-2fd1d7e5df8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-footer-container desktop&quot;]/div[@class=&quot;list-aprroval-container&quot;]/div[@class=&quot;waiting-for-container&quot;]/p[@class=&quot;text-label&quot;]</value>
-      <webElementGuid>0c341efe-127f-47cb-b27b-e5f97e5e40a9</webElementGuid>
+      <value>TestAccurateWaitfor</value>
+      <webElementGuid>b96fd190-a740-4921-b1ca-bf2518b4e10e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/p</value>
-      <webElementGuid>0cb17324-d9a8-4603-98ee-1b1c952c1f91</webElementGuid>
+      <webElementGuid>d9ad2ed1-77db-4b3c-b7d3-b98876d182a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[1]/following::p[3]</value>
-      <webElementGuid>323615af-2766-40e1-a04d-3f555997f4c9</webElementGuid>
+      <webElementGuid>25eb051e-a42e-4f4c-a17f-3e7b867ecde0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bee Naphat Test'])[1]/following::p[5]</value>
-      <webElementGuid>877ecc00-99a9-46d2-baa8-849461c28ef9</webElementGuid>
+      <webElementGuid>a90762b4-13c9-4149-a8d4-f6765aecb8e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::p[2]</value>
-      <webElementGuid>1a6325dc-3f0d-496c-b5c3-458eefaac8f9</webElementGuid>
+      <webElementGuid>f1cec246-b456-4a5c-a15f-e992a1ffa2ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait for Approve'])[2]/preceding::p[8]</value>
-      <webElementGuid>949eff04-d40c-4e1c-8e42-c912bee330bd</webElementGuid>
+      <webElementGuid>d7a741f7-0c4e-4c9c-a8b1-e695c298be31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Waiting for']/parent::*</value>
-      <webElementGuid>61f9748a-4dbd-4f85-839c-11f01a35089c</webElementGuid>
+      <webElementGuid>2d77ba28-eac4-4fb0-8623-cfe23be1fc86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[2]/div/div[2]/p</value>
-      <webElementGuid>de14adfc-ab27-4757-a635-faba7946e494</webElementGuid>
+      <webElementGuid>322df875-cf85-4d98-b777-257bea20dd9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Waiting for' or . = 'Waiting for')]</value>
-      <webElementGuid>0dfe3237-449f-4a63-aec9-5ff4b8406e8f</webElementGuid>
+      <webElementGuid>22942d10-3204-45a4-8a61-1737d8778036</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

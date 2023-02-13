@@ -319,6 +319,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_27928637621_6ec38d_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/p_Waiting for",
+      "brokenLocator": "//*[(text() \u003d \u0027Waiting for\u0027 or . \u003d \u0027Waiting for\u0027) and @id \u003d \u0027TestAccurateWaitfor\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Wait for Approve\u0027])[1]/following::p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/td_",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_14_content\u0027]/div/div/table/tbody/tr[5]/td[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/td__position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357",
+      "brokenLocator": "//input[@value\u003d\u0027TCB : บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div[3]/div[2]/div[2]/div/div/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/input",
+      "brokenLocator": "(//input[@value\u003d\u0027\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027basic\u0027]/div[2]/div[2]/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/input_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027items[1].layout[1].data.value\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/input_Forgot Password_username",
+      "brokenLocator": "//input[@name\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

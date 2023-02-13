@@ -7,33 +7,49 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[contains(@id, 'Employee') and contains(@class, 'button-submenu')]</value>
+         <value>//a[@href = '/Settings?name=Employee']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>c7c6a00f-df62-40f0-9da2-80ff5b7ce74b</webElementGuid>
+      <webElementGuid>5de91178-fab3-4336-8d4a-a074c25bc525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>button-submenu</value>
-      <webElementGuid>36210603-59f0-4d30-b18d-b85d097b8e31</webElementGuid>
+      <webElementGuid>1a33db41-190b-4ae9-ae63-73f2dd3030d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>71d30661-b793-40ae-bb84-2d8c94f5bbbe</webElementGuid>
+      <value>a</value>
+      <webElementGuid>bbf6f47e-c793-44a2-b2b3-b87cac51bfe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee</value>
+      <webElementGuid>1bca4e3d-8e55-4ba1-b43c-2019cc0467b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings?name=Employee</value>
+      <webElementGuid>6db5e8d9-3446-42d2-ad9e-5c2e1e2d1a1d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

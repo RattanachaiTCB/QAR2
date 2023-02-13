@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_KTL-VLD01-2023-000004</name>
+   <tag></tag>
+   <elementGuidId>7833e1d6-66e7-4d4f-82e4-930a8f106b6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-form-running</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b993380c-1a7f-4439-bd8a-b5687c3e95f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-form-running</value>
+      <webElementGuid>1cb122c4-b887-41c4-81ec-a12c4c436fde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KTL-VLD01-2023-000004</value>
+      <webElementGuid>312d074c-b2b5-4b0f-96ac-92269001857c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-content-container mobile&quot;]/div[@class=&quot;card-body-content-container&quot;]/div[@class=&quot;running-number-container&quot;]/p[@class=&quot;text-form-running&quot;]</value>
+      <webElementGuid>ce0e6f94-acbb-47db-baa5-b98fae2d681d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/p</value>
+      <webElementGuid>f9beb71e-1c82-4d6e-a0d3-5c76f5b8af54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::p[5]</value>
+      <webElementGuid>14a00040-274a-48bd-87fc-774c7b112c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Validation By Katalon'])[1]/following::p[7]</value>
+      <webElementGuid>e55628a6-d122-4cdb-aada-bba344e8167c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/preceding::p[6]</value>
+      <webElementGuid>d8877717-f5f6-4baf-b63b-94645f4b28e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit-Report-2023-000001'])[1]/preceding::p[10]</value>
+      <webElementGuid>9a0f8a8d-28ee-49fb-afb0-5095da8188c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div/div/p</value>
+      <webElementGuid>044cfe43-d0ba-4b24-93f0-c5742b25e883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'KTL-VLD01-2023-000004' or . = 'KTL-VLD01-2023-000004')]</value>
+      <webElementGuid>aeef9599-4111-4bda-9140-3d1cb011bab4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
