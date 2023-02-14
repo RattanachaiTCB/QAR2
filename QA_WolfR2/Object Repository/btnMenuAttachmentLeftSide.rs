@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id = 'Attachment']</value>
+         <value>//button[@id = 'Attachment' and @class = 'BTN']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Attachment</value>
-      <webElementGuid>b8425e5b-9be7-477e-961d-f468f21954b8</webElementGuid>
+      <webElementGuid>8f877154-184c-48c7-bd98-187cfb2fb190</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,14 +26,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e8324521-4579-4b7e-8e05-31566d474ddf</webElementGuid>
+      <webElementGuid>a17d7199-bb50-4c94-b8bc-12ff147b75ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>BTN</value>
-      <webElementGuid>7720b23b-c667-448c-bd95-9cb6045a688e</webElementGuid>
+      <webElementGuid>bce0317c-508f-4d4c-864a-a9029879e2d2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

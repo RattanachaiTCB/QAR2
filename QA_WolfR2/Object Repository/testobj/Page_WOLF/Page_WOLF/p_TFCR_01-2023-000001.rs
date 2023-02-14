@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'TFCR_01-2023-000001' or . = 'TFCR_01-2023-000001') and @href = '/Request?MemoID=593']</value>
+         <value>//a[@class = 'text-form-running' and (text() = 'TFCR_01-2023-000001' or . = 'TFCR_01-2023-000001') and @href = '/Request?MemoID=593']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d542ec7c-e345-4395-869a-970dc4bd7f1f</webElementGuid>
+      <webElementGuid>ed386655-dba9-4dd9-993a-c6b4b0aa9f7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>text-form-running</value>
-      <webElementGuid>05a14703-2f77-4505-9990-84402a92d73e</webElementGuid>
+      <webElementGuid>1932b444-3c51-4fd6-813c-7409cd753e67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TFCR_01-2023-000001</value>
-      <webElementGuid>efccfc8d-31ee-4286-a8b2-9b70d4c8f406</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-content-container mobile&quot;]/div[@class=&quot;card-body-content-container&quot;]/div[@class=&quot;running-number-container&quot;]/p[@class=&quot;text-form-running&quot;]</value>
-      <webElementGuid>2b0e6a38-eafd-408f-9358-69c00d1b3608</webElementGuid>
+      <webElementGuid>3630b503-e750-43f4-ae23-0764dc3e7c61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +50,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/Request?MemoID=593</value>
-      <webElementGuid>a57c217b-baf1-4fd3-b8eb-b2d8e216fcb0</webElementGuid>
+      <webElementGuid>5d52159f-d5b5-43e8-a369-6ff5b679105f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/p</value>
-      <webElementGuid>72badfa0-8976-4ee4-b7ba-161b9e0b6c02</webElementGuid>
+      <webElementGuid>f143ab48-f498-46b1-9b5b-d3b3161d5462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::p[5]</value>
-      <webElementGuid>d37502ff-d3cc-409a-828e-8fd37d8a5878</webElementGuid>
+      <webElementGuid>486b6416-f947-47ad-bfaf-dd87d6d5029e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='testing change requester UAT'])[1]/following::p[7]</value>
-      <webElementGuid>100dea8a-6ff6-41fd-9a56-480d9c77d164</webElementGuid>
+      <webElementGuid>0344ea97-d8d7-4923-a83a-d6f2872554d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/preceding::p[6]</value>
-      <webElementGuid>06058662-df47-4d37-92c3-0598f7fbc5a7</webElementGuid>
+      <webElementGuid>1886354c-b16e-4b77-9306-3cdbe86ba299</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[1]/preceding::p[12]</value>
-      <webElementGuid>1545d7e7-5d66-411d-b982-b83b99a9da06</webElementGuid>
+      <webElementGuid>0388d30d-b820-43ab-a507-c732fafd8835</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div/div/p</value>
-      <webElementGuid>6dfd2716-4a6b-4481-9bb9-25df3d0229c1</webElementGuid>
+      <webElementGuid>1b4db408-5f82-477f-b2b5-541047396f27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'TFCR_01-2023-000001' or . = 'TFCR_01-2023-000001')]</value>
-      <webElementGuid>845f8652-eff9-4326-b44c-9dfbc6c4818b</webElementGuid>
+      <webElementGuid>59dc2de3-6b15-42ef-9208-159d882b0ffd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
