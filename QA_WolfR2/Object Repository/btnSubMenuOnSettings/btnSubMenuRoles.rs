@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubMenuRoles</name>
+   <tag></tag>
+   <elementGuidId>44d739fe-47a6-4c62-9aa0-7ecf6d6390b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/Settings?name=Roles']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-submenu</value>
+      <webElementGuid>119d09e2-6f47-4df5-80c3-32c9b71f78bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bccf87e8-a6b2-4773-9ba2-de4c25a0b818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings?name=Roles</value>
+      <webElementGuid>c0cc97e1-dd9e-41dc-8dc5-aa88af6514ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Roles</value>
+      <webElementGuid>9f48cf5f-ecf4-4a98-bd9c-3c6631f89f27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Roles</value>
+      <webElementGuid>6db9e9a2-7fb3-47e1-8ee3-42268b9ea62f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

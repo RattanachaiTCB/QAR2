@@ -29,7 +29,11 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password
 
 WebUI.click(findTestObject('button settings'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('btnSubmenuEmployee'))
+
+WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 

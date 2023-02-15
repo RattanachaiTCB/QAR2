@@ -21,18 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://localhost:5001/login')
 
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 
-    'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
-    '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/a_TFCR_01-2023-000001'))
+WebUI.click(findTestObject('button settings'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/div_Attachment'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/button_Upload'))
+WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuPosition'))
+
+WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Position(0)')
+
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
 

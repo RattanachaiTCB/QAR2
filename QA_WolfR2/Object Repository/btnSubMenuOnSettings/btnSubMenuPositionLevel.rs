@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubMenuPositionLevel</name>
+   <tag></tag>
+   <elementGuidId>0c9dc308-875b-451e-ab46-ba57af1806fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/Settings?name=PositionLevel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Position_Level</value>
+      <webElementGuid>94e6fb1a-8639-4271-a209-27e2bcd97162</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-submenu</value>
+      <webElementGuid>5cf9bd15-8415-4296-b84d-88e1ccc705f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings?name=PositionLevel</value>
+      <webElementGuid>0f2e2c6e-6a1d-4e2d-8fca-65ef62192d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>50aa5858-54fb-43c8-ad6d-8f94d0bddc1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Position Level</value>
+      <webElementGuid>1c32b422-6a10-48a7-803f-09a062e81e57</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

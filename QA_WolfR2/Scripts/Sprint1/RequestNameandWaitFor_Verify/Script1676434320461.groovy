@@ -40,37 +40,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://localhost:5001/')
+WebUI.navigateToUrl('https://localhost:5001/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
-
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
-
-WebUI.click(findTestObject('FormCondition'))
-
-WebUI.verifyEqual(WebUI.getUrl(), 'https://localhost:5001/Request?MemoID=0&template=102')
-
-WebUI.click(findTestObject('Dropdown Select'))
-
-WebUI.click(findTestObject('DropdownOptionA'))
-
 WebDriver driver = DriverFactory.getWebDriver()
-driver.findElement(By.className("ant-input-number-input")).click()
-driver.findElement(By.className("ant-input-number-input")).sendKeys(Keys.DELETE)
-WebUI.delay(2)
-driver.findElement(By.className("ant-input-number-input")).sendKeys('50')
-WebUI.delay(2)
-driver.findElement(By.className("ant-input-number-input")).sendKeys(Keys.ENTER)
-WebUI.delay(2)
 
-WebUI.click(findTestObject('BTN_LineApprove'))
+WebElement getTextElement = driver.findElement(By.id('Request'))
 
-WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
+String getText = getTextElement.findElement(By.tagName('p')).getText()
 
-WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
+println('getText ==== > ' + getText)
+
+String getText1 = getTextElement.findElement(By.className('text-label')).getText()
+
+String getText2 = getTextElement.findElement(By.className('text-name')).getText()
+
+println('getText1 ==== > ' + getText1)
+
+println('getText2 ==== > ' + getText2)
+

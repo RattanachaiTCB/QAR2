@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>a6bb9052-c12e-4df0-9676-d4d588ba630a</webElementGuid>
+      <webElementGuid>ed2e8ad8-04ca-452b-afa7-3cd4e40a77e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>CON : Condition</value>
-      <webElementGuid>28b4b2ca-2f12-4cfa-8398-c2deb3db5d70</webElementGuid>
+      <webElementGuid>c73b5f03-6fc1-4525-8447-0ca33b972f41</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

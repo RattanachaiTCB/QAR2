@@ -21,18 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://localhost:5001/login')
 
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 
-    'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
-    '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/a_TFCR_01-2023-000001'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Settings'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/div_Attachment'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/label_Employee'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/button_Upload'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/span_Search by ADTitle_p-button-icon p-c pi_c91be8'))
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/span_Edit'))
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/svg'))
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/span_Yes'))
 

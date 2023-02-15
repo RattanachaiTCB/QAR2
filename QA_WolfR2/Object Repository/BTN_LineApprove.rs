@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id = 'Line_Approvals']</value>
+         <value>//button[@id = 'Line_Approvals' and @class  = 'BTN']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d9eb4d5c-c129-47d8-be31-d37b3bfc17be</webElementGuid>
+      <webElementGuid>1a355150-0807-4b20-a1f0-1b100ac44c64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,14 @@
       <name>id</name>
       <type>Main</type>
       <value>Line_Approvals</value>
-      <webElementGuid>cd38813a-06f4-4dab-8a6d-a3f844cb9298</webElementGuid>
+      <webElementGuid>4a5a6c21-59ba-46c5-9c99-7d67992a29c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class </name>
+      <type>Main</type>
+      <value>BTN</value>
+      <webElementGuid>8748c39c-08c7-4bdd-a3f3-9326be35e704</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

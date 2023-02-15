@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubMenuDivision</name>
+   <tag></tag>
+   <elementGuidId>b6e56432-9ee7-4dfa-9df5-65e2144150ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/Settings?name=Division']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Division</value>
+      <webElementGuid>5c6588e3-9b4f-437a-a698-a22cc7cb5451</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-submenu</value>
+      <webElementGuid>0d8b1f3d-0f20-4c4b-aa83-8be108c94802</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bb1c1c40-ec30-4c47-98ec-28bcc6f170a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings?name=Division</value>
+      <webElementGuid>d16e714d-aeff-47c7-acc6-e6d8372e01d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Division</value>
+      <webElementGuid>8dce0894-fbe7-41bf-bd0c-d8d0b0cb86cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
