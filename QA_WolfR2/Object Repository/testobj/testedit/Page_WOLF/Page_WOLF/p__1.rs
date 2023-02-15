@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p__1</name>
+   <tag></tag>
+   <elementGuidId>215f8a13-4fe4-4c4e-848b-624699712f3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-footer-container.mobile > div.list-aprroval-container > div.request-by-container > p.text-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[4]/div/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>21afa778-a0d1-4869-bf2f-9df6dd7547db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-name</value>
+      <webElementGuid>65ed371a-bce0-4ba7-aaa5-eac2cdffdcf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ธรรมิกา สุขประเสริญ</value>
+      <webElementGuid>0983deeb-0d5f-459c-892e-b85cb3a19cd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-footer-container mobile&quot;]/div[@class=&quot;list-aprroval-container&quot;]/div[@class=&quot;request-by-container&quot;]/p[@class=&quot;text-name&quot;]</value>
+      <webElementGuid>c6fb292b-8bd3-45c6-a71e-7e0ddf8b8eb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div/div/div[2]/div/div[4]/div/div/p[2]</value>
+      <webElementGuid>1b8c68d7-0107-4fa7-a177-ff70b182481c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::p[2]</value>
+      <webElementGuid>1a6ce7b7-c971-4ae3-a82b-69281f53b71b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ฉบับร่าง'])[1]/following::p[12]</value>
+      <webElementGuid>adba799a-7f6a-4230-a9f1-6c442f741b1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test *dwg'])[1]/preceding::p[5]</value>
+      <webElementGuid>7e7be436-297f-413a-9329-bf4abe8522dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ฉบับร่าง'])[2]/preceding::p[7]</value>
+      <webElementGuid>be7a7bff-d4f3-4610-90fd-c6766caa9ae8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/p[2]</value>
+      <webElementGuid>f33d84c2-7612-4c03-8702-6bdb2ea19fc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'ธรรมิกา สุขประเสริญ' or . = 'ธรรมิกา สุขประเสริญ')]</value>
+      <webElementGuid>84e7280b-d089-450c-ad15-ac85b30d1928</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
