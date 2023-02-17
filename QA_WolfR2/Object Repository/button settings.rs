@@ -4,29 +4,60 @@
    <name>button settings</name>
    <tag></tag>
    <elementGuidId>723bf547-2315-4094-acc4-ce798ca67d9c</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'Settings']</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>//button[@tag  = 'p
+' and @class = 'text-button' and (text() = 'Settings' or . = 'Settings')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>Settings</value>
-      <webElementGuid>3e9c1b35-3936-429e-a235-d07735645fa9</webElementGuid>
+      <webElementGuid>4b8aaa54-b3e6-4230-b4c4-a2241a9f63e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6323a9fa-71b7-4e7a-ace9-95191645107c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag </name>
+      <type>Main</type>
+      <value>p
+</value>
+      <webElementGuid>764d344a-ea5f-4041-b5ce-33dcd8134ca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-button</value>
+      <webElementGuid>dc920752-adda-4f7f-9776-6bf6435c2ce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>13d73370-b5e5-499b-af7f-34096fb451ac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnMenuAttachmentLeftSide</name>
+   <tag></tag>
+   <elementGuidId>3b4b87b4-d57b-43e0-b066-bce85b3748d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'Attachment' and @class = 'BTN']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Attachment</value>
+      <webElementGuid>8f877154-184c-48c7-bd98-187cfb2fb190</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a17d7199-bb50-4c94-b8bc-12ff147b75ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>BTN</value>
+      <webElementGuid>bce0317c-508f-4d4c-864a-a9029879e2d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

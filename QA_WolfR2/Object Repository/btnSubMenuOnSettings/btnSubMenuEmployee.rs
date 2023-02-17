@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnSubmenuEmployee</name>
+   <name>btnSubMenuEmployee</name>
    <tag></tag>
    <elementGuidId>639164ce-88c5-4015-aaa1-3c198450b838</elementGuidId>
    <selectorCollection>
@@ -18,15 +18,15 @@
       <name>id</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>5de91178-fab3-4336-8d4a-a074c25bc525</webElementGuid>
+      <webElementGuid>7a467e9a-985f-4a3d-9416-e788c8806c20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button-submenu</value>
-      <webElementGuid>1a33db41-190b-4ae9-ae63-73f2dd3030d0</webElementGuid>
+      <value>a-button-submenu</value>
+      <webElementGuid>182bcc87-1393-4555-a0e5-9604cd50fc5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bbf6f47e-c793-44a2-b2b3-b87cac51bfe9</webElementGuid>
+      <webElementGuid>91bdd178-df31-402b-ae17-85272e5a5f89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>1bca4e3d-8e55-4ba1-b43c-2019cc0467b8</webElementGuid>
+      <webElementGuid>195e1019-41eb-440c-b05d-f2cd6f7748cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
       <name>href</name>
       <type>Main</type>
       <value>/Settings?name=Employee</value>
-      <webElementGuid>6db5e8d9-3446-42d2-ad9e-5c2e1e2d1a1d</webElementGuid>
+      <webElementGuid>e0098822-ad31-4ef7-b5b7-8faa83f51efd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

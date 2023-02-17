@@ -3,6 +3,7 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
+<<<<<<< HEAD
 import com.kms.katalon.core.testobject.TestObject
 
 import java.lang.String
@@ -21,6 +22,8 @@ def static "randomData.dataGeneator.randomTHString"(
     (new randomData.dataGeneator()).randomTHString(
         	length)
 }
+=======
+>>>>>>> qa
 
 
 def static "randomData.dataGeneator.randomNumber"(
@@ -28,6 +31,7 @@ def static "randomData.dataGeneator.randomNumber"(
     (new randomData.dataGeneator()).randomNumber(
         	digits)
 }
+<<<<<<< HEAD
 
 
 def static "randomData.dataGeneator.getRandomParagraphs"(
@@ -240,3 +244,5 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
         	startTime
          , 	endTime)
 }
+=======
+>>>>>>> qa

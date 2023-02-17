@@ -6,15 +6,19 @@
    <elementGuidId>32827d47-0332-4fa7-bc12-0991cc15c85b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div[2]/button[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.memo-button.copy</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div[2]/button[2]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Copy' or . = ' Copy')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>18543fb5-1078-48df-ac36-809757ff8614</webElementGuid>
+      <webElementGuid>3857026d-e7b3-4c40-aa58-cb48eb0b5712</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>memo-button copy</value>
-      <webElementGuid>a84a7c8a-5029-44c9-93ed-3893314711c3</webElementGuid>
+      <webElementGuid>d5cd2b03-5167-4787-914b-64a27910a268</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Copy</value>
-      <webElementGuid>e40ce2e2-a3ab-47f5-9da3-6b921916f348</webElementGuid>
+      <webElementGuid>e1726f8b-aaed-47f0-8d64-d58c935247cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;header-request set-z-index&quot;]/div[@class=&quot;confirm-container&quot;]/div[@class=&quot;memo-button-container&quot;]/button[@class=&quot;memo-button copy&quot;]</value>
-      <webElementGuid>550e7de7-33a4-4b81-8a90-6c183bb2445e</webElementGuid>
+      <webElementGuid>5512ec7c-f9b4-40c8-9a29-b5093c4f2289</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div[2]/button[2]</value>
-      <webElementGuid>dc3c291c-5519-4d28-bfc9-ce197bd41acf</webElementGuid>
+      <webElementGuid>9cda4639-b4d3-46e4-bfa2-e7aec194e595</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[1]/preceding::button[2]</value>
-      <webElementGuid>d76cf7d0-101d-4e6d-8722-5af6e73f0439</webElementGuid>
+      <webElementGuid>bfe82cdf-0cf0-4fbc-a9e8-4398ee25a492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::button[3]</value>
-      <webElementGuid>7bcf5c9c-dfc1-4a2b-9615-a94ad5269226</webElementGuid>
+      <webElementGuid>3d856c51-2142-473f-b2d6-58d11c5f7399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button[2]</value>
-      <webElementGuid>a11970f7-c1bf-463e-80c4-5eea34863a82</webElementGuid>
+      <webElementGuid>ba4c1813-ab96-45ce-87bf-fedeb86580a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Copy' or . = ' Copy')]</value>
-      <webElementGuid>0d4ed496-f04f-4fc0-bcf4-5c3c28f999a6</webElementGuid>
+      <webElementGuid>d8b0c862-a6d5-4310-9008-efda688deeb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

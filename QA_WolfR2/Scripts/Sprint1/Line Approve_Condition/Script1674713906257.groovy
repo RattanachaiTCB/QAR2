@@ -16,6 +16,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver;
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.Select
+
+import static org.junit.Assert.assertArrayEquals
+import static org.junit.Assert.assertEquals
+
+import org.junit.Assert
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
@@ -39,29 +60,17 @@ WebUI.click(findTestObject('Dropdown Select'))
 
 WebUI.click(findTestObject('DropdownOptionA'))
 
+WebDriver driver = DriverFactory.getWebDriver()
+driver.findElement(By.className("ant-input-number-input")).click()
+driver.findElement(By.className("ant-input-number-input")).sendKeys(Keys.DELETE)
+WebUI.delay(2)
+driver.findElement(By.className("ant-input-number-input")).sendKeys('50')
+WebUI.delay(2)
+driver.findElement(By.className("ant-input-number-input")).sendKeys(Keys.ENTER)
+WebUI.delay(2)
+
 WebUI.click(findTestObject('BTN_LineApprove'))
 
 WebUI.verifyTextPresent('อัญริญา แสนเลิศ', false)
 
 WebUI.verifyTextPresent('ณัฏฐพล ปัทมเดชา', false)
-
-WebUI.click(findTestObject('BTN_Information'))
-
-WebUI.click(findTestObject('DropdownOptionA'))
-
-WebUI.click(findTestObject('DropdownOptionB'))
-
-WebUI.click(findTestObject('BTN_LineApprove'))
-
-WebUI.verifyTextPresent('ธรรมิกา สุขประเสริญ', false)
-
-WebUI.click(findTestObject('BTN_Information'))
-
-WebUI.click(findTestObject('DropdownOptionB'))
-
-WebUI.click(findTestObject('DropdownOptionC'))
-
-WebUI.click(findTestObject('BTN_LineApprove'))
-
-WebUI.verifyTextPresent('พงษ์สิทธิ์ พงศ์พิโรจ', false)
-

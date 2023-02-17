@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubMenuDelegateList</name>
+   <tag></tag>
+   <elementGuidId>da9d48c7-e8d9-4fed-ba43-c111af115e48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/Settings?name=DelegateList']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a972efc6-9a03-4e07-8a4f-1eb801817c15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings?name=DelegateList</value>
+      <webElementGuid>54bbc75e-d7d1-4216-8655-2e8de74c7547</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-submenu</value>
+      <webElementGuid>f9eefca3-3012-4e9c-a8c3-13c3e6e4dd2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delegate List</value>
+      <webElementGuid>51b6bd08-c24d-45c9-b095-df960fc9fcf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Delegate_List</value>
+      <webElementGuid>dbc34e68-d4a1-4af4-8529-c2ddd9d58ac0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

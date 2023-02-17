@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver;
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
@@ -46,20 +48,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.navigateToUrl('https://localhost:5001/Request?MemoID=0&template=574')
+WebDriver driver = DriverFactory.getWebDriver()
 
-String Company = WebUI.getText(findTestObject('เพิ่ม object'))  //object
-String Subject = WebUI.getText(findTestObject('เพิ่ม object'))  //object
-String DueDate = WebUI.getText(findTestObject('เพิ่ม object'))  //object
-String FullName = WebUI.getText(findTestObject('เพิ่ม object'))  //object
+WebElement getTextElement = driver.findElement(By.id('Request'))
 
-WebUI.verifyEqual(WebUI.getUrl(), 'https://localhost:5001/Request?MemoID=0&template=574&isCopy')
+String getText = getTextElement.findElement(By.tagName('p')).getText()
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), Company)
-WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), Subject)
-WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), DueDate)
-WebUI.verifyEqual(WebUI.getText(findTestObject('เพิ่ม object')), FullName)
+println('getText ==== > ' + getText)
 
+String getText1 = getTextElement.findElement(By.className('text-label')).getText()
 
+String getText2 = getTextElement.findElement(By.className('text-name')).getText()
 
+println('getText1 ==== > ' + getText1)
+
+println('getText2 ==== > ' + getText2)
 

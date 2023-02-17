@@ -21,33 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'))
-
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p_New Request'))
+WebUI.click(findTestObject('button settings'))
 
-WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'cal')
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate Function'))
+WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuRoles'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/i_total_pi pi-plus'))
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input'), '20')
+WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/ul_1'))
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Roles(0)')
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_total_ant-input-number-input'), '1000')
-
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1'), '5000')
-
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input__ant-input-number-input_1_2'), '5000')
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input_GRAND TOTAL_ant-input'))
-
-WebUI.closeBrowser()
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
 

@@ -6,6 +6,10 @@
    <elementGuidId>3798300d-5421-44a3-b714-860f58f8d74f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'Confirm-Button' and (text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.Confirm-Button</value>
       </entry>
@@ -14,23 +18,23 @@
          <value>//div[@id='pr_id_13']/div[3]/div/div/div[2]/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b9296320-4751-4a07-9250-31004689ae4f</webElementGuid>
+      <webElementGuid>d1e695c9-5829-4ec6-964a-39de5b3b8842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>Confirm-Button</value>
-      <webElementGuid>b9e77e57-7d6a-4e49-a655-9ed85efb82c3</webElementGuid>
+      <webElementGuid>20eb0316-1f46-498c-8ede-b446d3f31a6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>43268536-5318-4272-875e-2b6758aa2a62</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;pr_id_13&quot;)/div[@class=&quot;p-dialog-footer&quot;]/div[@class=&quot;Button-line memo-button-padding&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6 col-sm-6 col-6&quot;]/button[@class=&quot;Confirm-Button&quot;]</value>
-      <webElementGuid>94060022-28f5-43f1-adfb-f9d58ad4d6b2</webElementGuid>
+      <webElementGuid>554ccec1-eff6-4da4-975d-ab3296128661</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_13']/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>c40ba9b5-fbef-4115-bbc8-fadd7aacf711</webElementGuid>
+      <webElementGuid>59433766-1ea9-42d5-9ac5-dd6d5aae7f1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>1ee370fe-8d9f-4d1b-92fb-cc47cecfb0f2</webElementGuid>
+      <webElementGuid>78bb1753-c0f4-4335-8689-c1754ffd04f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[2]</value>
-      <webElementGuid>460c6eaf-d260-4beb-b77c-69e367ae994e</webElementGuid>
+      <webElementGuid>cea77db4-284e-45db-869d-9514663b52d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
-      <webElementGuid>7240eaa4-2ae6-44b7-89ce-2aa8b7e5786a</webElementGuid>
+      <webElementGuid>f9d1a383-cf6e-4777-ad93-fbe9babefbfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/button</value>
-      <webElementGuid>fe3e0e51-3d6d-4f54-823e-82535538860e</webElementGuid>
+      <webElementGuid>73f76619-e392-4768-afb2-7cbb2b99a14c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +90,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Confirm' or . = 'Confirm')]</value>
-      <webElementGuid>aedb101c-230d-4373-842f-5219f2aa7cac</webElementGuid>
+      <webElementGuid>47d44c96-fde0-4019-9697-67944ac77181</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_14']/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>774e3eca-33f7-4769-bb64-d4a4c69e6038</webElementGuid>
+      <webElementGuid>fed1e24a-3c4d-4668-9964-0a3991920596</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_15']/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>5e7237a4-7c32-472e-8fab-1940ab2d37aa</webElementGuid>
+      <webElementGuid>5522db37-658e-4d03-be78-d1bbcaacf325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='เวลาสิ้นสุด'])[1]/following::button[2]</value>
-      <webElementGuid>9a56e97f-1b15-4cf1-9def-b2ca2c89f91e</webElementGuid>
+      <webElementGuid>302b6bbd-7d07-40e5-94b6-5d47307144a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_9']/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>24f5777a-1623-4970-8698-c743c19f4bea</webElementGuid>
+      <webElementGuid>87066376-700d-40d6-9840-417db54dbb30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +130,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ชื่อ-สกุล'])[1]/following::button[2]</value>
-      <webElementGuid>0643a4ad-a1e4-4114-9e3f-7d0f5a3dc75a</webElementGuid>
+      <webElementGuid>32e7f2b2-1618-4856-b838-2a092e12dfc6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

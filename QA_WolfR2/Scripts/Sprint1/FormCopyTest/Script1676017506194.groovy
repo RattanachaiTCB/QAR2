@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://localhost:5001/login')
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
 WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 

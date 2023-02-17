@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>testsubmit</name>
+   <name>TestSuite_17022023</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,53 +10,93 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4430390b-8255-493d-8311-fae0fa311f9e</testSuiteGuid>
+   <testSuiteGuid>24cd111a-b43c-460a-bb19-c3a34044ae50</testSuiteGuid>
    <testCaseLink>
-      <guid>aba8a1d1-6cfe-4652-a3d5-123a79fd3b09</guid>
+      <guid>e941c278-d02d-4f03-82f3-d9f5cdd59d59</guid>
       <isReuseDriver>false</isReuseDriver>
+<<<<<<< HEAD:QA_WolfR2/Test Suites/testsubmit.ts
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Pass</testCaseId>
+=======
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint1/RequestFormChangeRequester</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+>>>>>>> qa:QA_WolfR2/Test Suites/TestSuite_17022023.ts
    </testCaseLink>
    <testCaseLink>
-      <guid>f42a778f-eeb0-4d0b-8ed0-34541f1282f4</guid>
+      <guid>aba6ef7e-6fad-48a7-803d-2e355d2fdf5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint1/Line Approve_Direct to Position</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cdaaae5-c1e3-43f5-8815-bff3b358d3ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint1/RequestForm_AttachmentMenu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c072544-02fa-4551-83b4-4ad7eac49a7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint1/Caculate_Control_Number</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b82a36ca-8ffb-446b-9f84-75cb1b1e3d60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint1/Validation_Request_Page_Savedraft</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dde9710b-85b8-4b3d-9b5c-c65df04827c1</guid>
+      <guid>b07b2aef-eaf1-4511-9762-7bfbfdd79922</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint1/Validation_Request_Page_Submit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c57a83fa-e329-4652-9a8f-9883b8c59c9e</guid>
+      <guid>11ca2c79-f4a8-4ed1-8b39-0e6dfd6cda72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint1/CopyForm</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>143970e4-f4ec-4255-9795-215e48b60c27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint1/Action_Save Draft</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>08c5f5e7-64c1-4bf8-89ae-5186be4b9739</guid>
+      <guid>e5ebc0c9-9bc3-4208-bba9-79413528b310</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint1/Action_Submit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83618139-2602-49c5-81c8-5b04ee0f613d</guid>
+      <guid>b8c61755-1164-4f6f-9936-69b0a55d96bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint1/Action_Approve</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>368c6985-cfbd-401f-848d-7ff66f48dc4e</guid>
+      <guid>73a49178-a039-4bd0-a9e7-4dfbb8237386</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD:QA_WolfR2/Test Suites/testsubmit.ts
       <testCaseId>Test Cases/Sprint1/Action_Recall</testCaseId>
+=======
+      <testCaseId>Test Cases/Sprint2/Worklist_Search</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+>>>>>>> qa:QA_WolfR2/Test Suites/TestSuite_17022023.ts
    </testCaseLink>
    <testCaseLink>
-      <guid>65e75ebc-0039-44b9-9c8f-3311307844cf</guid>
+      <guid>a6cf1e8c-1fa7-479a-b312-7d313ec68e88</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD:QA_WolfR2/Test Suites/testsubmit.ts
       <testCaseId>Test Cases/Sprint1/Action_Assign</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -82,5 +122,9 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint1/Action_Cancel</testCaseId>
+=======
+      <testCaseId>Test Cases/Login Pass</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+>>>>>>> qa:QA_WolfR2/Test Suites/TestSuite_17022023.ts
    </testCaseLink>
 </TestSuiteEntity>
