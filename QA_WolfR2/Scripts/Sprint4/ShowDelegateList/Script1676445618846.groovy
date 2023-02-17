@@ -28,13 +28,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('button settings'))
-
-<<<<<<< HEAD:QA_WolfR2/Scripts/Sprint1/Calculate_in_Table/Script1674458499299.groovy
+ 
 WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'cal')
-=======
 WebUI.delay(10)
->>>>>>> qa:QA_WolfR2/Scripts/Sprint4/ShowDelegateList/Script1676445618846.groovy
-
 WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuDelegateList'))
 
 WebUI.delay(10)

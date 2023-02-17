@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
+
 WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.G_url)
 WebUI.maximizeWindow()
@@ -29,13 +29,10 @@ WebUI.delay(2)
 //click 
 WebUI.click(findTestObject('login/button_login'))
 WebUI.delay(2)
-=======
-WebUI.openBrowser('https://qar2.wolfapprove.com/')
+/*WebUI.openBrowser('https://qar2.wolfapprove.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
-
->>>>>>> qa
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))*/

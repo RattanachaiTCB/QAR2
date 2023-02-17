@@ -3,7 +3,6 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-<<<<<<< HEAD
 import com.kms.katalon.core.testobject.TestObject
 
 import java.lang.String
@@ -22,8 +21,6 @@ def static "randomData.dataGeneator.randomTHString"(
     (new randomData.dataGeneator()).randomTHString(
         	length)
 }
-=======
->>>>>>> qa
 
 
 def static "randomData.dataGeneator.randomNumber"(
@@ -31,7 +28,6 @@ def static "randomData.dataGeneator.randomNumber"(
     (new randomData.dataGeneator()).randomNumber(
         	digits)
 }
-<<<<<<< HEAD
 
 
 def static "randomData.dataGeneator.getRandomParagraphs"(
@@ -103,19 +99,19 @@ def static "randomData.dataGeneator.getRandomString"() {
 }
 
 
-def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile"(
+def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
     	TestObject object	
      , 	String file	) {
-    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFile(
+    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFileUsingRobot(
         	object
          , 	file)
 }
 
 
-def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
+def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile"(
     	TestObject object	
      , 	String file	) {
-    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFileUsingRobot(
+    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFile(
         	object
          , 	file)
 }
@@ -228,15 +224,6 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDayOfWeek"(
-    	String date	
-     , 	String dateFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDayOfWeek(
-        	date
-         , 	dateFormat)
-}
-
-
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
     	String startTime	
      , 	String endTime	) {
@@ -244,5 +231,12 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
         	startTime
          , 	endTime)
 }
-=======
->>>>>>> qa
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDayOfWeek"(
+    	String date	
+     , 	String dateFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDayOfWeek(
+        	date
+         , 	dateFormat)
+}

@@ -3,19 +3,16 @@ import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.Paths
 
+
 import com.kms.katalon.core.annotation.Keyword
-<<<<<<< HEAD
 import com.thedeanda.lorem.Lorem
 import com.thedeanda.lorem.LoremIpsum
-=======
-/*import com.thedeanda.lorem.Lorem
-import com.thedeanda.lorem.LoremIpsum*/
->>>>>>> qa
+//import com.thedeanda.lorem.Lorem
+//import com.thedeanda.lorem.LoremIpsum
 
 public class dataGeneator {
 
 	@Keyword
-<<<<<<< HEAD
 	def randomENString(int length) {
 		String chars = lorem.getLastName().replaceAll("[^a-zA-Z]+", "");
 		Random rand = new Random();
@@ -36,10 +33,8 @@ public class dataGeneator {
 		}
 		return sb.toString();
 	}
-	
+
 	@Keyword
-=======
->>>>>>> qa
 	private String randomNumber(int digits) {
 		StringBuilder str = new StringBuilder();
 		Random random = new Random();
@@ -48,8 +43,6 @@ public class dataGeneator {
 		}
 		return str.toString();
 	}
-
-<<<<<<< HEAD
 
 	public static Lorem lorem = LoremIpsum.getInstance();
 
@@ -118,6 +111,4 @@ public class dataGeneator {
 		String ranPar = lorem.getFirstName().replaceAll("[^a-zA-Z]+", "");
 		return ranPar;
 	}
-=======
->>>>>>> qa
 }

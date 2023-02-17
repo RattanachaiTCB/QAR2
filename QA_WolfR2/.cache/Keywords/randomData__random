@@ -1,15 +1,10 @@
 {
-<<<<<<< HEAD
-  "keywordFileContentHash": "77C6CD8FE41ED6B08CD33CDED2782842",
-=======
-  "keywordFileContentHash": "EC49F2F2A63B7771407CFDB9A59288DA",
->>>>>>> qa
+  "keywordFileContentHash": "7A7542A614F39004C5BEF39FB0781F0A",
   "keywordClasses": [
     {
       "name": "randomData.dataGeneator",
       "keywordMethods": [
         {
-<<<<<<< HEAD
           "name": "randomENString",
           "parameters": [
             {
@@ -48,8 +43,6 @@
           "javadoc": ""
         },
         {
-=======
->>>>>>> qa
           "name": "randomNumber",
           "parameters": [
             {
@@ -67,7 +60,6 @@
             }
           ],
           "javadoc": ""
-<<<<<<< HEAD
         },
         {
           "name": "getRandomParagraphs",
@@ -218,8 +210,6 @@
           "name": "getRandomString",
           "parameters": [],
           "javadoc": ""
-=======
->>>>>>> qa
         }
       ]
     }
