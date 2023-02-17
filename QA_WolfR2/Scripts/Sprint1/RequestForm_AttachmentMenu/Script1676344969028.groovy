@@ -19,20 +19,112 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://localhost:5001/login')
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_username'), 
     'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
     '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
+WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
     Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/svg'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/a_TFCR_01-2023-000001'))
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Department_search-filter-input'), 
+    'upload')
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/div_Attachment'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_KTL_AAT_01-2023-000001'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/Page_WOLF/button_Upload'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Attachment'))
+
+//WebUI.click(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'))
+WebUI.uploadFile(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'), 'D:\\TestData\\jpegtest.jpg')
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Upload'))
+
+WebUI.uploadFile(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'), 'D:\\TestData\\pngtest.png')
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Upload'))
+
+WebUI.uploadFile(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'), 'D:\\TestData\\Test_Data.pptx')
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Upload'))
+
+WebUI.uploadFile(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'), 'D:\\TestData\\TEST_UPLOAD_ATTACHMENT.docx')
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Upload'))
+
+WebUI.uploadFile(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'), 'D:\\TestData\\TEST_UPLOAD_ATTACHMENT.pdf')
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Upload'))
+
+WebUI.uploadFile(findTestObject('testobj/testedit/attachment/Page_WOLF/choosefile'), 'D:\\TestData\\TESTFile.xlsx')
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Upload'))
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_jpegtest.jpg'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+//WebUI.switchToWindowTitle('WOLF')
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_pngtest.png'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_Test_Data.pptx'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TEST_UPLOAD_ATTACHMENT.docx'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TEST_UPLOAD_ATTACHMENT.pdf'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TESTFile.xlsx'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_Save Draft'))
+
+WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm'))
 

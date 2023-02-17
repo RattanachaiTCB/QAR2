@@ -19,32 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://localhost:5001/')
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/input_Forgot Password_password'), 
-    '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/path'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/svg'))
 
-WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/input__search-filter-input'), 'Test Validation changing requestor By Katalon automate test')
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Department_search-filter-input'), 'Test Validation changing requestor By Katalon automate test')
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/p_KTL-VLD01-2023-000008'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/p_KTL-VLD01-2023-000008'))
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/clickRequesterOnleftSide'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Requestor'))
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/changeRequestor'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_History_ant-input'))
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/span_'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/span_'))
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/p_'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/p_Save Draft'))
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/button_Confirm'))
-
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/path_1'))
-
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/Page_WOLF/p__1'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Confirm'))
 

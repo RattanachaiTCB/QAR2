@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot Password_username</name>
+   <name>input_Surname_items1.layout1.data.value</name>
    <tag></tag>
-   <elementGuidId>05d7770c-6c6a-4b93-be83-e207b6e83157</elementGuidId>
+   <elementGuidId>c5e07c4b-0736-4425-ad94-464754b4882a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>input[name=&quot;items[1].layout[1].data.value&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@name='items[1].layout[1].data.value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>207f2bde-93db-43c5-adfc-45131afb0eee</webElementGuid>
+      <webElementGuid>3225ad30-c19c-4a51-8695-dfc0b38f9fef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>b0b90c75-6dd7-412b-ac44-939fd0903d4c</webElementGuid>
+      <value>items[1].layout[1].data.value</value>
+      <webElementGuid>dfb68fb8-2718-4887-8d6b-0f4c2da622d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-input ant-input-disabled ant-input-lg input-component</value>
+      <webElementGuid>7343cd6b-43c9-4d39-b8ec-331422f84d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,62 +46,54 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9a1198d3-3d42-453f-b291-6a249c72092b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Enter Email Address</value>
-      <webElementGuid>58b0a30f-8aa1-4447-a4f2-a7545921c6e4</webElementGuid>
+      <webElementGuid>a4f5f926-13bc-4575-bc6d-6a2baafb3ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>value</name>
       <type>Main</type>
-      <value>input-field </value>
-      <webElementGuid>8794b2dc-884e-47df-b936-553f436b9aec</webElementGuid>
+      <value>Test</value>
+      <webElementGuid>85c8cccd-10c4-4f71-8bbc-3fd4925de8c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;main-input-container&quot;]/div[@class=&quot;input-container&quot;]/input[@class=&quot;input-field&quot;]</value>
-      <webElementGuid>8e82ced1-3f88-4330-8abd-e5acd90f137a</webElementGuid>
+      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[@class=&quot;padding-controller col-xl-4 col-md-4 col-sm-12 col-12&quot;]/div[@class=&quot;input-component-container&quot;]/input[@class=&quot;ant-input ant-input-disabled ant-input-lg input-component&quot;]</value>
+      <webElementGuid>431f881d-c665-484e-8788-a70347b11a3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>bba68dc4-88d3-4d79-8246-9bdea54eda10</webElementGuid>
+      <value>//input[@name='items[1].layout[1].data.value']</value>
+      <webElementGuid>522173c8-1640-454c-8ab6-4cbfd6049606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/form/div/div/div/div/input</value>
-      <webElementGuid>30d7d322-b41c-46e2-82bb-501c2c07fe16</webElementGuid>
+      <value>//form[@id='basic']/div[2]/div[4]/div/input</value>
+      <webElementGuid>b27a7f53-e6c9-45f1-9918-5f251b97f7d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>f695b8ee-3476-4a99-917a-48ddf6c97ff7</webElementGuid>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>5b51abb6-e80a-4a9a-8521-c9ac5e8f05bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @type = 'text' and @placeholder = 'Enter Email Address']</value>
-      <webElementGuid>9c1db500-5565-4859-bbe2-fc88bc2dd77e</webElementGuid>
+      <value>//input[@name = 'items[1].layout[1].data.value' and @type = 'text']</value>
+      <webElementGuid>0a00fab3-991b-4e57-8839-e1f9983c6844</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

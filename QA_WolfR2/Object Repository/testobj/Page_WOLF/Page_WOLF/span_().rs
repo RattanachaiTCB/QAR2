@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_()</name>
+   <tag></tag>
+   <elementGuidId>26a93b4a-85e7-42d8-bf4a-fd2eace46a5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pr_id_5_content']/div/div/table/tbody/tr/td[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c1b1284a-d983-4b88-92b8-044358d6023b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)</value>
+      <webElementGuid>f1779a2a-2f4c-49c2-8116-320ecfb55fb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_5_content&quot;)/div[@class=&quot;p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll&quot;]/div[@class=&quot;p-datatable-wrapper&quot;]/table[@class=&quot;p-datatable-table&quot;]/tbody[@class=&quot;p-datatable-tbody&quot;]/tr[@class=&quot;p-selectable-row&quot;]/td[2]/div[@class=&quot;tooltip-data&quot;]/span[1]</value>
+      <webElementGuid>405d6bf9-24f4-41b5-9796-be8bc871bd16</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pr_id_5_content']/div/div/table/tbody/tr/td[2]/div/span</value>
+      <webElementGuid>53d924d2-d67f-488f-a804-50d79223d5f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TCB'])[1]/following::span[1]</value>
+      <webElementGuid>534ca244-0a3f-41a4-9d73-ee9e920648b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surname'])[1]/following::span[7]</value>
+      <webElementGuid>a87de78a-46a6-4169-86d6-edc4672dc218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WOLF'])[2]/preceding::span[2]</value>
+      <webElementGuid>c3d18ee5-2782-4ac0-a7a7-9960a5b3c22e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บริษัท วูฟ จำกัด'])[1]/preceding::span[3]</value>
+      <webElementGuid>1687b501-909a-4898-a86d-8616878856c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)']/parent::*</value>
+      <webElementGuid>930dc1f6-0b46-4139-afda-1cc4f2c42c82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/span</value>
+      <webElementGuid>08a8dfce-3bc6-4922-b4b7-5b982903a6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)' or . = 'บริษัท เทคคอนส์บิส จำกัด (สำนักงานใหญ่)')]</value>
+      <webElementGuid>da030d65-e0af-4c5f-838f-588db301db5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

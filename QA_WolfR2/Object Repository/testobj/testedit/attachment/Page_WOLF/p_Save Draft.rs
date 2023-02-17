@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_</name>
+   <name>p_Save Draft</name>
    <tag></tag>
-   <elementGuidId>81450e3a-3379-4fd1-8057-d0749d79a7a7</elementGuidId>
+   <elementGuidId>1246dd02-576e-49b3-9b2d-3b7df3846620</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>64dfb00f-e9d0-4617-b889-480ff4512b00</webElementGuid>
+      <webElementGuid>63072ce3-c75a-4f8e-9333-9775a5c2bead</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>บันทึกร่าง</value>
-      <webElementGuid>cc4570db-107f-41a3-a5ab-961bda5635d9</webElementGuid>
+      <value>Save Draft</value>
+      <webElementGuid>fc9cb98b-c738-4022-9244-080aba06511f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;header-request set-z-index&quot;]/div[@class=&quot;confirm-container&quot;]/div[@class=&quot;memo-button-container mobile&quot;]/button[@class=&quot;memo-button draft&quot;]/p[1]</value>
-      <webElementGuid>2c780f65-036e-4678-94fd-2a775409e10c</webElementGuid>
+      <webElementGuid>a601d3ea-fa19-4891-ad31-1a36156b70b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,31 +46,31 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]/p</value>
-      <webElementGuid>e67987e9-7ebc-47dd-bfa5-ce80edc9237c</webElementGuid>
+      <webElementGuid>ac53cd7d-60b6-4305-9946-9063ee63f94c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ผู้ยื่นคำร้อง'])[1]/preceding::p[5]</value>
-      <webElementGuid>4bb19d19-176f-45f5-95ce-f717cd4ef981</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[1]/preceding::p[5]</value>
+      <webElementGuid>c1d95cb9-0d4e-44f1-8c02-35a9c79a12de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='รายละเอียด'])[1]/preceding::p[5]</value>
-      <webElementGuid>a1cc5bcc-20cb-4e41-8355-e7e491e8817a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::p[5]</value>
+      <webElementGuid>059632d5-c085-45ae-9a06-e9ee51433e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='บันทึกร่าง']/parent::*</value>
-      <webElementGuid>ca7779d5-f2d2-474e-8e06-a580156bc699</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Save Draft']/parent::*</value>
+      <webElementGuid>c3a684f6-8d1f-44a7-85da-0dbc4bb00400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]/p</value>
-      <webElementGuid>c68768a7-d0a1-41b2-8409-a60aa5014957</webElementGuid>
+      <webElementGuid>163a6c27-21c4-4a09-840d-9ef9e74e31b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'บันทึกร่าง' or . = 'บันทึกร่าง')]</value>
-      <webElementGuid>852f452e-eb65-473d-9585-f39378491414</webElementGuid>
+      <value>//p[(text() = 'Save Draft' or . = 'Save Draft')]</value>
+      <webElementGuid>25f6eed7-6968-4a9d-8e96-f168ad64dd89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

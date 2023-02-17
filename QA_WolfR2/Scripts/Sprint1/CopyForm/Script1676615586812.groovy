@@ -21,23 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Sign In'))
+WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/p_KTL-VLD01-2023-000004 (1)'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/svg'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)'))
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Department_search-filter-input'), 'copyform')
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/span_-_p-dialog-header-close-icon pi pi-times'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/p_KTL_CPT_01-2023-000001'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_b0aa40'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/span__inputTextComponents-width'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/span__inputTextComponents-width_1'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/input_-_items1.layout1.data.value (1)'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Surname_items1.layout1.data.value'))
 
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Copy'))
 
@@ -57,7 +60,7 @@ String FullName = WebUI.getText(findTestObject('testobj/Page_WOLF/input_-_items1
 
 String currentUrl = WebUI.getUrl()
 
-WebUI.verifyEqual(currentUrl, 'https://localhost:5001/Request?MemoID=574&isCopy')
+WebUI.verifyEqual(currentUrl, 'https://qar2.wolfapprove.com/Request?MemoID=624&isCopy')
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('testobj/Page_WOLF/input__p-inputtext p-component p-filled inf_c2f357 (1)')), 
     Company)

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot Password_password</name>
+   <name>input</name>
    <tag></tag>
-   <elementGuidId>face7b7b-fc42-49d8-8b87-8c9579077626</elementGuidId>
+   <elementGuidId>3e94869c-92f9-4d84-afef-7051d889309a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
+         <value>input[title=&quot;17 Feb 2023&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='password']</value>
+         <value>//input[@value='17 Feb 2023']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2738ace9-6f2a-42b8-bada-bbbb43bbc2c4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>efde4911-c7ba-4e28-9a3c-b3ed8326f05f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>864d5a38-e5ff-40d5-8509-c653fb3cce86</webElementGuid>
+      <webElementGuid>e325bf8c-c84a-4c37-9206-636e55195ef6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter Password</value>
-      <webElementGuid>809f4bee-99cc-4987-a4ee-18e6a1eb0acd</webElementGuid>
+      <value>Select date</value>
+      <webElementGuid>a1ba9d37-33a5-426e-bf62-447a1f3dd193</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>17 Feb 2023</value>
+      <webElementGuid>fe1ee427-ebc7-4252-809a-5d376e203d7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>size</name>
       <type>Main</type>
-      <value>input-field </value>
-      <webElementGuid>8c3c9232-af06-4e5c-92e5-bca5c031c2fa</webElementGuid>
+      <value>13</value>
+      <webElementGuid>5b08216a-e60e-4653-a850-40e1f53306b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>3a4ff49b-78f4-4a20-b86e-b7d0b8a1302f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Wolf@tcb1</value>
-      <webElementGuid>450dcabf-6cae-413d-9552-caa4246b1def</webElementGuid>
+      <value>17 Feb 2023</value>
+      <webElementGuid>a35b1b46-5426-4d26-8b0e-dabbc81381f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;main-input-container&quot;]/div[@class=&quot;input-container&quot;]/input[@class=&quot;input-field&quot;]</value>
-      <webElementGuid>7168c03a-9047-405d-b827-dd01df4fb0a1</webElementGuid>
+      <value>id(&quot;basic&quot;)/div[@class=&quot;set-padding-core-control row&quot;]/div[@class=&quot;padding-controller col-xl-4 col-md-4 col-sm-12 col-12&quot;]/div[@class=&quot;input-component-container&quot;]/div[@class=&quot;ant-picker ant-picker-large ant-picker-disabled&quot;]/div[@class=&quot;ant-picker-input&quot;]/input[1]</value>
+      <webElementGuid>e1bf45b1-d152-4193-8bd4-1aeb0ab4a068</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='password']</value>
-      <webElementGuid>6990c427-7ae6-4a1f-b349-a95b9e5aa93f</webElementGuid>
+      <value>//input[@value='17 Feb 2023']</value>
+      <webElementGuid>947dbff4-3c10-427c-91b4-7f9420192d2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/form/div/div/div[2]/div/input</value>
-      <webElementGuid>603bcc31-e8d1-4270-b6dd-156fea29597b</webElementGuid>
+      <value>//form[@id='basic']/div[2]/div[2]/div/div/div/input</value>
+      <webElementGuid>e5219801-2e2c-4672-97f3-2b8b1ee850d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>242ab4e9-e7eb-4e67-add8-98f8e18015e7</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>7d1ad218-b86d-44f4-b6e8-049fd0da181a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'password' and @type = 'password' and @placeholder = 'Enter Password']</value>
-      <webElementGuid>0d149ada-0e07-4a3b-9a33-94fa5df5b514</webElementGuid>
+      <value>//input[@placeholder = 'Select date' and @title = '17 Feb 2023']</value>
+      <webElementGuid>3f5921f1-43a5-4218-a788-31c1722447a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

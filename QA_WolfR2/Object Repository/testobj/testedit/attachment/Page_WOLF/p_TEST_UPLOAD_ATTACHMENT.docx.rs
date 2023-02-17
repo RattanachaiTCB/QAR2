@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_AccountEmailUsername</name>
+   <name>p_TEST_UPLOAD_ATTACHMENT.docx</name>
    <tag></tag>
-   <elementGuidId>54b4c1c9-b6f0-483b-972e-0454f9193362</elementGuidId>
+   <elementGuidId>35276846-bd99-4952-8284-611bdafaa8f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p.login-p</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div/div/div[5]/div[3]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>24443106-4426-4b74-be6d-d0a7b373077f</webElementGuid>
+      <webElementGuid>8b3951b5-18b7-48ac-a697-8577f3d384e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>login-p</value>
-      <webElementGuid>c15b8f6d-42a5-4d23-bd22-9fffe5115782</webElementGuid>
+      <value>set-pointer-css-attachment</value>
+      <webElementGuid>982d4226-2f21-44b6-8a49-2626938f4d6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Account/Email/Username :</value>
-      <webElementGuid>f7344dbc-85d2-47dc-b7ae-1a13762eb5a6</webElementGuid>
+      <value>TEST_UPLOAD_ATTACHMENT.docx</value>
+      <webElementGuid>e9c78ae8-1787-47f6-8862-750a2d83dd85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login-screens&quot;]/div[@class=&quot;login-container&quot;]/form[1]/div[1]/div[@class=&quot;right-card-container&quot;]/div[@class=&quot;main-input-container&quot;]/p[@class=&quot;login-p&quot;]</value>
-      <webElementGuid>e7cdd613-a855-49d9-aea6-cd067eee86d6</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[3]/div[1]/div[@class=&quot;attachForm&quot;]/div[@class=&quot;innerAtt&quot;]/div[@class=&quot;detail-FileAtt&quot;]/p[@class=&quot;set-pointer-css-attachment&quot;]</value>
+      <webElementGuid>86089f94-5c57-4ac3-a6cf-4448ae1f8c7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/form/div/div/div/p</value>
-      <webElementGuid>e51d4d96-e12e-469d-8fc6-03f0b30055dc</webElementGuid>
+      <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div/div/div[5]/div[3]/p</value>
+      <webElementGuid>cc223d08-cdb8-4529-ba00-ee8586d24458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/preceding::p[4]</value>
-      <webElementGuid>13b4fb7e-dd5a-43da-8413-04566bb4ba50</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::p[15]</value>
+      <webElementGuid>7fc54aef-1c54-4027-9aa4-90433f1668f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::p[4]</value>
-      <webElementGuid>1a751c23-2b88-4605-86e6-a3f0313ba63f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merge'])[1]/following::p[15]</value>
+      <webElementGuid>4f0323dd-ede7-4fee-a937-e25db6b9907a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Account/Email/Username :']/parent::*</value>
-      <webElementGuid>cf5d18ef-b602-4d0f-a6e6-67f5b0dde361</webElementGuid>
+      <value>//*/text()[normalize-space(.)='TEST_UPLOAD_ATTACHMENT.docx']/parent::*</value>
+      <webElementGuid>a6df7a5c-ce25-4332-83da-35a563ed3cec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
-      <webElementGuid>0cbb38c7-70cb-4b49-b07d-6589920f541a</webElementGuid>
+      <value>//div[5]/div[3]/p</value>
+      <webElementGuid>d10e837f-2a32-4132-b752-aa0023a8a00e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Account/Email/Username :' or . = 'Account/Email/Username :')]</value>
-      <webElementGuid>e7eec533-2d2f-4f3b-a2fe-c85ff9a279a0</webElementGuid>
+      <value>//p[(text() = 'TEST_UPLOAD_ATTACHMENT.docx' or . = 'TEST_UPLOAD_ATTACHMENT.docx')]</value>
+      <webElementGuid>02f027cb-789a-48f3-9234-e4d54aa02727</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

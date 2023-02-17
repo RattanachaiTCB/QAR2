@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__inputTextComponents-width</name>
+   <tag></tag>
+   <elementGuidId>0b409b30-7a0d-45ff-8abe-8542d56c3dc7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div[2]/div[2]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d3252269-1e15-4aa6-bc79-03a05bc096aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputTextComponents-width </value>
+      <webElementGuid>b682bc6a-8fb8-4db4-8162-aaaa73bad5ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;Information-panding-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-4 col-sm-12 col-12&quot;]/div[@class=&quot;p-inputgroup&quot;]/div[1]/span[@class=&quot;inputTextComponents-width&quot;]</value>
+      <webElementGuid>73e04f09-cafe-4ba8-89ff-48a0ea6a5b6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div[2]/div[2]/div/div/span</value>
+      <webElementGuid>f26b4553-f377-49ee-a404-64fa7ed57456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::span[2]</value>
+      <webElementGuid>da7a44d9-01db-452a-ae57-f0b8f334f492</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject'])[1]/preceding::span[9]</value>
+      <webElementGuid>c3d7012d-19a7-48b4-8154-a8fe367987ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>76143975-29aa-4971-859b-26982228ea66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
