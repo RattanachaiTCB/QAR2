@@ -54,13 +54,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>21040527-e377-4ac9-b49a-3115930e5b38</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint1/FormCopyTest</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>72ada11d-8837-40aa-93e5-5a0884fbd3e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
