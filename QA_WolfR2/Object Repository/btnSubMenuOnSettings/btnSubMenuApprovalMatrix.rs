@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/Settings?name=ApprovalMatrix']</value>
+         <value>//a[@href = '/Settings?name=ApprovalMatrix' and @class = 'a-button-submenu' and (contains(text(), 'Approval Matrix') or contains(., 'Approval Matrix'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/Settings?name=ApprovalMatrix</value>
-      <webElementGuid>12e2e77f-c121-4373-af6d-1cdbf8236fb3</webElementGuid>
+      <webElementGuid>2af6132b-89a1-4fa4-af3f-1dc93144cbf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,30 +26,22 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>40518d34-d82b-416e-8700-6334a5f75f23</webElementGuid>
+      <webElementGuid>e6cf9d1e-6dff-4515-9bf0-cd11b88b8b59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>a-button-submenu</value>
-      <webElementGuid>226fa779-bf37-41cf-96b6-22043a4426ec</webElementGuid>
+      <webElementGuid>7b208461-f925-43fc-a3a9-5a1c84fd021f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Approval Matrix</value>
-      <webElementGuid>23d4c897-e0b9-4e90-ab0c-91955af12034</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>Approval_Matrix</value>
-      <webElementGuid>ae8438b5-f478-47e0-b875-fc30dad2c2ca</webElementGuid>
+      <webElementGuid>eb156d61-e5c6-47ae-82fd-029b4a3ed0ed</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

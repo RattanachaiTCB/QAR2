@@ -27,9 +27,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('button settings'))
+WebUI.delay(2)
 
-WebUI.delay(10)
+WebUI.mouseOver(findTestObject('button settings'))
 
 WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuDelegateList'))
 

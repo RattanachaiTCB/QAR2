@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/Settings?name=DelegateList']</value>
+         <value>//a[@href = '/Settings?name=DelegateList' and @class = 'a-button-submenu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a972efc6-9a03-4e07-8a4f-1eb801817c15</webElementGuid>
+      <webElementGuid>2d11416a-df1e-40df-a95e-2134961c749d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,15 +26,15 @@
       <name>href</name>
       <type>Main</type>
       <value>/Settings?name=DelegateList</value>
-      <webElementGuid>54bbc75e-d7d1-4216-8655-2e8de74c7547</webElementGuid>
+      <webElementGuid>2713e257-a6aa-4ec4-8a37-6871ce8b45fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>a-button-submenu</value>
-      <webElementGuid>f9eefca3-3012-4e9c-a8c3-13c3e6e4dd2f</webElementGuid>
+      <webElementGuid>7c047517-e388-427b-bc45-8b34a117ee15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delegate List</value>
-      <webElementGuid>51b6bd08-c24d-45c9-b095-df960fc9fcf1</webElementGuid>
+      <webElementGuid>6605d564-cb85-4fb9-a447-cf88b415fa00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +50,6 @@
       <name>id</name>
       <type>Main</type>
       <value>Delegate_List</value>
-      <webElementGuid>dbc34e68-d4a1-4af4-8529-c2ddd9d58ac0</webElementGuid>
+      <webElementGuid>2390a8de-d38c-4da2-ad16-2e8be71d37f1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
