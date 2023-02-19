@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+/*WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input
 
 WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Sign In'))*/
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/svg'))
 

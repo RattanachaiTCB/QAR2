@@ -17,20 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+String searchType = 'Type of Approval'
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+//login
+/*WebUI.callTestCase(findTestCase('Login Pass'), [:], FailureHandling.STOP_ON_FAILURE)*/
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
-
-WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'Type of Approval')
-
+WebUI.delay(3)
+WebUI.click(findTestObject('Page_WOLF/button_New Request'))
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), searchType)
 WebUI.click(findTestObject('FormCondition'))
 
+//check url
 WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=102')

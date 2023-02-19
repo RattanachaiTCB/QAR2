@@ -6,15 +6,19 @@
    <elementGuidId>fa42ea29-4ef1-4d1c-96ee-d8956e76a1f6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//body[@id='tinymce']/p</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>p</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='tinymce']/p</value>
+         <key>BASIC</key>
+         <value>id(&quot;tinymce&quot;)/p[1][count(. | //*[@ref_element = 'Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff']) = count(//*[@ref_element = 'Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>dcf6e525-9e82-4fe9-805f-2771f1128ae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tinymce&quot;)/p[1]</value>
-      <webElementGuid>04cf24a1-f69b-463e-bef1-da36a9584c0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +40,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff</value>
-      <webElementGuid>0d3aac39-e359-448f-800f-1558d9fa8ef7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +47,6 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//body[@id='tinymce']/p</value>
-      <webElementGuid>e9d2a457-72a3-456a-bd0c-ed1a91595624</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'tinymce', '&quot;', ')/p[1]')])[1]/preceding::p[1]</value>
-      <webElementGuid>cd732c92-3994-4e02-b3a9-5b043a50cb38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +61,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>60da5281-bbc4-4824-afc0-aaf79877c412</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

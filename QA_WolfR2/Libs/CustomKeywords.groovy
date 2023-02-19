@@ -99,15 +99,6 @@ def static "randomData.dataGeneator.getRandomString"() {
 }
 
 
-def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
-    	TestObject object	
-     , 	String file	) {
-    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFileUsingRobot(
-        	object
-         , 	file)
-}
-
-
 def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile"(
     	TestObject object	
      , 	String file	) {
@@ -117,8 +108,12 @@ def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDefaultTimeZone"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDefaultTimeZone()
+def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
+    	TestObject object	
+     , 	String file	) {
+    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFileUsingRobot(
+        	object
+         , 	file)
 }
 
 
@@ -133,12 +128,28 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.addDays"(
 }
 
 
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDefaultTimeZone"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDefaultTimeZone()
+}
+
+
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
     	String timeZoneId	
      , 	String dateTimeFormat	) {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
         	timeZoneId
          , 	dateTimeFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.formatStringDate"(
+    	String value	
+     , 	String currentFormat	
+     , 	String newFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).formatStringDate(
+        	value
+         , 	currentFormat
+         , 	newFormat)
 }
 
 
@@ -168,17 +179,6 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.setDefaultTimeZone"
     	String timeZoneId	) {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).setDefaultTimeZone(
         	timeZoneId)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.formatStringDate"(
-    	String value	
-     , 	String currentFormat	
-     , 	String newFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).formatStringDate(
-        	value
-         , 	currentFormat
-         , 	newFormat)
 }
 
 
@@ -224,19 +224,19 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
-    	String startTime	
-     , 	String endTime	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDuration(
-        	startTime
-         , 	endTime)
-}
-
-
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDayOfWeek"(
     	String date	
      , 	String dateFormat	) {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDayOfWeek(
         	date
          , 	dateFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
+    	String startTime	
+     , 	String endTime	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDuration(
+        	startTime
+         , 	endTime)
 }
