@@ -17,18 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
+//WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+//WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+//WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+//WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+WebUI.switchToWindowIndex(0)
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
 
-WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_username'), 
-    'wolf01@qar2.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
-    '/eWc8J9JFEG5WeA2mg7b1w==')
-
-WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
-    Keys.chord(Keys.ENTER))
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/svg'))
 
 WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Department_search-filter-input'), 
@@ -93,7 +90,6 @@ WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_W
 //WebUI.closeWindowIndex(1)
 //
 //WebUI.switchToWindowIndex(0)
-
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TEST_UPLOAD_ATTACHMENT.docx'))
 
 //WebUI.switchToWindowIndex(1)
@@ -103,7 +99,6 @@ WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_W
 //WebUI.closeWindowIndex(1)
 //
 //WebUI.switchToWindowIndex(0)
-
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TEST_UPLOAD_ATTACHMENT.pdf'))
 
 WebUI.switchToWindowIndex(1)
@@ -123,7 +118,6 @@ WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_W
 //WebUI.closeWindowIndex(1)
 //
 //WebUI.switchToWindowIndex(0)
-
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_Save Draft'))
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm'))

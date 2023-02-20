@@ -17,17 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
-
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
-
-WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), Keys.chord(
-        Keys.ENTER))
-
+//WebUI.openBrowser('')
+//WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+//WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+//
+//WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), Keys.chord(
+//        Keys.ENTER))
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/svg'))
 
 WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Department_search-filter-input'), 'copyform')
@@ -70,4 +67,10 @@ WebUI.verifyEqual(WebUI.getText(findTestObject('subject')), Subject)
 WebUI.verifyEqual(WebUI.getText(findTestObject('calendar')), DueDate)
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('testobj/Page_WOLF/input_-_items1.layout1.data.value (1)')), FullName)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
 

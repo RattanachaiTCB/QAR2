@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Worklist_Search</name>
+   <name>Worklist_Search_Code</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>20c27a3c-0f92-4923-a591-c2a6ba589aac</testCaseGuid>

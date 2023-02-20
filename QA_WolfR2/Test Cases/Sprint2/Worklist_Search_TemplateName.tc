@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>search TemplateName</description>
+   <name>Worklist_Search_TemplateName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f53697d-211f-4592-9af7-46b5ab03830a</testCaseGuid>
+</TestCaseEntity>

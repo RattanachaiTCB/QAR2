@@ -669,6 +669,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/p_AC01  - Petty Cash Voucher",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Draft\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/p_AC01  - Petty Cash Voucher_neighbor.png"
     }
   ]
 }

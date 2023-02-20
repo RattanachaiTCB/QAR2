@@ -85,7 +85,7 @@
       <guid>73a49178-a039-4bd0-a9e7-4dfbb8237386</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint2/Worklist_Search</testCaseId>
+      <testCaseId>Test Cases/Sprint2/Worklist_Search_Code</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

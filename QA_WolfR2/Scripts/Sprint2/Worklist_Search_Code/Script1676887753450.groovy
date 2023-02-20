@@ -31,11 +31,9 @@ WebUI.click(findTestObject('Object Repository/Page_WOLF/svg'))
 
 WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Department_search-filter-input'), 'AC01')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/a_AC01-2023-000017'))
+WebUI.mouseOver(findTestObject('Object Repository/Page_WOLF/a_AC01-2023-000017'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/p_AC01  - Petty Cash Voucher'), 'AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher')
-
-WebUI.closeBrowser()
 
