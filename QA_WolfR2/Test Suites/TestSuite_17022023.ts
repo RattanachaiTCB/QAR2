@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>24cd111a-b43c-460a-bb19-c3a34044ae50</testSuiteGuid>
    <testCaseLink>
-      <guid>e941c278-d02d-4f03-82f3-d9f5cdd59d59</guid>
+      <guid>a6cf1e8c-1fa7-479a-b312-7d313ec68e88</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint1/RequestFormChangeRequester</testCaseId>
+      <testCaseId>Test Cases/Login Pass</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -89,10 +89,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a6cf1e8c-1fa7-479a-b312-7d313ec68e88</guid>
+      <guid>e941c278-d02d-4f03-82f3-d9f5cdd59d59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Pass</testCaseId>
+      <testCaseId>Test Cases/Sprint1/RequestFormChangeRequester</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
