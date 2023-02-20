@@ -50,7 +50,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'Type of Approval')
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'Type of Approval')
 
 WebUI.click(findTestObject('FormCondition'))
 

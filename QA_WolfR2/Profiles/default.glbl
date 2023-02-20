@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qar2.wolfapprove.com'</initValue>
+      <name>G_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'wolf01@qar2.com'</initValue>
+      <name>G_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Wolf@tcb1'</initValue>
+      <name>G_password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

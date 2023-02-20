@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<< HEAD
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
@@ -32,24 +33,32 @@ WebUI.waitForPageLoad(5)
 
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Submit'))
+=======
+//login
+/*WebUI.callTestCase(findTestCase('Login Pass'), [:], FailureHandling.STOP_ON_FAILURE)*/
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+WebUI.delay(3)
+>>>>>>> origin/main
 
+//WebUI.waitForPageLoad(5)
+//check verify save button
+WebUI.click(findTestObject('Page_WOLF/button_Submit'))
+WebUI.click(findTestObject('Page_WOLF/button_Confirm'))
+
+//check url
 WebUI.verifyNotEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Default', FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_WOLF/small_is required'))
+//verify field
+WebUI.verifyElementVisible(findTestObject('Page_WOLF/small_is required'))
+WebUI.click(findTestObject('Page_WOLF/input'))
+WebUI.click(findTestObject('Page_WOLF/a_Today'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input'))
+//click select company
+WebUI.click(findTestObject('Page_WOLF/input_company'))
+WebUI.click(findTestObject('Page_WOLF/td_TCB'))
 
-WebUI.click(findTestObject('Object Repository/Page_WOLF/a_Today'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/td_TCB'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Submit'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+//click button
+WebUI.click(findTestObject('Page_WOLF/button_Submit'))
+WebUI.click(findTestObject('Page_WOLF/button_Confirm'))
 

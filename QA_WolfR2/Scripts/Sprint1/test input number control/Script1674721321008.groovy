@@ -29,7 +29,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'KTL-CCN01')
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'KTL-CCN01')
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-CCN01  Calculate Function'))
 
