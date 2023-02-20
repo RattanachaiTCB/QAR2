@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div[5]/div[2]/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;Information-panding-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-10 col-sm-12 col-12&quot;]/div[1]/span[@class=&quot;inputTextComponents-width&quot;][count(. | //*[(text() = '**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm ' or . = '**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm ')]) = count(//*[(text() = '**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm ' or . = '**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>95ca543f-d03f-4b85-aeb0-4fdd30c0ab65</webElementGuid>
+      <webElementGuid>7d0f39fd-7b73-4848-9653-a67c6005c8d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputTextComponents-width </value>
-      <webElementGuid>6a0997e1-ca31-426b-9d82-a249dd09a311</webElementGuid>
+      <webElementGuid>d1c36b8f-46b2-4b7e-a3d0-cb79f5c96b90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;Information-panding-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-10 col-sm-12 col-12&quot;]/div[1]/span[@class=&quot;inputTextComponents-width&quot;]</value>
-      <webElementGuid>c47f7840-3aa3-44b8-86a1-de276fe03c44</webElementGuid>
+      <webElementGuid>45d9a851-18ae-4523-a9e0-f0a0c817c96c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm </value>
+      <webElementGuid>9894d800-d220-4222-ac28-c487d5f45528</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div[5]/div[2]/div/span</value>
-      <webElementGuid>94ce10d6-0c4f-4e8f-8ba8-18d10e085b47</webElementGuid>
+      <webElementGuid>4f10d2fb-b6b1-42af-964e-4cb01b2e27da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject'])[1]/following::span[2]</value>
-      <webElementGuid>c67e6b60-a1bc-4ddb-9c48-2b9691fe85a5</webElementGuid>
+      <webElementGuid>d250034a-3250-4c17-aefc-b351f1081da9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DueDate'])[1]/preceding::span[1]</value>
-      <webElementGuid>ac0f7201-7466-46c7-b61f-ee914b3ce624</webElementGuid>
+      <webElementGuid>3f4dc04e-183e-42dc-90cf-feb5bf619483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Surname'])[1]/preceding::span[4]</value>
-      <webElementGuid>75720c3a-1f70-4501-8ac5-5f6784bfff1f</webElementGuid>
+      <webElementGuid>ffbdd19c-2a2a-470d-9613-23109096d1df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/span</value>
-      <webElementGuid>74051438-37e9-434b-9f3c-1b2918b8fafb</webElementGuid>
+      <webElementGuid>b6c3aece-bdcb-41e7-99ff-ddaca2a35038</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

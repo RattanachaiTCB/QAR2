@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/svg'))
 
-WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Department_search-filter-input'), 'Test Validation changing requestor By Katalon automate test')
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Department_search-filter-input'), '**ห้ามกด**  -Test Validation changing requestor By Katalon automate test')
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/p_KTL-VLD01-2023-000008'))
 
