@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>แสดง form template list</description>
    <name>ShowFormTemplateList</name>
    <tag></tag>
    <comment></comment>

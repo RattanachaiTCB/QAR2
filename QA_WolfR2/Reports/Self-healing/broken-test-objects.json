@@ -522,146 +522,6 @@
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/span_",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_8_content\u0027]/div/div/table/tbody/tr[4]/td[2]/div/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027EMP003\u0027])[1]/following::span[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/span__neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/button_Confirm",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_12\u0027]/div[3]/div/div/div[2]/button",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/button_Confirm_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/button_Settings",
-      "brokenLocator": "//button[@class \u003d \u0027button-nav \n\u0027 and @id \u003d \u0027Settings\u0027]",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "//button[@id\u003d\u0027Settings\u0027]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/button_Settings_XPATH.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/button_New Request",
-      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div/div[2]/span/button",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//span/button",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/div_TCB",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_7_content\u0027]/div/div/table/tbody/tr/td/div",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TechCons Biz Co.,Ltd. (Head Office)\u0027])[1]/preceding::div[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/div_TCB_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff",
-      "brokenLocator": "//iframe[@id\u003d\u0027tiny-react_26058033121674819798038_ifr\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//iframe",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff_position.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/p_",
-      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/p[2]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Wait for Approve\u0027])[1]/following::p[4]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/p__neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/td_EMP005",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_14_content\u0027]/div/div/table/tbody/tr/td",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Confirm\u0027])[1]/following::td[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/td_EMP005_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_51574205921_e5bb0b",
-      "brokenLocator": "//iframe[@id\u003d\u0027tiny-react_51574205921674926925160_ifr\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//iframe",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_51574205921_e5bb0b_position.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/td_EMP001",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_14_content\u0027]/div/div/table/tbody/tr/td",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Confirm\u0027])[1]/following::td[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/td_EMP001_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/span_Yes",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_16\u0027]/div[3]/button[2]/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No\u0027])[1]/following::span[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/span_Yes_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_23\u0027]/div[3]/div/div/div[2]/button",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/svg",
-      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Show\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][3]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "button.ant-btn.ant-btn-text.ant-btn-lg.ant-btn-icon-only \u003e svg",
-      "proposedLocatorMethod": "CSS",
-      "recoveryMethod": "CSS",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_WOLF/div_TCB",
-      "brokenLocator": "//div[@id\u003d\u0027pr_id_7_content\u0027]/div/div/table/tbody/tr/td/div",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//td/div",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/div_TCB_position.png"
-    },
-    {
-      "approved": true,
       "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/p_KTL-VLD01-2023-000008",
       "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div/p",
       "brokenLocatorMethod": "XPATH",
@@ -669,6 +529,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/Page_WOLF/span__inputTextComponents-width_1",
+      "brokenLocator": "id(\"root\")/div[@class\u003d\"request-main-container fade-enter-done\"]/div[@class\u003d\"request-container\"]/div[@class\u003d\"inner-content\"]/div[@class\u003d\"worklist-items-container\"]/div[@class\u003d\"request-container-item\"]/div[1]/div[@class\u003d\"Information-panding-card\"]/div[@class\u003d\"row\"]/div[@class\u003d\"col-xl-10 col-sm-12 col-12\"]/div[1]/span[@class\u003d\"inputTextComponents-width\"][count(. | //*[(text() \u003d \u0027**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm \u0027 or . \u003d \u0027**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm \u0027)]) \u003d count(//*[(text() \u003d \u0027**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm \u0027 or . \u003d \u0027**ห้ามกด approve หรือใดๆทั้งสิ้น ** Katalon Automate Test CopyForm \u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div[3]/div[5]/div[2]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/Page_WOLF/span__inputTextComponents-width_1_XPATH.png"
     }
   ]
 }
