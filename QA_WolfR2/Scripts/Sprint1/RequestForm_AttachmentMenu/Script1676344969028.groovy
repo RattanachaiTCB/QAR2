@@ -86,23 +86,23 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_Test_Data.pptx'))
 
-WebUI.switchToWindowIndex(1)
-
-WebUI.delay(10)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
+//WebUI.switchToWindowIndex(1)
+//
+//WebUI.delay(10)
+//
+//WebUI.closeWindowIndex(1)
+//
+//WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TEST_UPLOAD_ATTACHMENT.docx'))
 
-WebUI.switchToWindowIndex(1)
-
-WebUI.delay(10)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
+//WebUI.switchToWindowIndex(1)
+//
+//WebUI.delay(10)
+//
+//WebUI.closeWindowIndex(1)
+//
+//WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TEST_UPLOAD_ATTACHMENT.pdf'))
 
@@ -116,13 +116,13 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_TESTFile.xlsx'))
 
-WebUI.switchToWindowIndex(1)
-
-WebUI.delay(10)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
+//WebUI.switchToWindowIndex(1)
+//
+//WebUI.delay(10)
+//
+//WebUI.closeWindowIndex(1)
+//
+//WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_Save Draft'))
 

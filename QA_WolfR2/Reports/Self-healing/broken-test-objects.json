@@ -519,6 +519,36 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/attachment/Page_WOLF/svg_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/span_",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_8_content\u0027]/div/div/table/tbody/tr[4]/td[2]/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027EMP003\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/button_Confirm",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_12\u0027]/div[3]/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/button_Confirm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/button_Settings",
+      "brokenLocator": "//button[@class \u003d \u0027button-nav \n\u0027 and @id \u003d \u0027Settings\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@id\u003d\u0027Settings\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/button_Settings_XPATH.png"
     }
   ]
 }
