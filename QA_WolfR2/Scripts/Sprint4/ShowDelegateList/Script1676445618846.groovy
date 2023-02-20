@@ -27,17 +27,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('button settings'))
- 
-WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'cal')
+WebUI.mouseOver(findTestObject('testobj/testedit/Page_WOLF/button_Settings'))
+
 WebUI.delay(10)
+
 WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuDelegateList'))
 
 WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Division(0)')
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Delegate List(0)')
 
 WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
 

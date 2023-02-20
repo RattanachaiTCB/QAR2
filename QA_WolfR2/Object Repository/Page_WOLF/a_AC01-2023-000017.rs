@@ -6,31 +6,35 @@
    <elementGuidId>135f795b-757a-44af-bcfc-23d0e5242b73</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.text-form-running</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'text-form-running' and @href = '/Request?MemoID=479' and (text() = 'AC01-2023-000017' or . = 'AC01-2023-000017')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-form-running</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>56fbb493-42ef-4850-8136-5cf1b0ea95e7</webElementGuid>
+      <webElementGuid>42526bb0-4ee6-4380-a5ee-404c870b02b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>text-form-running</value>
-      <webElementGuid>23add4be-5949-4386-ab1f-26a2ed19b053</webElementGuid>
+      <webElementGuid>b7f51e39-2f48-454c-b4eb-792bcb83f948</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/Request?MemoID=479</value>
-      <webElementGuid>cd79cb95-8276-4faa-868f-49c3b3618e99</webElementGuid>
+      <webElementGuid>943eea5c-f791-434a-8599-fdf7292c958c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AC01-2023-000017</value>
-      <webElementGuid>5eb4ea40-3e09-4c32-a21f-21c537778efd</webElementGuid>
+      <webElementGuid>9da78403-f9bb-44d5-be98-0194d8105326</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-content-container desktop&quot;]/div[@class=&quot;card-body-content-container&quot;]/div[@class=&quot;running-number-container&quot;]/a[@class=&quot;text-form-running&quot;]</value>
-      <webElementGuid>02ff71a5-92da-495e-a391-7a3c06a3e077</webElementGuid>
+      <webElementGuid>6d8d131b-ad19-4c3a-9950-f5111d289d30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/a</value>
-      <webElementGuid>b9e54cb4-8095-4b96-bb6d-217dd6f486f7</webElementGuid>
+      <webElementGuid>68d32fa3-2adb-44ad-8ac1-f0619395eec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'AC01-2023-000017')]</value>
-      <webElementGuid>9e3702a2-d81d-42d2-bb10-5e8a00847a69</webElementGuid>
+      <webElementGuid>a5671f1b-85da-424b-8449-952f9b4d9afe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/following::a[1]</value>
-      <webElementGuid>e9e10524-38f2-429f-a8bf-ff0c5a01e2e0</webElementGuid>
+      <webElementGuid>178eb7c8-081a-4c80-8fe9-e3fdfa2915b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/following::a[1]</value>
-      <webElementGuid>4b199c71-e125-492d-8f7c-2eae53db7251</webElementGuid>
+      <webElementGuid>37043dd2-8c18-4efb-992f-60fed9c6a4b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='แบบฟอร์มเบิกเงินสดย่อย / Petty Cash Voucher'])[1]/preceding::a[1]</value>
-      <webElementGuid>4787c4bf-b9e5-4bcb-a5e0-9d1a70068863</webElementGuid>
+      <webElementGuid>97d2136b-e721-4c2e-9d88-93dcaf450de4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/preceding::a[1]</value>
-      <webElementGuid>d1496d59-149e-4c5e-8105-780d3890e75d</webElementGuid>
+      <webElementGuid>1d93ae76-9200-4439-a182-6e6fc24c2286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='AC01-2023-000017']/parent::*</value>
-      <webElementGuid>de2c7152-42ef-4052-9c0d-2054746cb786</webElementGuid>
+      <webElementGuid>c50b0863-be99-46b5-83b2-88a506cd7eed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/Request?MemoID=479')]</value>
-      <webElementGuid>f3209f7e-8e5d-4001-b2df-bfcb448dbe46</webElementGuid>
+      <webElementGuid>9de017e6-d450-49ca-aa68-f6566d12d2bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/a</value>
-      <webElementGuid>6802f605-d13b-4065-83f3-832a22f5015f</webElementGuid>
+      <webElementGuid>a9d1ea09-c705-44e7-aaea-c4b26de28251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/Request?MemoID=479' and (text() = 'AC01-2023-000017' or . = 'AC01-2023-000017')]</value>
-      <webElementGuid>cfa64206-c3a7-4298-b05d-d515a04bef34</webElementGuid>
+      <webElementGuid>963d45d2-6afd-4413-aeeb-edaf9b771c7b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

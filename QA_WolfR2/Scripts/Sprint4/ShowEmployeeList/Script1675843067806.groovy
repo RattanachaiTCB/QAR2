@@ -27,13 +27,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot 
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('button settings'))
+WebUI.mouseOver(findTestObject('testobj/testedit/Page_WOLF/button_Settings'))
 
-WebUI.delay(10)
+WebUI.delay(4)
 
-WebUI.click(findTestObject('btnSubmenuEmployee'))
+WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuEmployee'))
 
-WebUI.delay(10)
+WebUI.delay(4)
 
 WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 

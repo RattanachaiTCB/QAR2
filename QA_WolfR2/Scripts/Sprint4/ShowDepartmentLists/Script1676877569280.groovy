@@ -29,15 +29,15 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password
 
 WebUI.mouseOver(findTestObject('testobj/testedit/Page_WOLF/button_Settings'))
 
-WebUI.delay(4)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuDivision'))
-
-WebUI.delay(4)
+//WebUI.click(findTestObject('button settings'))
+//WebUI.delay(10)
+WebUI.click(findTestObject('btnSubMenuOnSettings/btnSubMenuDepartment'))
 
 WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Division(0)')
+WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Department(0)')
 
 WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
 

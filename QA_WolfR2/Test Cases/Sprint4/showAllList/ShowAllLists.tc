@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>แสดง lists ทั้งหมดของ sub menu btn</description>
+   <name>ShowAllLists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a45b74f5-76e9-4bbf-b451-7807a3fdfb25</testCaseGuid>
+</TestCaseEntity>

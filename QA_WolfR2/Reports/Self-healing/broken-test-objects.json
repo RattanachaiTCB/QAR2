@@ -549,6 +549,126 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/Page_WOLF/button_Settings_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/button_New Request",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div/div[2]/span/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/div_TCB",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_7_content\u0027]/div/div/table/tbody/tr/td/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TechCons Biz Co.,Ltd. (Head Office)\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/div_TCB_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff",
+      "brokenLocator": "//iframe[@id\u003d\u0027tiny-react_26058033121674819798038_ifr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_26058033121_3be4ff_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/p_",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Wait for Approve\u0027])[1]/following::p[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/p__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/td_EMP005",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_14_content\u0027]/div/div/table/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Confirm\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/td_EMP005_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_51574205921_e5bb0b",
+      "brokenLocator": "//iframe[@id\u003d\u0027tiny-react_51574205921674926925160_ifr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/iframe_concat(id(, , tiny-react_51574205921_e5bb0b_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/td_EMP001",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_14_content\u0027]/div/div/table/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Confirm\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/td_EMP001_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/span_Yes",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_16\u0027]/div[3]/button[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/span_Yes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_23\u0027]/div[3]/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/svg",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Show\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "button.ant-btn.ant-btn-text.ant-btn-lg.ant-btn-icon-only \u003e svg",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/div_TCB",
+      "brokenLocator": "//div[@id\u003d\u0027pr_id_7_content\u0027]/div/div/table/tbody/tr/td/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/div_TCB_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/testedit/Page_WOLF/p_KTL-VLD01-2023-000008",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Microsoft Edge\u0027])[1]/preceding::p[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

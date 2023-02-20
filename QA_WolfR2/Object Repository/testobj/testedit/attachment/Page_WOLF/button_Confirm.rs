@@ -6,15 +6,19 @@
    <elementGuidId>11419c65-87f3-4703-bde5-fb421e07e731</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.Confirm-Button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='pr_id_23']/div[3]/div/div/div[2]/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Confirm-Button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b4289e96-9ec7-4546-9564-441e831d91d2</webElementGuid>
+      <webElementGuid>42d000a1-0db7-4209-b47e-6a5c09f680e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Confirm-Button</value>
-      <webElementGuid>cc517cb5-5616-458e-b6d3-39f9c518abb1</webElementGuid>
+      <webElementGuid>6eb29375-6c9b-4d25-af12-d2bfbb74e3ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>768c9bf9-dd88-409f-8e2f-f2b4677ae119</webElementGuid>
+      <webElementGuid>3c271326-5ba8-4ce5-a983-b57fe79d352f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pr_id_23&quot;)/div[@class=&quot;p-dialog-footer&quot;]/div[@class=&quot;Button-line memo-button-padding&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6 col-sm-6 col-6&quot;]/button[@class=&quot;Confirm-Button&quot;]</value>
-      <webElementGuid>cc9a21e5-f802-4a3f-92ca-e4eaa21cb208</webElementGuid>
+      <webElementGuid>cb24b691-f656-403b-8a12-3c4cdce86678</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_23']/div[3]/div/div/div[2]/button</value>
-      <webElementGuid>464389b7-1ed2-4742-bb06-3e7005d24f4f</webElementGuid>
+      <webElementGuid>2386b1a2-fb3b-4191-b716-3cb1d7de2ccf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>e49a68c1-554f-4650-a7e0-5d346c57930c</webElementGuid>
+      <webElementGuid>a2dd68ec-a045-494c-bebb-16cc3a27302f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[2]</value>
-      <webElementGuid>135b4249-cf9c-45a0-bb75-6a59ea8ef2ac</webElementGuid>
+      <webElementGuid>7092c17a-55fa-41d2-92c4-2e12e6028b75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
-      <webElementGuid>7ccd5255-f193-42fb-936f-10141937499d</webElementGuid>
+      <webElementGuid>65a6e902-30b5-446a-b913-0d9cb9dc5899</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/button</value>
-      <webElementGuid>9cd870c7-1b98-4228-8ca0-8249c1d2cf64</webElementGuid>
+      <webElementGuid>22283d04-ce5e-43c0-b7de-01b20f7965a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Confirm' or . = 'Confirm')]</value>
-      <webElementGuid>f1d099f9-f8e8-4b96-b8c9-b16994099250</webElementGuid>
+      <webElementGuid>cce9add9-a0c4-4483-ab37-80ff71c3be9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
