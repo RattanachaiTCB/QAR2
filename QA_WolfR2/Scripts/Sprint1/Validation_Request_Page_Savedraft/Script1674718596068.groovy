@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<< HEAD
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
@@ -28,17 +29,22 @@ WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+=======
+String searchType = 'KTL-VLD01'
+
+//login
+/*WebUI.callTestCase(findTestCase('Login Pass'), [:], FailureHandling.STOP_ON_FAILURE)*/
+
+WebUI.delay(3)
+>>>>>>> origin/main
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
+WebUI.delay(3)
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), searchType)
+WebUI.click(findTestObject('Page_WOLF/p_KTL-VLD01  Validation Form'))
+WebUI.click(findTestObject('Page_WOLF/button_Save Draft'))
+WebUI.click(findTestObject('Page_WOLF/button_Confirm'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_concat(id(, , fil, , ))_fil'), 'KTL-VLD01')
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Save Draft'))
-
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
-
+//check url
 WebUI.verifyNotEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Default', FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121')
 
