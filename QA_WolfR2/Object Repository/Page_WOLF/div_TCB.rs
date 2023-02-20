@@ -6,19 +6,15 @@
    <elementGuidId>192c4097-5d8a-49d4-af63-29018ebf1342</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pr_id_7_content']/div/div/table/tbody/tr/td/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.tooltip-data</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'TCB' or . = 'TCB')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='pr_id_7_content']/div/div/table/tbody/tr/td/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>90618c64-7824-4ad9-8def-f38d3835c75b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tooltip-data</value>
+      <webElementGuid>9fbd4d13-8df8-4176-8767-4c34f72acd25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +38,7 @@
       <name>data-pr-tooltip</name>
       <type>Main</type>
       <value>EmployeeId : undefined</value>
+      <webElementGuid>8bf715a0-6acf-43c9-9e40-3cff4e354bc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>TCB</value>
+      <webElementGuid>cc4e37a2-c45c-4309-a4bc-e6435e592177</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pr_id_7_content&quot;)/div[@class=&quot;p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll&quot;]/div[@class=&quot;p-datatable-wrapper&quot;]/table[@class=&quot;p-datatable-table&quot;]/tbody[@class=&quot;p-datatable-tbody&quot;]/tr[@class=&quot;p-selectable-row&quot;]/td[1]/div[@class=&quot;tooltip-data&quot;]</value>
+      <webElementGuid>9a4374ab-af8c-47a1-a883-efd29e419075</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pr_id_7_content']/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>850f90c0-deee-46ad-96b9-e772bbf45a18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::div[38]</value>
+      <webElementGuid>f0305f87-0261-4e18-aac4-f6859e80b8fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='attachment'])[1]/following::div[43]</value>
+      <webElementGuid>c50ae784-358d-44b4-aa50-0196d4a6c622</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TechCons Biz Co.,Ltd. (Head Office)'])[1]/preceding::div[1]</value>
+      <webElementGuid>e810aa13-981b-4678-89ad-12474113d8e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div</value>
+      <webElementGuid>ca05e9ec-ec9e-4e8d-b472-9bce7716a9ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'TCB' or . = 'TCB')]</value>
+      <webElementGuid>ceed323e-21da-4f19-9410-c35351289932</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

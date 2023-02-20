@@ -17,71 +17,45 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import org.openqa.selenium.By
-import org.openqa.selenium.JavascriptExecutor
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.Select
-import com.kms.katalon.core.webui.driver.DriverFactory
+WebUI.openBrowser('')
 
-//login
-//WebUI.callTestCase(findTestCase('Login Pass'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.delay(2)
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
-WebUI.delay(3)
-WebDriver driver = DriverFactory.getWebDriver()
-String charRange = '\n';
-//search request by status Wait for Approve
-WebUI.click(findTestObject('Page_WOLF/svg'))
-WebUI.setText(findTestObject('Page_WOLF/input_Department_search'), 'Wait for Approve')
-WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'busalin@qar2.com')
 
-//click request id
-String getNewRequestId = driver.findElement(By.className('running-number-container')).getText()
-int endIndex = getNewRequestId.indexOf(charRange)
-String subStr = getNewRequestId.substring(0,endIndex)
-WebUI.delay(2)
-driver.findElement(By.linkText(subStr)).click()
-WebUI.delay(2)
-//WebUI.click(findTestObject('Page_WOLF/span_Wait for Approve'))
-WebUI.click(findTestObject('Page_WOLF/button_Return'))
-/*WebUI.click(findTestObject('Page_WOLF/p (4)'))
-WebUI.setText(findTestObject('Page_WOLF/body_Return (1)'), 'Return')*/
-WebUI.delay(5)
-WebElement iFrameElement = driver.findElement(By.cssSelector('.p-dialog-content'))
-WebElement iFrameElements = iFrameElement.findElement(By.tagName('iframe'))
-WebUI.delay(3)
-driver.switchTo().frame(iFrameElements);
-WebUI.delay(3)
-driver.findElement(By.id('tinymce')).click()
-driver.findElement(By.id('tinymce')).sendKeys('Return')
-
-WebUI.delay(3)
-driver.switchTo().defaultContent()
-WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
-WebUI.delay(5)
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
-WebUI.click(findTestObject('Page_WOLF/div_B'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Page_WOLF/div_Logout'))
-WebUI.delay(2)
-//login to pornpan@qar2.com
-WebUI.navigateToUrl(GlobalVariable.G_url)
-WebUI.maximizeWindow()
-WebUI.delay(3)
-WebUI.setText(findTestObject('login/input_username'), GlobalVariable.G_username)
-WebUI.setEncryptedText(findTestObject('Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
-WebUI.sendKeys(findTestObject('Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
-WebUI.delay(2)
-//click
-/*WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
-WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))*/
 
-WebUI.click(findTestObject('Page_WOLF/span_Wait for Approve'))
-WebUI.delay(2)
-WebUI.verifyElementText(findTestObject('Page_WOLF/span_Return'), 'Return')
-WebUI.click(findTestObject('Page_WOLF/img_Requestor_img-logo'))
-WebUI.closeBrowser()
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/span_Wait for Approve'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Return'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/p (4)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/body_Return (1)'), 'Return')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+
+WebUI.delay(5)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/div_B'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/div_Logout'))
+
+WebUI.setText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_username'), 'pornpan@qar2.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/span_Wait for Approve'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_History'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/span_Return'), 'Return')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/img_Requestor_img-logo'))
+

@@ -6,19 +6,15 @@
    <elementGuidId>4eade028-fd7e-46ae-bede-8a3a139f60e1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.memo-button.approve</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Approve' or . = 'Approve')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>e0491427-800d-449b-a346-4be8bbf86b65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,13 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>memo-button approve</value>
+      <webElementGuid>0c9a7be6-fc08-44be-aaf4-566051211b08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Approve</value>
+      <value> Approve</value>
+      <webElementGuid>1ef956df-8968-44ae-9a8a-805e6aeaed35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;header-request set-z-index&quot;]/div[@class=&quot;confirm-container&quot;]/div[@class=&quot;memo-button-container mobile&quot;]/button[@class=&quot;memo-button approve&quot;]</value>
+      <webElementGuid>2d0dccd1-4849-42d2-b57a-4ce101463e45</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[2]/div[2]/div/button[2]</value>
+      <webElementGuid>9ec0052b-5434-4904-9803-e4ecb777884f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[1]/preceding::button[8]</value>
+      <webElementGuid>dc8aef26-c43a-4772-9b10-d64816c86e3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::button[9]</value>
+      <webElementGuid>9a68ecd2-0951-4d59-9475-a2116039083e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
+      <webElementGuid>c443cb6e-54a2-4615-ba16-5345a5870855</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,5 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Approve' or . = ' Approve')]</value>
+      <webElementGuid>4f67a8a7-0de4-435b-95d5-711744eba46f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

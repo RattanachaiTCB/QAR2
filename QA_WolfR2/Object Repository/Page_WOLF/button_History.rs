@@ -6,18 +6,15 @@
    <elementGuidId>042e4d3e-36e0-49c5-a80f-9f1613d883e7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div[3]/div/div[5]/button</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'History']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>b0c5055c-58f4-405e-be6e-acca3fc4ece1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,13 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>BTN</value>
+      <webElementGuid>eae368d7-be34-41ad-b189-104bfd5efbee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>History</value>
+      <webElementGuid>ce59b02d-5b2d-4975-a550-1e5714f9eed4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,13 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;show-tablet-navbar-request-min-1024&quot;]/div[@class=&quot;Sidebar RequestSideBarElement-display-none&quot;]/div[5]/button[@class=&quot;BTN&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>History</value>
+      <webElementGuid>1079335a-6b7f-42c8-b2b6-3d2f9f1f3921</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[3]/div/div[5]/button</value>
+      <webElementGuid>a7f1ee6b-29d3-447a-99cb-274a0cb7b53d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachment'])[1]/following::button[1]</value>
+      <webElementGuid>b2fbe37f-8be2-4a9b-84d0-b6598829906b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Line Approvals'])[1]/following::button[2]</value>
+      <webElementGuid>4414a531-0d7d-455c-9921-1716c3bb3f4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Requestor'])[2]/preceding::button[6]</value>
+      <webElementGuid>e8cdfede-fdae-45f2-a430-52aaa5193340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/button</value>
+      <webElementGuid>df32ac55-b44e-4dbc-9872-fa83966fc98e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'History' or . = 'History')]</value>
+      <webElementGuid>a88ac235-ac6d-4d54-b075-9576c44c0a22</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,18 +6,15 @@
    <elementGuidId>d2ef84e9-6a46-471a-a442-c6c04b128fa2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::div[19]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>27823747-78cb-4b0d-9b6f-39c71d6a1ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>popup-container</value>
+      <webElementGuid>9925f3cc-7d21-4a8b-84e0-1dff67e76474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
+      <webElementGuid>75a34f59-9cab-4b51-a964-6b6e9e1b0886</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-popover ant-popover-placement-bottomRight&quot;]/div[@class=&quot;ant-popover-content&quot;]/div[@class=&quot;ant-popover-inner&quot;]/div[@class=&quot;ant-popover-inner-content&quot;]/div[@class=&quot;main-user-popup-content&quot;]/div[@class=&quot;popup-button-box&quot;]/div[@class=&quot;popup-container&quot;]</value>
+      <webElementGuid>a5c6dde1-8c27-4f24-bef3-6a70e8097d2d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Google Chrome'])[1]/following::div[19]</value>
+      <webElementGuid>b99859bd-1cc9-4d70-ab0e-aa7121158025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/following::div[19]</value>
+      <webElementGuid>79603daf-2436-4665-98d4-88ea70802d68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/div/div[2]/div[3]</value>
+      <webElementGuid>7ab17dd0-d9ea-493e-bd09-bc12aabfc963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,5 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>ae2fdcac-6f05-42ed-8e84-75275074f351</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

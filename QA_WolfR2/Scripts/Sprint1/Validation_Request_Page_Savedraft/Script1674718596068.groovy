@@ -17,20 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String searchType = 'KTL-VLD01'
-
-//login
-/*WebUI.callTestCase(findTestCase('Login Pass'), [:], FailureHandling.STOP_ON_FAILURE)*/
-
-WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_New Request'))
-WebUI.delay(3)
-WebUI.setText(findTestObject('Page_WOLF/input_searchType'), searchType)
-WebUI.click(findTestObject('Page_WOLF/p_KTL-VLD01  Validation Form'))
-WebUI.click(findTestObject('Page_WOLF/button_Save Draft'))
-WebUI.click(findTestObject('Page_WOLF/button_Confirm'))
 
-//check url
+WebUI.setText(findTestObject('Page_WOLF/input_searchType'), 'KTL-VLD01')
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/p_KTL-VLD01  Validation Form'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Save Draft'))
+
+WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+
 WebUI.verifyNotEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Default', FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121')
 

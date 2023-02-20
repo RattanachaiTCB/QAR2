@@ -6,19 +6,15 @@
    <elementGuidId>85c3cbf2-2153-46cc-a5ed-320cfcc632d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/p/div/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.action-badge > span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Submitted' or . = 'Submitted')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/p/div/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>fefd15ff-bdbe-465d-a96f-f90b0f6c1c91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submitted</value>
+      <webElementGuid>2abd410a-0374-42d6-842a-ab57ea088987</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;Histwo overflow-auto&quot;]/div[@class=&quot;HistoryCard&quot;]/div[@class=&quot;HistoryDetail&quot;]/div[@class=&quot;content-left-side&quot;]/p[@class=&quot;content-text-name&quot;]/div[@class=&quot;content-right-side&quot;]/div[@class=&quot;action-badge&quot;]/span[1]</value>
+      <webElementGuid>c6da750c-f342-47b4-bea9-d3ec7a149f37</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/p/div/div/span</value>
+      <webElementGuid>044d64b6-813f-4d7a-8d0a-a14a170da5cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[2]/following::span[1]</value>
+      <webElementGuid>3513e9a9-1085-4034-b117-2134ad1b69a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachment'])[2]/following::span[1]</value>
+      <webElementGuid>4dabcfd5-0a66-4cf7-8860-686073353ad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Submitted']/parent::*</value>
+      <webElementGuid>59873292-8011-44af-a690-bcaf3ce290fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/div/div/span</value>
+      <webElementGuid>ec76badb-5966-47d9-b618-a98176e02d59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,5 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Submitted' or . = 'Submitted')]</value>
+      <webElementGuid>35809f8a-1690-44fd-945b-3765b73aaf6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
