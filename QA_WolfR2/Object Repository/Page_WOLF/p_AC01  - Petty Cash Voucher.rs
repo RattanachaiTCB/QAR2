@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher' or . = 'AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>0647d454-7502-440b-81a4-16875c4367a1</webElementGuid>
+      <webElementGuid>d81d023c-731a-4185-bd96-9ac73549161e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-form-type</value>
-      <webElementGuid>73374526-aa45-4007-b80b-54b7cabee059</webElementGuid>
+      <webElementGuid>4b783255-7026-485e-b870-2bd6962d238b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher</value>
-      <webElementGuid>ca094a28-3b79-4047-a130-2955e80f12cf</webElementGuid>
+      <webElementGuid>fbe8fccf-7d37-4252-8aa4-ac46d72169d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;set-layout-in-row-respone row&quot;]/div[@class=&quot;col-sm-6 col-12&quot;]/p[1]</value>
-      <webElementGuid>b6e9ad1a-6f49-4d7c-8646-e289647e8db8</webElementGuid>
+      <webElementGuid>b29f5ab5-ff96-4cec-9275-2725d56621f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/p</value>
-      <webElementGuid>1e70a749-e435-4b81-acb3-b836195fe514</webElementGuid>
+      <webElementGuid>e84bef7b-1cde-4384-a42b-ca19a0a9a6a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[3]/following::p[1]</value>
-      <webElementGuid>f9fcc448-cd58-4b09-b366-b296efc32efa</webElementGuid>
+      <webElementGuid>b9906344-63ae-4a48-87dc-a710fce5a349</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[2]/following::p[1]</value>
-      <webElementGuid>e4bda779-70b7-475b-80ae-7cf6364be4ad</webElementGuid>
+      <webElementGuid>55ec8013-d3c5-42f1-af45-903ff4dec8d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/preceding::p[1]</value>
-      <webElementGuid>18c54129-60ea-4a2c-8582-0b4fef916cf2</webElementGuid>
+      <webElementGuid>2765d41a-8e6e-433f-b98c-29e287b8234c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::p[5]</value>
-      <webElementGuid>8c4f963c-7c0a-4375-806d-ce051c25f4c0</webElementGuid>
+      <webElementGuid>db0a6717-5353-4216-ab61-9168828ae3a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher']/parent::*</value>
-      <webElementGuid>5a192998-7e19-405b-a953-5df9993756b2</webElementGuid>
+      <webElementGuid>06b919b1-e76b-4926-869c-be8a941eec7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/p</value>
-      <webElementGuid>8e7bf2fb-2d25-4389-9599-d0484d665e4c</webElementGuid>
+      <webElementGuid>3c8a1f1c-bb6b-48b8-bd61-f8bf5de4c5f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher' or . = 'AC01: แบบฟอร์มเบิกเงินสดย่อย - Petty Cash Voucher')]</value>
-      <webElementGuid>cc1969af-d46b-4cee-b8d9-152ea0032164</webElementGuid>
+      <webElementGuid>0dff01ea-2ff1-4c04-a9a9-5b1a2ca82c6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div/div[3]/p</value>
-      <webElementGuid>c2ed1549-4d17-47c9-8e29-0686afd88a47</webElementGuid>
+      <webElementGuid>4c8ca8e4-b9bc-4b7a-8a57-24a6a9c4a920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='แบบฟอร์มเบิกเงินสดย่อย / Petty Cash Voucher'])[1]/following::p[2]</value>
-      <webElementGuid>18da1368-0afb-4e26-a159-be0ccf44f920</webElementGuid>
+      <webElementGuid>83f98292-2aeb-46b8-a4f3-1b92f3e64f14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AC01-2023-000017'])[1]/following::p[4]</value>
-      <webElementGuid>43636a16-3a5d-435e-8541-7cb539b6b4f7</webElementGuid>
+      <webElementGuid>fefa1fff-fda7-4437-99f1-fc9510ec35fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/preceding::p[11]</value>
-      <webElementGuid>9cd517fc-ac9c-451c-ae7e-6605194f7d74</webElementGuid>
+      <webElementGuid>89c5cf91-c671-451c-918a-c44210172471</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div[3]/p</value>
-      <webElementGuid>df8cef87-b893-4de4-9c5b-438b8ad4cfad</webElementGuid>
+      <webElementGuid>88d045f9-40ab-45c9-b739-04fb76e473c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+
+WebUI.setText(findTestObject('Object Repository/worklist/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/worklist/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+
+WebUI.sendKeys(findTestObject('Object Repository/worklist/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/worklist/Page_WOLF/svg'))
+
+WebUI.setText(findTestObject('Object Repository/worklist/Page_WOLF/input_Department_search-filter-input'), 'เบิกเงินสดย่อย')
+
+WebUI.sendKeys(findTestObject('Object Repository/worklist/Page_WOLF/input_Department_search-filter-input'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/worklist/Page_WOLF/p_AC01-2023-000017'))
+
+WebUI.click(findTestObject('Object Repository/worklist/Page_WOLF/input_worklist_subject'))
+
