@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Requestor' or . = 'Requestor')]</value>
+         <value>//button[@class = 'BTN' and @id = 'Requestor']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,36 +21,28 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5e91119d-4397-4234-aca1-7ace1c1cf51e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>BTN</value>
-      <webElementGuid>f9e77be7-cd9a-4ffd-a44c-19b1a4135ff1</webElementGuid>
+      <webElementGuid>56eefc04-f492-4219-9528-5278cc9866d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Requestor</value>
-      <webElementGuid>8c37e965-d34b-4fd1-916a-a7621ede2b62</webElementGuid>
+      <value>BTN</value>
+      <webElementGuid>486c3c58-bf82-4091-a41a-f5148e90d818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;show-tablet-navbar-request-min-1024&quot;]/div[@class=&quot;Sidebar RequestSideBarElement-display-none&quot;]/div[1]/button[@class=&quot;BTN&quot;]</value>
-      <webElementGuid>18687052-9ee3-485c-ba35-5d50cef5d3a0</webElementGuid>
+      <value>Requestor</value>
+      <webElementGuid>52b4b3bb-87bd-486a-9bc6-b015130340d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[3]/div/div/button</value>
-      <webElementGuid>3be3230b-b6ba-436d-8d41-04693481b0d3</webElementGuid>
+      <webElementGuid>3054eb8f-ac51-4710-af95-82979be0f729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::button[1]</value>
-      <webElementGuid>9255cf30-243b-42ae-8a60-6ff35ade3acb</webElementGuid>
+      <webElementGuid>e1f2c42f-7366-4d46-ab69-6b6a78225abd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[3]/div/div/button</value>
-      <webElementGuid>9f4ce7dd-55a9-4bb3-82be-844756c57d86</webElementGuid>
+      <webElementGuid>d974a611-07f7-472a-b4b9-df5bc6937da5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Requestor' or . = 'Requestor')]</value>
-      <webElementGuid>17507b6e-376a-45b0-ab58-1f1958134e4e</webElementGuid>
+      <webElementGuid>7e32b623-c029-4793-9ac0-987ef8db5427</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

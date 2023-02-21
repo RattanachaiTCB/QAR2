@@ -21,14 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_username'),
-	'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_username'), 
+    'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'),
-	'/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
+    '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
@@ -53,4 +53,12 @@ WebUI.click(findTestObject('Object Repository/Page_WOLF/td_TCB'))
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Submit'))
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_Confirm'))
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+
+WebUI.delay(3)
 

@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
-
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_username'), 'wolf01@qar2.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
-
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/button_Sign In'))
-
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+//
+//WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_username'), 'wolf01@qar2.com')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+//
+//WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/button_Sign In'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ReportNav'))
@@ -40,8 +39,16 @@ WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/div_Re
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTestName'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTable_ReportTest'))
+
 //
 //WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/div_Memo_TemplateSubjectSearch by Memo_Temp_26bd9a'))
-
 WebUI.delay(10)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+
+WebUI.delay(3)
 

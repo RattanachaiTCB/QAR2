@@ -6,23 +6,29 @@
    <elementGuidId>85c3cbf2-2153-46cc-a5ed-320cfcc632d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.action-badge > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/p/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button
+[(text() = 'Submitted' or . = 'Submitted') and @id = 'draftButton']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action-badge > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>fefd15ff-bdbe-465d-a96f-f90b0f6c1c91</webElementGuid>
+      <value>button
+</value>
+      <webElementGuid>e3f460bb-28d1-4c8c-95bd-1a064f9d6efc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submitted</value>
-      <webElementGuid>2abd410a-0374-42d6-842a-ab57ea088987</webElementGuid>
+      <webElementGuid>ea660a0a-f7e7-4146-b9fd-ff3a48de186b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +44,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;request-main-container fade-enter-done&quot;]/div[@class=&quot;request-container&quot;]/div[@class=&quot;inner-content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;request-container-item&quot;]/div[1]/div[@class=&quot;Histwo overflow-auto&quot;]/div[@class=&quot;HistoryCard&quot;]/div[@class=&quot;HistoryDetail&quot;]/div[@class=&quot;content-left-side&quot;]/p[@class=&quot;content-text-name&quot;]/div[@class=&quot;content-right-side&quot;]/div[@class=&quot;action-badge&quot;]/span[1]</value>
-      <webElementGuid>c6da750c-f342-47b4-bea9-d3ec7a149f37</webElementGuid>
+      <webElementGuid>3d0c9a6a-2862-4a21-969a-8ca96eb03cc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>draftButton</value>
+      <webElementGuid>ff136cd4-1fff-41d5-967b-a28717ceb0a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/p/div/div/span</value>
-      <webElementGuid>044d64b6-813f-4d7a-8d0a-a14a170da5cf</webElementGuid>
+      <webElementGuid>24e1e860-6a65-4058-bf99-2393c07604d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[2]/following::span[1]</value>
-      <webElementGuid>3513e9a9-1085-4034-b117-2134ad1b69a2</webElementGuid>
+      <webElementGuid>259957a2-4385-4eb2-b3ff-38ab6ed8af6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachment'])[2]/following::span[1]</value>
-      <webElementGuid>4dabcfd5-0a66-4cf7-8860-686073353ad1</webElementGuid>
+      <webElementGuid>5d42e9f4-d05c-49f8-b92e-105201c5732a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Submitted']/parent::*</value>
-      <webElementGuid>59873292-8011-44af-a690-bcaf3ce290fe</webElementGuid>
+      <webElementGuid>5e91e274-9e5c-4688-970d-1a3f084815f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/div/div/span</value>
-      <webElementGuid>ec76badb-5966-47d9-b618-a98176e02d59</webElementGuid>
+      <webElementGuid>34c81006-d644-4f5b-b325-48d279c0a14d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Submitted' or . = 'Submitted')]</value>
-      <webElementGuid>35809f8a-1690-44fd-945b-3765b73aaf6a</webElementGuid>
+      <webElementGuid>e3de9432-e147-4b7b-8ad7-79bac0731ac5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

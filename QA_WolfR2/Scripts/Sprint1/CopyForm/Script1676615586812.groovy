@@ -74,3 +74,5 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
 
+WebUI.delay(3)
+

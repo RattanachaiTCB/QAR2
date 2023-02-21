@@ -10,35 +10,39 @@
          <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div/p</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'text-form-running' and @href = '/Request?MemoID=596']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>p.text-form-running</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>c6f8a8ea-7053-4c1d-895a-61b9585f026c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>text-form-running</value>
-      <webElementGuid>99fb13a7-f185-459d-a20e-8f8201ef56d8</webElementGuid>
+      <value>a</value>
+      <webElementGuid>e733e645-97dd-4779-84ad-e6c04b0dfef9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-form-running</value>
+      <webElementGuid>85c54b48-3f29-411e-a496-f5f3e0502c69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>KTL-VLD01-2023-000008</value>
-      <webElementGuid>dce43dc6-d1b9-4ad1-9abe-700949c38161</webElementGuid>
+      <webElementGuid>9011743d-c0fe-42fa-96a4-4f31b0320526</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-worklist&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;worklist-items-container&quot;]/div[@class=&quot;worklist-cards-container&quot;]/div[@class=&quot;cards-container&quot;]/div[@class=&quot;card-container&quot;]/div[@class=&quot;card-content-container mobile&quot;]/div[@class=&quot;card-body-content-container&quot;]/div[@class=&quot;running-number-container&quot;]/p[@class=&quot;text-form-running&quot;]</value>
-      <webElementGuid>6d990085-9608-48f7-9078-e01fc6f80231</webElementGuid>
+      <webElementGuid>46c4443c-5ab5-480a-8390-ef6cbbfb68a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Request?MemoID=596</value>
+      <webElementGuid>f8a38c66-f1fb-4b61-b24d-1716e6798a52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div/p</value>
-      <webElementGuid>a58122d6-8783-4a66-ab44-0c0097041b24</webElementGuid>
+      <webElementGuid>423cd834-f434-40c7-a974-d630c7abb1aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::p[5]</value>
-      <webElementGuid>9b06cb96-4fad-43b2-8282-a860b2f55064</webElementGuid>
+      <webElementGuid>434651de-0b67-4edb-bed8-663e317f2401</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Validation changing requestor By Katalon automate test'])[1]/following::p[7]</value>
-      <webElementGuid>b502c9c2-286d-4fbf-a0d2-c91b514dca66</webElementGuid>
+      <webElementGuid>cb32e1c6-5b75-49fe-9d04-dab7481908b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/preceding::p[6]</value>
-      <webElementGuid>9274f3f3-0c5e-4147-bffa-845d6a7f81cc</webElementGuid>
+      <webElementGuid>3a2453a4-be5e-47aa-b9ab-6905f275206b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft Edge'])[1]/preceding::p[11]</value>
-      <webElementGuid>2c3f4154-ac4b-4e82-955a-2f92d1d5bdf9</webElementGuid>
+      <webElementGuid>db44924f-179e-40ac-a873-a365fb248d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[3]/div/div/p</value>
-      <webElementGuid>a67bfdaf-4f0d-453d-aa60-5edff23114bc</webElementGuid>
+      <webElementGuid>f74f098a-e112-406f-96e2-f7be54dbc6cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'KTL-VLD01-2023-000008' or . = 'KTL-VLD01-2023-000008')]</value>
-      <webElementGuid>2ff338c5-6d74-45ab-96fc-429257bd749e</webElementGuid>
+      <webElementGuid>0edc1e7a-9469-4371-b4a0-ed8b8e4befb3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

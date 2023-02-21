@@ -29,13 +29,13 @@ import org.openqa.selenium.Keys as Keys
 //
 //WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
 //    Keys.chord(Keys.ENTER))
-//
-//WebUI.delay(8)
+
+WebUI.delay(8)
 WebUI.switchToWindowIndex(0)
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/Request?MemoID=0&template=123')
 
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+//WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
 
 WebUI.click(findTestObject('Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2'))
 
@@ -52,4 +52,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/span_Wait fo
 WebUI.click(findTestObject('Object Repository/Page_WOLF/button_History'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_WOLF/span_Submitted'), 'Draft')
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+
+WebUI.delay(3)
 

@@ -29,7 +29,7 @@ WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/svg'))
 
 WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Department_search-filter-input'), 
-    'upload')
+    '*ห้ามกด* katalon test attachment upload')
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_KTL_AAT_01-2023-000001'))
 
@@ -121,4 +121,10 @@ WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_W
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/p_Save Draft'))
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/button_Confirm'))
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+
+WebUI.delay(3)
 

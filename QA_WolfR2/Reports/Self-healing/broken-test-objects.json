@@ -779,6 +779,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTable_ReportTest_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/input__p-inputtext p-component information-_4aaea2",
+      "brokenLocator": "//input[@class \u003d \u0027p-inputtext p-component information-inputTexta-width-inputText-company\u0027 and @placeholder \u003d \u0027Select\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/ReportObj/ReportNav",
+      "brokenLocator": "//a[@class \u003d \u0027button-nav false\u0027 and @href \u003d \u0027/DynamicReport\u0027 and (text() \u003d \u0027Report\u0027 or . \u003d \u0027Report\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div[2]/div[3]/div/div[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/ReportObj/ReportNav_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_WOLF/span_Submitted",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/p/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027History\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_WOLF/span_Submitted_neighbor.png"
     }
   ]
 }

@@ -26,7 +26,6 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.setEncryptedText(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 //
 //WebUI.sendKeys(findTestObject('Object Repository/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
-
 WebUI.mouseOver(findTestObject('testobj/testedit/Page_WOLF/button_Settings'))
 
 WebUI.delay(2)
@@ -40,4 +39,8 @@ WebUI.verifyElementVisible(findTestObject('ClassrouteSettingsCheck'), FailureHan
 WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Position Level(0)')
 
 WebUI.verifyNotEqual(findTestObject('ClassrouteSettingsCheck'), 'Undifined(0)')
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(3)
 

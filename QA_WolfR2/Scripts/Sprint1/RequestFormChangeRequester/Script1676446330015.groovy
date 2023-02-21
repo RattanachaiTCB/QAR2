@@ -17,22 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('')
-//
-//WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
-//
-//WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
-//
-//WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Sign In'))
-WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
+
+WebUI.setText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_username'), 
+    'wolf01@qar2.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
+    '/eWc8J9JFEG5WeA2mg7b1w==')
+
+WebUI.sendKeys(findTestObject('Object Repository/testobj/testedit/attachment/Page_WOLF/input_Forgot Password_password'), 
+    Keys.chord(Keys.ENTER))
+
+//WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
 WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/svg'))
 
 WebUI.setText(findTestObject('Object Repository/testobj/testedit/Page_WOLF/input_Department_search-filter-input'), 'Test Validation changing requestor By Katalon automate test')
 
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/p_KTL-VLD01-2023-000008'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/testobj/testedit/Page_WOLF/button_Requestor'))
 

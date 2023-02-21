@@ -47,3 +47,9 @@ WebUI.verifyNotEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Default', Fai
 
 WebUI.verifyEqual(WebUI.getUrl(), 'https://qar2.wolfapprove.com/Request?MemoID=0&template=121')
 
+WebUI.switchToWindowIndex(0)
+
+WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
+
+WebUI.delay(3)
+
