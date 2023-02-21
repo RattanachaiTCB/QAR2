@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ClickReportTable_ReportTest</name>
+   <tag></tag>
+   <elementGuidId>ddb83fcf-1e8d-4234-9769-c29c47026cf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div/div[2]/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Report_Test_On_Katalon' or . = 'Report_Test_On_Katalon')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div
+</value>
+      <webElementGuid>9255d037-de0a-4dad-951d-35e62bedfa9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell ant-table-cell-row-hover</value>
+      <webElementGuid>ad7df3d5-af0b-4704-9339-39ba96b2fc84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report_Test_On_Katalon</value>
+      <webElementGuid>3636f1ed-e095-4c1a-bcd9-2a41f9f57bdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div[2]/div</value>
+      <webElementGuid>b1d910ea-06dd-40f6-b6e5-bb891d9e8b81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div/div[2]/div[2]/div/div/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>556ba0cd-1e04-432c-932f-96553ade48bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ModifiedDate'])[1]/following::td[11]</value>
+      <webElementGuid>a961d83c-8ea0-4e04-9c85-e0d6af6fe196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search by ModifiedBy'])[1]/following::td[11]</value>
+      <webElementGuid>f6d81de5-f47a-4301-910f-c000f3632a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='katalon test script on search report'])[1]/preceding::td[1]</value>
+      <webElementGuid>20b50d7f-0733-4ea4-95a4-47ea696fe6e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/preceding::td[2]</value>
+      <webElementGuid>dc47f09f-2975-4758-a28e-31edc5d8ec7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Report_Test_On_Katalon']/parent::*</value>
+      <webElementGuid>549a0b74-0ad4-4853-ac2b-a8cc37922162</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>0b4e0d59-8c52-4c75-ad08-94ef452a1959</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Report_Test_On_Katalon' or . = 'Report_Test_On_Katalon')]</value>
+      <webElementGuid>20642077-4c50-4078-8e1f-f28a971662c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

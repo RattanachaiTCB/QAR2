@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ReportNav</name>
+   <tag></tag>
+   <elementGuidId>7b246978-c43f-4c95-8927-eb364e8f303a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[3]/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'button-nav false' and @href = '/DynamicReport' and (text() = 'Report' or . = 'Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.button-nav.false</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>34135d16-f4a1-40d5-8689-ec714acc71df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-nav false</value>
+      <webElementGuid>caaf612b-32ea-4b93-9ff7-925ccd7e0661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/DynamicReport</value>
+      <webElementGuid>91108875-2216-4b8c-9a66-67e73393977f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report</value>
+      <webElementGuid>5f577991-ffc0-454b-aff7-0eedda1c7efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;navbar-container -active&quot;]/div[@class=&quot;button-navbar-container desktop&quot;]/div[@class=&quot;button-navbar-container&quot;]/div[2]/a[@class=&quot;button-nav false&quot;]</value>
+      <webElementGuid>c95e8553-34bf-4bdb-8302-6eb9d3dbcd2a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/a</value>
+      <webElementGuid>9b823d77-bbe0-433b-b872-7ebd51560902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::a[2]</value>
+      <webElementGuid>a23dd90c-467c-4dae-8fda-fa0011a37733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='items per page'])[1]/preceding::a[2]</value>
+      <webElementGuid>4233ac3f-c74d-4166-959c-7530f9e2aa2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/DynamicReport')]</value>
+      <webElementGuid>95187d61-ed60-40a5-a8aa-41bee123a4ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>140eef98-77f0-42bd-9f43-b3022897eb89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/DynamicReport' and (text() = 'Report' or . = 'Report')]</value>
+      <webElementGuid>e844b278-90f9-447f-bc66-8c667e856bcb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

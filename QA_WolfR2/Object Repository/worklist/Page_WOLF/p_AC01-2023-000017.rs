@@ -6,16 +6,16 @@
    <elementGuidId>370946de-204c-4729-982b-277fbd15a019</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.text-form-running</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div/p</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'text-form-running' and (contains(text(), 'AC01-2023-000017') or contains(., 'AC01-2023-000017')) and @href = '/Request?MemoID=479']</value>
+         <value>//div[@class = 'text-form-running' and (contains(text(), 'AC01-2023-000017') or contains(., 'AC01-2023-000017')) and @href = '/Request?MemoID=479']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-form-running</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,8 +25,8 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>dfa33a0e-e389-4407-a366-808eb6df41fd</webElementGuid>
+      <value>div</value>
+      <webElementGuid>10807be1-1a88-4274-a9fb-bfc80914c3b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-form-running</value>
-      <webElementGuid>5cd171b4-a02b-4ea5-a487-48943e24cccc</webElementGuid>
+      <webElementGuid>2fc6df84-f593-4798-8dc2-39f465449c27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AC01-2023-000017</value>
-      <webElementGuid>411cc588-5868-4f30-a083-79d54b4882fc</webElementGuid>
+      <webElementGuid>493da265-08d9-49df-8707-79b2c9b84830</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/Request?MemoID=479</value>
-      <webElementGuid>70eceaba-e436-493e-b2fe-1be551acc296</webElementGuid>
+      <webElementGuid>1314398c-1ebc-42b7-add4-2dfb515264cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div/div/p</value>
-      <webElementGuid>41f1c4a0-8fdd-4e2e-870e-fc5617811023</webElementGuid>
+      <webElementGuid>e997171f-10b6-4ef6-a229-1791e9c47c68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::p[5]</value>
-      <webElementGuid>fa36077d-61ee-402e-8e6e-add58f4cf9fe</webElementGuid>
+      <webElementGuid>28909ca4-2b83-481c-8653-ff08c1d56d45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='แบบฟอร์มเบิกเงินสดย่อย / Petty Cash Voucher'])[1]/following::p[7]</value>
-      <webElementGuid>27195f5e-0a9b-4f4e-957c-f456522a350a</webElementGuid>
+      <webElementGuid>49fa4a86-3d05-4225-835c-21755f4b4c9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/preceding::p[6]</value>
-      <webElementGuid>f38c5159-a8f7-44ec-88ce-c0b8754e020f</webElementGuid>
+      <webElementGuid>845ce364-0a13-4d17-b417-515fc7adb51a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AC01-2023-000014'])[1]/preceding::p[10]</value>
-      <webElementGuid>544f5cd6-802b-42c9-a621-c7bb627b47cd</webElementGuid>
+      <webElementGuid>8a6fd00e-233c-4f0e-8faf-3ad557db0261</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div[3]/div/div/p</value>
-      <webElementGuid>fc15f04b-3a37-4cae-abae-4b550cd105cd</webElementGuid>
+      <webElementGuid>a6b9bdf2-3017-4db0-af7f-cff147770c86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'AC01-2023-000017' or . = 'AC01-2023-000017')]</value>
-      <webElementGuid>c979032c-c72b-42d2-bcb9-3219ede78732</webElementGuid>
+      <webElementGuid>748d4fea-9473-4813-831f-c3bcaef4bcd2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

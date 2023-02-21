@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Memo_TemplateSubjectSearch by Memo_Temp_26bd9a</name>
+   <tag></tag>
+   <elementGuidId>602ee6ba-e644-4079-8491-a00e310933e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div[2]/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-table-wrapper.setting-datatable</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>00c4e17b-5712-47e3-bc9a-04e0e6419b46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-wrapper setting-datatable</value>
+      <webElementGuid>4a2cc9c8-b994-4781-b452-f7ccf7898744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Memo_TemplateSubjectSearch by Memo_TemplateSubjectMemo_PersonWaitingSearch by Memo_PersonWaitingMemo_StatusNameSearch by Memo_StatusNameMemo_RNameThSearch by Memo_RNameThMemo_RequestDateMemo_TemplateNameSearch by Memo_TemplateName      วูล์ฟWait for Approveวูล์ฟ21 Feb 2023Report_Test1</value>
+      <webElementGuid>6eee37c8-633e-42a2-a60d-ca2a9276c209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-container&quot;]/div[@class=&quot;worklist-container&quot;]/div[@class=&quot;body-container&quot;]/div[@class=&quot;dynamictable-container&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col&quot;]/div[@class=&quot;ant-table-wrapper setting-datatable&quot;]</value>
+      <webElementGuid>68a01887-74e0-42c0-bc32-350d394ac463</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>d4977e28-aed0-471e-9b8a-b3641a539d96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export to excel'])[1]/following::div[3]</value>
+      <webElementGuid>cfaff110-2986-4298-b13b-a3d659a6fff5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::div[13]</value>
+      <webElementGuid>1303ddda-15ca-4442-ac34-18c8d40bd7aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div</value>
+      <webElementGuid>7c72991e-2481-4dba-b310-17c77b9b4799</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Memo_TemplateSubjectSearch by Memo_TemplateSubjectMemo_PersonWaitingSearch by Memo_PersonWaitingMemo_StatusNameSearch by Memo_StatusNameMemo_RNameThSearch by Memo_RNameThMemo_RequestDateMemo_TemplateNameSearch by Memo_TemplateName      วูล์ฟWait for Approveวูล์ฟ21 Feb 2023Report_Test1' or . = 'Memo_TemplateSubjectSearch by Memo_TemplateSubjectMemo_PersonWaitingSearch by Memo_PersonWaitingMemo_StatusNameSearch by Memo_StatusNameMemo_RNameThSearch by Memo_RNameThMemo_RequestDateMemo_TemplateNameSearch by Memo_TemplateName      วูล์ฟWait for Approveวูล์ฟ21 Feb 2023Report_Test1')]</value>
+      <webElementGuid>cb5f1809-c90c-4b63-b65d-0430cae3ffec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

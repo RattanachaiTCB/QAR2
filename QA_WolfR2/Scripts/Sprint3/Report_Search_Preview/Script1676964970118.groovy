@@ -21,24 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qar2.wolfapprove.com/')
 
-WebUI.setText(findTestObject('Object Repository/worklist/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_username'), 'wolf01@qar2.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/worklist/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 
-WebUI.sendKeys(findTestObject('Object Repository/worklist/Page_WOLF/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/worklist/Page_WOLF/svg'))
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/worklist/Page_WOLF/input_Department_search-filter-input'), 'เบิกเงินสดย่อย')
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ReportNav'))
 
-//WebUI.sendKeys(findTestObject('Object Repository/worklist/Page_WOLF/input_Department_search-filter-input'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTestName'), 'Re')
+
+WebUI.verifyElementPresent(findTestObject('testobj/Page_WOLF/ReportObj/div_Report_Test_On_Katalon'), 0)
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/div_Report_Test_On_Katalon'))
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTestName'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTable_ReportTest'))
+//
+//WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/div_Memo_TemplateSubjectSearch by Memo_Temp_26bd9a'))
+
 WebUI.delay(10)
-
-WebUI.click(findTestObject('Object Repository/worklist/Page_WOLF/p_AC01-2023-000017'))
-
-WebUI.verifyElementText(findTestObject('worklist/Page_WOLF/p_AC01-2023-000017'), 'AC01-2023-000017')
-
-WebUI.click(findTestObject('Object Repository/worklist/Page_WOLF/input_worklist_subject'))
-
-WebUI.verifyElementText(findTestObject('worklist/Page_WOLF/input_worklist_subject'), 'แบบฟอร์มเบิกเงินสดย่อย / Petty Cash Voucher')
 

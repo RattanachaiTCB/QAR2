@@ -699,6 +699,86 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/worklist/Page_WOLF/input_Department_search-filter-input_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/worklist/Page_WOLF/p_AC01-2023-000017",
+      "brokenLocator": "//a[@class \u003d \u0027text-form-running\u0027 and (contains(text(), \u0027AC01-2023-000017\u0027) or contains(., \u0027AC01-2023-000017\u0027)) and @href \u003d \u0027/Request?MemoID\u003d479\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Draft\u0027])[1]/following::p[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/worklist/Page_WOLF/p_AC01-2023-000017_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/Page_WOLF/div_Report_Test_On_Katalon",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027BEER Report\u0027])[4]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Authorization For View [Con-Ref]\u0027])[3]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/Page_WOLF/input_ReportName_ReportName",
+      "brokenLocator": "//input[@id\u003d\u0027ReportName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/ReportObj/input_ReportName_ReportName",
+      "brokenLocator": "//input[@id\u003d\u0027ReportName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/ReportObj/div_Report_Test_On_Katalon",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027BEER Report\u0027])[4]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Authorization For View [Con-Ref]\u0027])[3]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/ReportObj/div_Report_Test_On_Katalon_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/ReportObj/td_Report_Test_On_Katalon",
+      "brokenLocator": "//*[(text() \u003d \u0027Report_Test_On_Katalon\u0027 or . \u003d \u0027Report_Test_On_Katalon\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//tr[2]/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/ReportObj/td_Report_Test_On_Katalon_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTestName",
+      "brokenLocator": "//input[@type \u003d \u0027search\u0027 and @id \u003d \u0027ReportName\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTable_ReportTest",
+      "brokenLocator": "//*[(text() \u003d \u0027Report_Test_On_Katalon\u0027 or . \u003d \u0027Report_Test_On_Katalon\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//tr[2]/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testobj/Page_WOLF/ReportObj/ClickReportTable_ReportTest_position.png"
     }
   ]
 }

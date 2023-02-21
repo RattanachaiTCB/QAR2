@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
 //WebUI.navigateToUrl('https://qar2.wolfapprove.com/Default')
-//WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_username'), 'wolf01@qar2.com')
+//WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_username'), 'wolf01@qar2.com')
 //
-//WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
+//WebUI.setEncryptedText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_password'), '/eWc8J9JFEG5WeA2mg7b1w==')
 //
-//WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Forgot Password_password'), Keys.chord(
+//WebUI.sendKeys(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Forgot Password_password'), Keys.chord(
 //        Keys.ENTER))
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/svg'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/svg'))
 
-WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Department_search-filter-input'), 'copyform')
+WebUI.setText(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Department_search-filter-input'), 'copyform')
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/p_KTL_CPT_01-2023-000001'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/p_KTL_CPT_01-2023-000001'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/span__inputTextComponents-width'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/span__inputTextComponents-width'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/span__inputTextComponents-width_1'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/span__inputTextComponents-width_1'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input'))
 
-WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/Page_WOLF/input_Surname_items1.layout1.data.value'))
+WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/ReportObj/input_Surname_items1.layout1.data.value'))
 
 WebUI.click(findTestObject('Object Repository/testobj/Page_WOLF/button_Copy'))
 

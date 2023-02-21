@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>searching report</description>
+   <name>Report_Search_Preview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>760c1c39-b586-4d98-a40c-890c12b4aed8</testCaseGuid>
+</TestCaseEntity>

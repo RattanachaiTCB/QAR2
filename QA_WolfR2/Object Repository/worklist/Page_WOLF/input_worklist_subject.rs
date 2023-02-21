@@ -6,35 +6,34 @@
    <elementGuidId>fef897ae-0dbf-4c90-aa7e-ae471eac6b80</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher']</value>
+         <value>//input[@class = 'p-inputtext p-component p-filled information-inputTexta-width' and @id = 'แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher' and @value = 'แบบฟอร์มเบิกเงินสดย่อย / Petty Cash Voucher']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d23b92ee-27a2-48f7-9d60-2f1d33aee8cc</webElementGuid>
+      <webElementGuid>ad31a25a-7343-491e-9515-dc51d1a53e7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-filled information-inputTexta-width</value>
-      <webElementGuid>ca7cb2e5-bdee-4e8e-880a-6671ddb6b206</webElementGuid>
+      <webElementGuid>c4e8d92c-8a12-4fb3-94d1-290a979e867e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +41,15 @@
       <name>id</name>
       <type>Main</type>
       <value>แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher</value>
-      <webElementGuid>f72c6343-3775-4888-998f-020a377decaa</webElementGuid>
+      <webElementGuid>5481596b-79af-4884-92a8-fab04357efb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>แบบฟอร์มเบิกเงินสดย่อย / Petty Cash Voucher</value>
-      <webElementGuid>059c6529-dcbf-4bda-8429-4249284b2b59</webElementGuid>
+      <webElementGuid>2e4ccf7d-fd7b-4669-a9ab-e0da123bb6cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher&quot;]</value>
-      <webElementGuid>37809eb3-c79b-452f-bbd8-c10c6c247952</webElementGuid>
+      <webElementGuid>4b348c64-8162-4502-8b58-c7a6b48e7ec9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher']</value>
-      <webElementGuid>560ec114-e20a-406f-8b5a-8b182449f8b8</webElementGuid>
+      <webElementGuid>3beb4f8e-f4ad-4d10-a76d-46dada140514</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div/div[4]/div/div[2]/div/div[3]/div[5]/div[2]/div/span/input</value>
-      <webElementGuid>c3996067-cb91-4dc0-a4b3-8ff206b36be5</webElementGuid>
+      <webElementGuid>e42753e9-1c8c-44cd-9345-4a243ba00a76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span/input</value>
-      <webElementGuid>70e1c4ea-edba-4c4b-945c-5b0577e8216e</webElementGuid>
+      <webElementGuid>6d0fd6c3-f168-44b6-8019-57b899bf30b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'แบบฟอร์มเบิกเงินสดย่อย_/_Petty_Cash_Voucher']</value>
-      <webElementGuid>e0b461a2-8fe8-422d-b933-c036ff3c1bf9</webElementGuid>
+      <webElementGuid>c4749698-0ab3-42d9-a2e7-f91b081ea174</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
